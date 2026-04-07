@@ -29,12 +29,12 @@ OUTPUT_DIR = Path(__file__).parent.parent / "model"
 
 # Eğitim parametreleri
 EPOCHS = 3
-BATCH_SIZE = 4
+BATCH_SIZE = 2
 LEARNING_RATE = 5e-5
-MAX_LENGTH = 512
+MAX_LENGTH = 256
 WARMUP_RATIO = 0.1
 VAL_SPLIT = 0.1
-GRADIENT_ACCUMULATION_STEPS = 4
+GRADIENT_ACCUMULATION_STEPS = 8
 
 
 # ─── DATASET ────────────────────────────────────────

@@ -59,7 +59,7 @@ KONU_SORULARI = {
         "Nafaka nasıl belirlenir?",
         "Nafaka miktarı neye göre hesaplanır?",
     ],
-]
+}
 
 
 def generate_answer(madde: dict) -> str:
