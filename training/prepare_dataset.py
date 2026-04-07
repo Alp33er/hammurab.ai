@@ -4,10 +4,11 @@ Hukuk Q&A veri seti oluşturucu.
 Mevcut kanun JSON'larından instruction fine-tuning için Q&A çiftleri üretir.
 
 Çıktı: training/data/hukuk_qa.jsonl
-Her satır: {"prompt": "### Kullanıcı:\n...\n\n### Mevzuat:\n...\n\n### Asistan:\n", "completion": "..."}
+Format: {"prompt": "<|im_start|>user\n...<|im_end|>\n<|im_start|>assistant\n", "completion": "..."}
 """
 
 import json
+import re
 import random
 from pathlib import Path
 
@@ -15,7 +16,7 @@ JSON_DIR = Path(__file__).parent.parent / "scraper" / "data" / "json"
 YARGITAY_DIR = Path(__file__).parent.parent / "scraper" / "data" / "yargitay" / "json"
 OUTPUT_DIR = Path(__file__).parent / "data"
 
-# Soru şablonları — her kanun maddesi için otomatik Q&A üretimi
+# Soru şablonları
 SORU_SABLONLARI = [
     "{kanun_ad} madde {madde_no} ne diyor?",
     "{kanun_ad} {madde_no}. madde neyi düzenliyor?",
@@ -25,7 +26,7 @@ SORU_SABLONLARI = [
     "{kanun_ad} kapsamında {madde_no}. maddenin içeriği nedir?",
 ]
 
-# Daha doğal sorular — konu bazlı (anahtar kelimeye göre)
+# Konu bazlı sorular
 KONU_SORULARI = {
     "tazminat": [
         "Tazminat hakkında ne gibi düzenlemeler var?",
@@ -66,12 +67,19 @@ def generate_answer(madde: dict) -> str:
     """Madde metninden cevap oluştur."""
     ref = madde["ref"]
     text = madde["text"]
-
-    # "Madde X -" prefix'ini temizle
-    import re
     clean_text = re.sub(r'^Madde\s+\d+[A-Z]?\s*[-–—]\s*', '', text).strip()
-
     return f"{ref} hükmüne göre: {clean_text}"
+
+
+def make_prompt(question: str, mevzuat: str = "") -> str:
+    """Qwen ChatML formatında prompt oluştur."""
+    prompt = f"<|im_start|>system\nSen Türk hukuku konusunda uzman bir hukuk asistanısın. Soruları ilgili mevzuat maddelerine dayanarak yanıtla.<|im_end|>\n"
+    if mevzuat:
+        prompt += f"<|im_start|>user\n{question}\n\nİlgili Mevzuat:\n{mevzuat}<|im_end|>\n"
+    else:
+        prompt += f"<|im_start|>user\n{question}<|im_end|>\n"
+    prompt += "<|im_start|>assistant\n"
+    return prompt
 
 
 def create_qa_from_madde(madde: dict, kanun_ad: str) -> list[dict]:
@@ -81,13 +89,12 @@ def create_qa_from_madde(madde: dict, kanun_ad: str) -> list[dict]:
     ref = madde["ref"]
     madde_no = madde["madde_no"]
 
-    # Çok kısa veya mülga maddeleri atla
     if len(text) < 50 or "Mülga" in text[:30]:
         return []
 
     answer = generate_answer(madde)
 
-    # 1) Şablon sorular (rastgele 2 tane seç)
+    # Şablon sorular (rastgele 2 tane)
     templates = random.sample(SORU_SABLONLARI, min(2, len(SORU_SABLONLARI)))
     for template in templates:
         question = template.format(
@@ -96,20 +103,20 @@ def create_qa_from_madde(madde: dict, kanun_ad: str) -> list[dict]:
             ref=ref,
         )
         pairs.append({
-            "prompt": f"### Kullanıcı:\n{question}\n\n### Mevzuat:\n{text[:1500]}\n\n### Asistan:\n",
+            "prompt": make_prompt(question, text[:1500]),
             "completion": answer,
         })
 
-    # 2) Konu bazlı sorular (madde metni ilgili anahtar kelimeyi içeriyorsa)
+    # Konu bazlı sorular
     text_lower = text.lower()
     for keyword, questions in KONU_SORULARI.items():
         if keyword in text_lower:
             q = random.choice(questions)
             pairs.append({
-                "prompt": f"### Kullanıcı:\n{q}\n\n### Mevzuat:\n{text[:1500]}\n\n### Asistan:\n",
+                "prompt": make_prompt(q, text[:1500]),
                 "completion": answer,
             })
-            break  # Madde başına max 1 konu sorusu
+            break
 
     return pairs
 
@@ -125,11 +132,10 @@ def create_qa_from_yargitay(karar: dict) -> list[dict]:
     karar_no = karar.get("karar_no", "")
 
     question = f"Yargıtay {daire} {esas_no} E. {karar_no} K. sayılı karar ne hakkında?"
-    # Kararın ilk 500 karakterini özet olarak kullan
     answer = f"Yargıtay {daire}, {esas_no} E., {karar_no} K. sayılı kararında: {tam_metin[:500].strip()}"
 
     return [{
-        "prompt": f"### Kullanıcı:\n{question}\n\n### Mevzuat:\n{tam_metin[:1500]}\n\n### Asistan:\n",
+        "prompt": make_prompt(question, tam_metin[:1500]),
         "completion": answer,
     }]
 
@@ -140,7 +146,6 @@ def main():
 
     all_pairs = []
 
-    # Index dosyasını oku
     index_path = JSON_DIR / "index.json"
     if not index_path.exists():
         print("HATA: index.json bulunamadı!")
@@ -149,7 +154,6 @@ def main():
     index = json.loads(index_path.read_text())
     print(f"Kanun sayısı: {len(index['kanunlar'])}")
 
-    # Her kanundan Q&A üret
     for kanun_info in index["kanunlar"]:
         json_path = JSON_DIR / kanun_info["dosya"]
         if not json_path.exists():
@@ -177,17 +181,14 @@ def main():
             yargitay_count += len(pairs)
         print(f"  {'YARGITAY':16s} → {yargitay_count:4d} Q&A çifti")
 
-    # Karıştır
     random.shuffle(all_pairs)
 
-    # JSONL olarak kaydet
     with open(output_path, "w", encoding="utf-8") as f:
         for pair in all_pairs:
             f.write(json.dumps(pair, ensure_ascii=False) + "\n")
 
     print(f"\nToplam: {len(all_pairs)} Q&A çifti → {output_path}")
 
-    # Train/val split bilgisi
     val_size = int(len(all_pairs) * 0.1)
     print(f"Önerilen split: {len(all_pairs) - val_size} train / {val_size} val")
 
