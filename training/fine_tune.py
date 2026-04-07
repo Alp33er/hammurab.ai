@@ -25,7 +25,7 @@ from peft import LoraConfig, get_peft_model, TaskType
 
 # ─── KONFİGÜRASYON ─────────────────────────────────
 
-BASE_MODEL = "Qwen/Qwen2.5-1.5B"
+BASE_MODEL = "Qwen/Qwen2.5-7B"
 DATA_PATH = Path(__file__).parent / "data" / "hukuk_qa.jsonl"
 OUTPUT_DIR = Path(__file__).parent.parent / "model"
 
