@@ -11,7 +11,7 @@ import torch
 
 SYSTEM_PROMPT_PATH = Path(__file__).parent.parent.parent / "HUKUK_SYSTEM.md"
 MODEL_DIR = Path(__file__).parent.parent.parent / "model"
-BASE_MODEL_NAME = "Qwen/Qwen2.5-7B"
+BASE_MODEL_NAME = "Qwen/Qwen2.5-1.5B"
 
 _model = None
 _tokenizer = None

@@ -16,7 +16,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # ─── MODEL YÜKLEME ─────────────────────────────────
 
 MODEL_DIR = Path(__file__).parent / "model"
-BASE_MODEL = "Qwen/Qwen2.5-7B"
+BASE_MODEL = "Qwen/Qwen2.5-1.5B"
 
 model_path = str(MODEL_DIR) if MODEL_DIR.exists() else BASE_MODEL
 
