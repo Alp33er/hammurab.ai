@@ -10,7 +10,7 @@ from fastapi import APIRouter, HTTPException
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
-from services.claude_service import generate_response, generate_response_stream
+from services.local_model_service import generate_response, generate_response_stream
 
 router = APIRouter(tags=["contract"])
 

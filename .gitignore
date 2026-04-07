@@ -17,6 +17,12 @@ build/
 venv/
 env/
 
+# Fine-tuned model (rebuild with training/fine_tune.py)
+model/
+
+# Training data (rebuild with training/prepare_dataset.py)
+training/data/
+
 # Sessions (runtime data)
 sessions/
 

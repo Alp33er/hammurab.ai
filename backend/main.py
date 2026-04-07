@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Berry Hukuk AI — FastAPI Backend
-RAG + Claude API ile hukuk araştırma servisi.
+RAG + Lokal Turkish GPT-2 ile hukuk araştırma servisi.
 """
 
 import os

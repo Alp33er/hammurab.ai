@@ -12,7 +12,7 @@ from pydantic import BaseModel
 
 from rag.retriever import retrieve, hybrid_retrieve, format_context
 from rag.reranker import rerank
-from services.claude_service import generate_response, generate_response_stream
+from services.local_model_service import generate_response, generate_response_stream
 from services.session_store import (
     get_chat_history,
     save_chat_history,
