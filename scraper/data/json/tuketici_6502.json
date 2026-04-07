@@ -1,0 +1,713 @@
+{
+  "kanun_no": 6502,
+  "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+  "kanun_kisa": "tuketici",
+  "toplam_madde": 88,
+  "maddeler": [
+    {
+      "madde_no": 1,
+      "text": "MADDE 1 - (1) Bu Kanunun yürürlüğe girdiği tarihten önce açılmış olan davalar açıldıkları mahkemelerde görülmeye devam eder. (2) Bu Kanunun yürürlüğe girdiği tarihten önceki tüketici işlemlerine, bunların hukuken b ağlayıcı olup olmadıklarına ve sonuçlarına bu işlemler hangi kanun yürürlükte iken gerçekleşmiş ise kural olarak o kanun hükümleri uygulanır. Ancak: a) Bu Kanunun yürürlüğe girdiği tarihten önce kurulan ve hâlen geçerli sözleşmelerin bu Kanuna aykırı hüküm leri yürürlük tarihinden itibaren uygulanmaz. b) Bu Kanunun yürürlüğe girdiği tarihten önce işlemeye başlamış hak düşürücü süreler ile zamanaşımı süreleri dolmamış ise bu Kanunda öngörülen sürenin geçmesiyle hak düşürücü süre veya zamanaşımı süresi dolmuş olur. (3) Bu Kanunda öngörülen yönetmelikler yürürlüğe girinceye kadar, bu Kanunla yürürlükten kaldırılan Tüketicinin Korunması Hakkında Kanuna dayanılarak çıkartılan yönetmelik ve diğer mevzuatın, bu Kanuna aykırı olmayan hükümleri uygulanır. GEÇİCİ MADD E 2- (Ek:22/7/2020 -7251/60 md.) (1) Bu Kanunun dava şartı olarak arabuluculuğa ilişkin hükümleri, bu hükümlerin yürürlüğe girdiği tarih itibarıyla ilk derece mahkemeleri ve bölge adliye mahkemeleri ile Yargıtayda görülmekte olan davalar hakkında uygulanma z. GEÇİCİ",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.1"
+    },
+    {
+      "madde_no": 2,
+      "text": "MADDE 2 - (1) Bu Kanun, her türlü tüketici işlemi ile tüketiciye yönelik uygulamaları kapsa r. Tanımlar",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.2"
+    },
+    {
+      "madde_no": 3,
+      "text": "MADDE 3 - (Ek:24/3/2022 -7392/17 md.) (1) Bu maddenin yürürlüğe girdiği tarihten önceki tüketici işlemleri, bunların hukuken bağlayıcı olup olmadıkları ve sonuçları hakkında bu işlemler hangi kanun yürürlükte iken gerçekleşmiş ise kural olarak o kanun hükümleri uygulanır. Ancak, bu maddenin yürürlüğe girdiği tarihten önce kurulan ve hâlen geçerli olan belirsiz süreli tüketici sözleşmelerinin bu Kanuna aykırı hükümleri bu maddenin yürürlük tarihinden itibaren uygulanmaz. 25 Bu ma ddede yer alan kadrolarla ilgili olarak 28/11/2013 tarihli ve 28835 sayılı Resmi Gazete’ye bakınız. (2) Bu maddenin yayımı tari hi itibarıyla yapı ruhsatı alınmış olan devre tatile konu taşınmazlarda, bu maddenin yayımı tarihinden itibaren beş yıl süresince ön ödemeli usulle satış da dâhil olmak üzere devre mülk, mülkiyet payına bağlı ayni hak sağlayan devre tatil veya şahsi hak sa ğlayan devre tatil satışı yapılabilir, kooperatif veya ticaret şirketi ortaklığı ya da dernek veya vakıf üyeliği suretiyle devre tatil hakkı tanınabilir, devre tatile konu mal üzerinde ayni hak sahibi olmayanlar devre tatil satışı yapabilir. 26 (3) Bu madde nin yayımı tarihinden önce kurulan devre tatil sözleşmeleri ve ikinci fıkra kapsamında kurulan sözleşmeler hakkında idari para cezası hükümleri de dâhil olmak üzere bu maddenin yayımı tarihinden önceki Kanun hükümleri ile birlikte bu maddeyi ihdas eden Kan unla değiştirilen 50 nci maddenin onuncu fıkrası hükmü uygulanır. (4) 66 ncı, 68 inci ve 73 üncü maddeler gereğince tüketici hakem heyetlerine yapılan başvurular ile mahkemelerde açılmış olan davalar için söz konusu başvuruların yapıldığı ve davaların açıl dığı tarihte yürürlükte bulunan görev ve yetkiye ilişkin hükümler uygulanır. Yürürlük",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.3"
+    },
+    {
+      "madde_no": 4,
+      "text": "MADDE 4 - (1) Bu Kanunda yazılı olarak düzenlenmesi öngörülen sözleşmeler ile bilgilendirmeler en az on iki punto büyüklüğünde, anlaşılabilir bir dilde, açık, sade ve okunabilir bir şekilde düzenlenir ve bunların b ir nüshası kâğıt üzerinde veya kalıcı veri saklayıcısı ile tüketiciye verilir. Sözleşmede bulunması gereken şartlardan bir veya birkaçının bulunmaması durumunda, eksiklik sözleşmenin geçerliliğini etkilemez. Bu eksiklik sözleşmeyi düzenleyen tarafından der hâl giderilir. (2) Sözleşmede öngörülen koşullar, sözleşme süresi içinde tüketici aleyhine değiştirilemez. (3) Tüketiciden; kendisine sunulan mal veya hizmet kapsamında haklı olarak yapılmasını beklediği ve sözleşmeyi düzenleyenin yasal yükümlülükleri ara sında yer alan edimler ile sözleşmeyi düzenleyenin kendi menfaati doğrultusunda yapmış olduğu masraflar için ek bir bedel talep edilemez. Bankalar, tüketici kredisi veren finansal kuruluşlar ve kart çıkaran kuruluşlar tarafından tüketiciye sunulan ürün vey a hizmetlerde ise tüketiciden faiz dışında alınacak her türlü ücret, komisyon ve masraf türleri ile bunlara ilişkin usul ve esaslar Bakanlığın görüşü alınarak bu Kanunun ruhuna uygun olarak ve tüketiciyi koruyacak şekilde Türkiye Cumhuriyet Merkez Bankası tarafından belirlenir.1 (4) Bu Kanunda düzenlenen sözleşmelere istinaden tüketiciden talep edilecek her türlü ücret ve masrafa ilişkin bilgilerin, sözleşmenin eki olarak kâğıt üzerinde yazılı şekilde tüketiciye verilmesi zorunludur. Uzaktan iletişim aracıy la kurulan sözleşmelerde ise, bu bilgiler kullanılan uzaktan iletişim aracına uygun şekilde verilir. Bu bilgilerin tüketiciye verildiğinin ispatı sözleşmeyi düzenleyene aittir. (5) Tüketicinin yapmış olduğu işlemler nedeniyle kıymetli evrak niteliğinde sa dece nama yazılı ve her bir taksit ödemesi için ayrı ayrı olacak şekilde senet düzenlenebilir. Bu fıkra hükümlerine aykırı olarak düzenlenen senetler tüketici yönünden geçersizdir. (6) Tüketici işlemlerinde, tüketicinin edimlerine karşılık olarak alınan ş ahsi teminatlar, her ne isim altında olursa olsun adi kefalet sayılır. Tüketicinin alacaklarına ilişkin karşı tarafça verilen şahsi teminatlar diğer kanunlarda aksine hüküm bulunmadıkça müteselsil kefalet sayılır. (7) Temerrüt hâli de dâhil olmak üzere, t üketici işlemlerinde bileşik faiz uygulanmaz. (8) Bu Kanun tüm düzenlemeleri yönünden katılım bankalarını da kapsar. Uygulama, kâr payı dikkate alınarak yapılır. Tüketici sözleşmelerindeki haksız şartlar",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.4"
+    },
+    {
+      "madde_no": 5,
+      "text": "MADDE 5 - (1) Haksız şart; tüketiciyle müzakere ed ilmeden sözleşmeye dâhil edilen ve tarafların sözleşmeden doğan hak ve yükümlülüklerinde dürüstlük kuralına aykırı düşecek biçimde tüketici aleyhine dengesizliğe neden olan sözleşme şartlarıdır. (2) Tüketiciyle akdedilen sözleşmelerde yer alan haksız şart lar kesin olarak hükümsüzdür. Sözleşmenin haksız şartlar dışındaki hükümleri geçerliliğini korur. Bu durumda sözleşmeyi düzenleyen, kesin olarak hükümsüz sayılan şartlar olmasaydı diğer hükümlerle sözleşmeyi yapmayacak olduğunu ileri süremez. (3) Bir sözle şme şartı önceden hazırlanmış ve standart sözleşmede yer alması nedeniyle tüketici içeriğine etki edememişse, o sözleşme şartının tüketiciyle müzakere edilmediği kabul edilir. Sözleşmeyi düzenleyen, bir standart şartın münferiden müzakere edildiğini iddia ediyorsa bunu ispatla yükümlüdür. Sözleşmenin bütün olarak değerlendirilmesinden standart sözleşme olduğu sonucuna varılırsa, bu sözleşmedeki bir şartın belirli unsurlarının veya münferit bir hükmünün müzakere edilmiş olması, sözleşmenin kalan kısmına bu m addenin uygulanmasını engellemez. 1 20/2/2020 tarihli ve 7222 sayılı Kanunun 39 uncu maddesiyle, bu fıkranın ikinci cümlesinde yer alan “Bankacılık Düzenleme ve Denetleme Kurumu” ibaresi “Türkiye Cumhur iyet Merkez Bankası” şeklinde değiştirilmiştir. (4) Sözleşme şartlarının yazılı olması hâlinde, tüketicinin anlayabileceği açık ve anlaşılır bir dilin kullanılmış olması gerekir. Sözleşmede yer alan bir hükmün açık ve anlaşılır olmaması veya birden çok anlama gelmesi h âlinde; bu hüküm, tüketicinin lehine yorumlanır. (5) Faaliyetlerini, kanun veya yetkili makamlar tarafından verilen izinle yürütmekte olan kişi veya kuruluşların hazırladıkları sözleşmelere de niteliklerine bakılmaksızın bu madde hükümleri uygulanır. (6) Bir sözleşme şartının haksızlığı; sözleşme konusu olan mal veya hizmetin niteliği, sözleşmenin kuruluşunda var olan şartlar ve sözleşmenin diğer hükümleri veya haksız şartın ilgili olduğu diğer bir sözleşmenin hükümleri dikkate alınmak suretiyle sözleşmeni n kuruluş anına göre belirlenir. (7) Sözleşme şartlarının haksızlığının takdirinde, bu şartlar açık ve anlaşılır bir dille yazılmış olmak koşuluyla, hem sözleşmeden doğan asli edim yükümlülükleri arasındaki hem de mal veya hizmetin piyasa değeri ile sözleş mede belirlenen fiyat arasındaki dengeye ilişkin bir değerlendirme yapılamaz. (8) Bakanlık, genel olarak kullanılmak üzere hazırlanmış sözleşmelerde yer alan haksız şartların, sözleşme metinlerinden çıkarılması veya kullanılmasının önlenmesi için gerekli tedbirleri alır. (9) Haksız şartların tespit edilmesi ve denetlenmesine ilişkin usul ve esaslar ile sınırlayıcı olmamak üzere haksız şart olduğu kabul edilen sözleşme şartları yönetmelikle belirlenir. Satıştan kaçınma",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.5"
+    },
+    {
+      "madde_no": 6,
+      "text": "MADDE 6 - (1) Vitrinde, rafta, elektr onik ortamda veya açıkça görülebilir herhangi bir yerde teşhir edilen malın, satılık olmadığı belirtilen bir ibareye yer verilmedikçe satışından kaçınılamaz. (2) Hizmet sağlamaktan haklı bir sebep olmaksızın kaçınılamaz. (3) Ticari veya mesleki amaçlarla h areket edenler; aksine bir teamül, ticari örf veya adet ya da haklı bir sebep yoksa; bir mal veya hizmetin satışını o mal veya hizmetin, kendisi tarafından belirlenen miktar, sayı, ebat gibi koşullara ya da başka bir mal veya hizmetin satın alınması şartın a bağlayamaz. (4) Bakanlık ve belediyeler, bu madde hükümlerinin uygulanması ve izlenmesine ilişkin işleri yürütmekle görevlidir. Sipariş edilmeyen mal veya hizmetler",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.6"
+    },
+    {
+      "madde_no": 7,
+      "text": "MADDE 7 - (1) Sipariş edilmeyen malların gönderilmesi ya da hizmetlerin sunulması durumu nda, tüketiciye karşı herhangi bir hak ileri sürülemez. Bu hâllerde, tüketicinin sessiz kalması ya da mal veya hizmeti kullanmış olması, sözleşmenin kurulmasına yönelik kabul beyanı olarak yorumlanamaz. Tüketicinin malı geri göndermek veya muhafaza etmek g ibi bir yükümlülüğü yoktur. (2) Bir mal veya hizmetin sipariş edildiğini iddia eden bu iddiasını ispatla yükümlüdür. ÜÇÜNCÜ KISIM Ayıplı Mal ve Hizmetler BİRİNCİ BÖLÜM Ayıplı Mallar Ayıplı mal",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.7"
+    },
+    {
+      "madde_no": 8,
+      "text": "MADDE 8 - (1) Ayıplı mal, tüketiciye teslimi anında, taraflar ca kararlaştırılmış olan örnek ya da modele uygun olmaması ya da objektif olarak sahip olması gereken özellikleri taşımaması nedeniyle sözleşmeye aykırı olan maldır. (2) Ambalajında, etiketinde, tanıtma ve kullanma kılavuzunda, internet portalında ya da reklam ve ilanlarında yer alan özelliklerinden bir veya birden fazlasını taşımayan; satıcı tarafından bildirilen veya teknik düzenlemesinde tespit edilen niteliğe aykırı olan; muadili olan malların kullanım amacını karşılamayan, tüketicinin makul olarak bek lediği faydaları azaltan veya ortadan kaldıran maddi, hukuki veya ekonomik eksiklikler içeren mallar da ayıplı olarak kabul edilir. (3) Sözleşmeye konu olan malın, sözleşmede kararlaştırılan süre içinde teslim edilmemesi veya montajının satıcı tarafından v eya onun sorumluluğu altında gerçekleştirildiği durumlarda gereği gibi monte edilmemesi sözleşmeye aykırı ifa olarak değerlendirilir. Malın montajının tüketici tarafından yapılmasının öngörüldüğü hâllerde, montaj talimatındaki yanlışlık veya eksiklik neden iyle montaj hatalı yapılmışsa, sözleşmeye aykırı ifa söz konusu olur. Ayıplı maldan sorumluluk",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.8"
+    },
+    {
+      "madde_no": 9,
+      "text": "MADDE 9 - (1) Satıcı, malı satış sözleşmesine uygun olarak tüketiciye teslim etmekle yükümlüdür. (2) Satıcı, kendisinden kaynaklanmayan reklam yoluyla yapılan aç ıklamalardan haberdar olmadığını ve haberdar olmasının da kendisinden beklenemeyeceğini veya yapılan açıklamanın içeriğinin satış sözleşmesinin akdi anında düzeltilmiş olduğunu veya satış sözleşmesi kurulma kararının bu açıklama ile nedensellik bağı içinde olmadığını ispatladığı takdirde açıklamanın içeriği ile bağlı olmaz. İspat yükü",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.9"
+    },
+    {
+      "madde_no": 10,
+      "text": "MADDE 10 - (1) Teslim tarihinden itibaren altı ay içinde ortaya çıkan ayıpların, teslim tarihinde var olduğu kabul edilir. Bu durumda malın ayıplı olmadığının ispatı satıcıya aittir. Bu karine, malın veya ayıbın niteliği ile bağdaşmıyor ise uygulanmaz. (2) Tüketicinin, sözleşmenin kurulduğu tarihte ayıptan haberdar olduğu veya haberdar olmasının kendisinden beklendiği hâllerde, sözleşmeye aykırılık söz konusu olmaz. Bunların dışındaki ayıplara karşı tüketicinin seçimlik hakları saklıdır. (3) Satışa sunulacak ayıplı mal üzerine ya da ambalajına, üretici, ithalatçı veya satıcı tarafından tüketicinin kolaylıkla okuyabileceği şekilde malın ayıbına ilişkin açıklayıcı bilgiyi içeren bir etiket konulur. Bu etiketin tüketiciye verilmesi veya ayıba ilişkin açıklayıcı bilginin tüketiciye verilen fatura, fiş veya satış belgesi üzerinde açıkça gösterilmesi zorunludur. Teknik düzenlemesine uygun olmayan ürünler ise hiçbir şekilde piyasaya a rz edilemez. Bu ürünlere, Ürünlere İlişkin Teknik Mevzuatın Hazırlanması ve Uygulanmasına Dair Kanun ve ilgili diğer mevzuat hükümleri uygulanır. Tüketicinin seçimlik hakları",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.10"
+    },
+    {
+      "madde_no": 11,
+      "text": "MADDE 11 - (1) Malın ayıplı olduğunun anlaşılması durumunda tüketici; a) Satılan ı geri vermeye hazır olduğunu bildirerek sözleşmeden dönme, b) Satılanı alıkoyup ayıp oranında satış bedelinden indirim isteme, c) Aşırı bir masraf gerektirmediği takdirde, bütün masrafları satıcıya ait olmak üzere satılanın ücretsiz onarılmasını isteme, ç) İmkân varsa, satılanın ayıpsız bir misli ile değiştirilmesini isteme, seçimlik haklarından birini kullanabilir. Satıcı, tüketicinin tercih ettiği bu talebi yerine getirmekle yükümlüdür. (2) Ücretsiz onarım veya malın ayıpsız misli ile değiştirilmesi hak ları üretici veya ithalatçıya karşı da kullanılabilir. Bu fıkradaki hakların yerine getirilmesi konusunda satıcı, üretici ve ithalatçı müteselsilen sorumludur. Üretici veya ithalatçı, malın kendisi tarafından piyasaya sürülmesinden sonra ayıbın doğduğunu i spat ettiği takdirde sorumlu tutulmaz. (3) Ücretsiz onarım veya malın ayıpsız misli ile değiştirilmesinin satıcı için orantısız güçlükleri beraberinde getirecek olması hâlinde tüketici, sözleşmeden dönme veya ayıp oranında bedelden indirim haklarından biri ni kullanabilir. Orantısızlığın tayininde malın ayıpsız değeri, ayıbın önemi ve diğer seçimlik haklara başvurmanın tüketici açısından sorun teşkil edip etmeyeceği gibi hususlar dikkate alınır. (4) Ücretsiz onarım veya malın ayıpsız misli ile değiştirilmes i haklarından birinin seçilmesi durumunda bu talebin satıcıya, üreticiye veya ithalatçıya yöneltilmesinden itibaren azami otuz iş günü, konut ve tatil amaçlı taşınmazlarda ise altmış iş günü içinde yerine getirilmesi zorunludur. Ancak, bu Kanunun 58 inci m addesi uyarınca çıkarılan yönetmelik eki listede yer alan mallara ilişkin, tüketicinin ücretsiz onarım talebi, yönetmelikte belirlenen azami tamir süresi içinde yerine getirilir. Aksi hâlde tüketici diğer seçimlik haklarını kullanmakta serbesttir. (5) Tüke ticinin sözleşmeden dönme veya ayıp oranında bedelden indirim hakkını seçtiği durumlarda, ödemiş olduğu bedelin tümü veya bedelden yapılan indirim tutarı derhâl tüketiciye iade edilir. (6) Seçimlik hakların kullanılması nedeniyle ortaya çıkan tüm masrafla r, tüketicinin seçtiği hakkı yerine getiren tarafça karşılanır. Tüketici bu seçimlik haklarından biri ile birlikte 11/1/2011 tarihli ve 6098 sayılı Türk Borçlar Kanunu hükümleri uyarınca tazminat da talep edebilir. Zamanaşımı",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.11"
+    },
+    {
+      "madde_no": 12,
+      "text": "MADDE 12 - (1) Kanunlarda veya taraflar arasındaki sözleşmede daha uzun bir süre belirlenmediği takdirde, ayıplı maldan sorumluluk, ayıp daha sonra ortaya çıkmış olsa bile, malın tüketiciye teslim tarihinden itibaren iki yıllık zamanaşımına tabidir. Bu süre konut veya tatil amaçlı taşı nmaz mallarda taşınmazın teslim tarihinden itibaren beş yıldır. (2) Bu Kanunun 10 uncu maddesinin üçüncü fıkrası saklı olmak üzere ikinci el satışlarda satıcının ayıplı maldan sorumluluğu bir yıldan, konut veya tatil amaçlı taşınmaz mallarda ise üç yıldan az olamaz. (3) Ayıp, ağır kusur ya da hile ile gizlenmişse zamanaşımı hükümleri uygulanmaz. İKİNCİ BÖLÜM Ayıplı Hizmetler Ayıplı hizmet",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.12"
+    },
+    {
+      "madde_no": 13,
+      "text": "MADDE 13 - (1) Ayıplı hizmet, sözleşmede belirlenen süre içinde başlamaması veya taraflarca kararlaştırılmış olan ve obj ektif olarak sahip olması gereken özellikleri taşımaması nedeniyle sözleşmeye aykırı olan hizmettir. (2) Hizmet sağlayıcısı tarafından bildirilen, internet portalında veya reklam ve ilanlarında yer alan özellikleri taşımayan ya da yararlanma amacı bakımın dan değerini veya tüketicinin ondan makul olarak beklediği faydaları azaltan veya ortadan kaldıran maddi, hukuki veya ekonomik eksiklikler içeren hizmetler ayıplıdır. Ayıplı hizmetten sorumluluk",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.13"
+    },
+    {
+      "madde_no": 14,
+      "text": "MADDE 14 - (1) Sağlayıcı, hizmeti sözleşmeye uygun olarak if a etmekle yükümlüdür. (2) Sağlayıcı, kendisinden kaynaklanmayan reklam yoluyla yapılan açıklamalardan haberdar olmadığını ve haberdar olmasının da kendisinden beklenemeyeceğini veya yapılan açıklamanın içeriğinin hizmet sözleşmesinin kurulduğu tarihte düze ltilmiş olduğunu veya hizmet sözleşmesinin kurulması kararının bu açıklama ile nedensellik bağı içermediğini ispatladığı takdirde açıklamanın içeriği ile bağlı olmaz. Tüketicinin seçimlik hakları",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.14"
+    },
+    {
+      "madde_no": 15,
+      "text": "MADDE 15 - (1) Hizmetin ayıplı ifa edildiği durumlarda tüket ici, hizmetin yeniden görülmesi, hizmet sonucu ortaya çıkan eserin ücretsiz onarımı, ayıp oranında bedelden indirim veya sözleşmeden dönme haklarından birini sağlayıcıya karşı kullanmakta serbesttir. Sağlayıcı, tüketicinin tercih ettiği bu talebi yerine ge tirmekle yükümlüdür. Seçimlik hakların kullanılması nedeniyle ortaya çıkan tüm masraflar sağlayıcı tarafından karşılanır. Tüketici, bu seçimlik haklarından biri ile birlikte Türk Borçlar Kanunu hükümleri uyarınca tazminat da talep edebilir. (2) Ücretsiz on arım veya hizmetin yeniden görülmesinin sağlayıcı için orantısız güçlükleri beraberinde getirecek olması hâlinde tüketici bu hakları kullanamaz. Orantısızlığın tayininde hizmetin ayıpsız değeri, ayıbın önemi ve diğer seçimlik haklara başvurmanın tüketici a çısından sorun teşkil edip etmeyeceği gibi hususlar dikkate alınır. (3) Tüketicinin sözleşmeden dönme veya ayıp oranında bedelden indirim hakkını seçtiği durumlarda, ödemiş olduğu bedelin tümü veya bedelden indirim yapılan tutar derhâl tüketiciye iade edi lir. (4) Ücretsiz onarım veya hizmetin yeniden görülmesinin seçildiği hâllerde, hizmetin niteliği ve tüketicinin bu hizmetten yararlanma amacı dikkate alındığında, makul sayılabilecek bir süre içinde ve tüketici için ciddi sorunlar doğurmayacak şekilde bu talep sağlayıcı tarafından yerine getirilir. Her hâlükârda bu süre talebin sağlayıcıya yöneltilmesinden itibaren otuz iş gününü geçemez. Aksi takdirde tüketici diğer seçimlik haklarını kullanmakta serbesttir. Zamanaşımı",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.15"
+    },
+    {
+      "madde_no": 16,
+      "text": "MADDE 16 - (1) Kanunlarda veya tara flar arasındaki sözleşmede daha uzun bir süre belirlenmediği takdirde, ayıplı hizmetten sorumluluk, ayıp daha sonra ortaya çıkmış olsa bile, hizmetin ifası tarihinden itibaren iki yıllık zamanaşımına tabidir. (2) Ayıp, ağır kusur ya da hile ile gizlenmişs e zamanaşımı hükümleri uygulanmaz. DÖRDÜNCÜ KISIM Tüketici Sözleşmeleri BİRİNCİ BÖLÜM Taksitle Satış Taksitle satış sözleşmeleri",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.16"
+    },
+    {
+      "madde_no": 17,
+      "text": "MADDE 17 - (1) Taksitle satış sözleşmesi, satıcı veya sağlayıcının malın teslimi veya hizmetin ifasını üstlendiği, tüketicinin de bedeli kısım kısım ödediği sözleşmelerdir. (2) Tüketicinin, kira süresi sonunda bir malın mülkiyetini edinme zorunluluğunun bulunduğu finansal kiralama sözleşmeleri hakkında da bu Bölüm hükümleri uygulanır. (3) Taksitle satış sözleşmesi yazılı olarak kurulmadıkça geçerli olmaz. Geçerli bir sözleşme yapmamış olan satıcı veya sağlayıcı, sonradan sözleşmenin geçersizliğini tüketicinin aleyhine olacak şekilde ileri süremez. Cayma hakkı",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.17"
+    },
+    {
+      "madde_no": 18,
+      "text": "MADDE 18 - (1) Tüketici, yedi gün içinde herhangi bir gerekçe gösterme ksizin ve cezai şart ödemeksizin taksitle satış sözleşmesinden cayma hakkına sahiptir. (2) Cayma hakkının kullanıldığına dair bildirimin bu süre içinde satıcı veya sağlayıcıya yöneltilmiş olması yeterlidir. Satıcı veya sağlayıcı, cayma hakkı konusunda tüketicinin bilgilendirildiğini ispat etmekle yükümlüdür. (3) Satıcı cayma süresi içinde malı tüketiciye teslim etmişse tüketici, malı ancak olağan bir gözden geçirmenin gerektirdiği ölçüde kullanabilir; aksi takdirde tüketici cayma hakkını kullanamaz. Cayma hakkı süresi sona ermeden önce, tüketicinin onayı ile hizmetin ifasına başlanan hizmet sözleşmelerinde de tüketici cayma hakkını kullanamaz. (4) Tüketicinin satıcıyı bulduğu finansal kiralama işlemlerinde cayma hakkı kullanılamaz. Temerrüt",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.18"
+    },
+    {
+      "madde_no": 19,
+      "text": "MADDE 19 - (1) Taksitle satış sözleşmelerinde tüketicinin taksitleri ödemede temerrüde düşmesi durumunda, satıcı veya sağlayıcı, kalan borcun tümünün ifasını talep etme hakkını saklı tutmuşsa, bu hak ancak satıcı veya sağlayıcının bütün edimlerini ifa etmiş olması, tüket icinin de sözleşmede yer alan bedelin en az onda birini oluşturan ve birbirini izleyen en az iki taksidi veya en az dörtte birini oluşturan bir taksidi ödemede temerrüde düşmesi hâlinde kullanılabilir. Satıcı veya sağlayıcının bu hakkı kullanabilmesi için tüketiciye en az otuz gün süre vererek muacceliyet uyarısında bulunması zorunludur.2 (2) Muaccel kılınan taksitlerin hesaplanmasında faiz, komisyon ve benzeri masraflar dikkate alınmaz. Erken ödeme",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.19"
+    },
+    {
+      "madde_no": 20,
+      "text": "MADDE 20 - (1) Tüketici, borçlandığı toplam miktarı öncede n ödeyebileceği gibi vadesi gelmemiş bir ya da birden çok taksit ödemesinde de bulunabilir. Her iki durumda da satıcı veya sağlayıcı, faiz veya komisyon aldığı durumlarda ödenen miktara göre gerekli tüm faiz ve komisyon indirimini yapmakla yükümlüdür. Diğer hususlar",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.20"
+    },
+    {
+      "madde_no": 21,
+      "text": "MADDE 21 - (1) Tüketicinin taşınır bir malın satış bedelini önceden kısım kısım ödemeyi, satıcının da bedelin tamamen ödenmesinden sonra satılanı tüketiciye teslim etmeyi üstlendikleri ve ödeme süresi bir yıldan daha uzun veya belirsiz olan sözl eşmeler hakkında Türk Borçlar Kanununun ön ödemeli taksitle satış hükümleri uygulanır. (2) Sözleşmenin zorunlu içeriği, tüketici ile satıcı ve sağlayıcının hak ve yükümlülükleri, cayma hakkı, erken ödeme ile diğer hususlara ilişkin usul ve esaslar yönetmel ikle belirlenir. İKİNCİ BÖLÜM Tüketici Kredileri Tüketici kredisi sözleşmeleri",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.21"
+    },
+    {
+      "madde_no": 22,
+      "text": "MADDE 22 - (1) Tüketici kredisi sözleşmesi, kredi verenin tüketiciye faiz veya benzeri bir menfaat karşılığında ödemenin ertelenmesi, ödünç veya benzeri finansman şekilleri ara cılığıyla kredi verdiği veya kredi vermeyi taahhüt ettiği sözleşmeyi ifade eder. (2) Kredi kartı sözleşmeleri, faiz veya benzeri bir menfaat karşılığında, ödemenin üç aydan daha uzun süre ertelenmesi veya benzer şekilde taksitle ödeme imkânı sağlanması hâlinde tüketici kredisi sözleşmesi olarak değerlendirilir. Ancak bu durumda uygulanacak faiz oranı kredi kartı sözleşmesi uyarınca belirlenen orandan fazla olamaz. 2 24/3/2022 tarihli ve 7392 sayılı Kanunun 1 inci maddesiyl e bu fıkrada “kalan borcun en az onda” ibaresi “sözleşmede yer alan bedelin en az onda” şeklinde değiştirilmiş ve “taksidi veya” ibaresinden sonra ge len “kalan borcun” ibaresi madde metninden çıkarılmıştır. (3) Tüketici kredisi sözleşmesi yazılı veya mesafeli olarak kurulmadıkça geçerli olmaz. Geçerl i bir sözleşme yapmamış olan kredi veren, sonradan sözleşmenin geçersizliğini tüketicinin aleyhine olacak şekilde ileri süremez.3 Sözleşme öncesi bilgilendirme yükümlülüğü",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.22"
+    },
+    {
+      "madde_no": 23,
+      "text": "MADDE 23 - (1) Kredi verenin ve varsa kredi aracısının, tüketiciye, teklif ettikleri kredi sözleşmesinin koşullarını içeren sözleşme öncesi bilgi formunu, sözleşmenin kurulmasından makul bir süre önce vermesi zorunludur. Cayma hakkı",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.23"
+    },
+    {
+      "madde_no": 24,
+      "text": "MADDE 24 - (1) Tüketici, on dört gün içinde herhangi bir gerekçe göstermeksizin ve cezai şart ödemeksizin tüketici kredisi sözleşmesinden cayma hakkına sahiptir. (2) Kredi veren, cayma hakkı olduğu konusunda tüketicinin bilgilendirildiğini ispat etmekle yükümlüdür. Cayma hakkının kullanıldığına dair bildirimin cayma hakkı süresi içinde kredi verene yöneltilm iş olması yeterlidir. (Ek cümle:24/3/2022 -7392/2 md.) Cayma hakkı süresi içinde kredi borcunun tamamının erken ödenmesi hâlinde bildirim aranmaksızın bu madde hükümleri uygulanır. (3) Cayma hakkını kullanan tüketicinin krediden faydalandığı hâllerde, tüket ici, anaparayı ve kredinin kullanıldığı tarihten anaparanın geri ödendiği tarihe kadar olan sürede tahakkuk eden faizi en geç cayma bildirimini kredi verene göndermesinden sonra otuz gün içinde geri öder. Bu süre içinde ödeme yapılmaması hâlinde tüketici k redisinden cayılmamış sayılır. Faiz, akdî faiz oranına göre hesaplanır. Tüketiciden, hesaplanan akdî faiz ve bir kamu kurum veya kuruluşuna veya üçüncü kişilere ödenmiş olan masraflar dışında herhangi bir bedel talep edilemez. Faiz oranı",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.24"
+    },
+    {
+      "madde_no": 25,
+      "text": "MADDE 25 - (1) Be lirli süreli tüketici kredisi sözleşmelerinde faiz oranı sabit olarak belirlenir. Sözleşmenin kurulduğu tarihte belirlenen bu oran tüketici aleyhine değiştirilemez. (2) Tüketici kredisi sözleşmelerinde, akdî faiz, efektif yıllık faiz veya kredinin toplam maliyetinin yer almaması durumunda, kredi tutarı faizsiz olarak sözleşme süresinin sonuna kadar kullanılır. Efektif faiz oranı, olduğundan düşük gösterilmişse, kredinin toplam maliyetinin hesaplanmasında esas alınacak akdî faiz oranı, düşük gösterilen efek tif faiz oranına uyacak şekilde yeniden belirlenir. Bu hâllerde ödeme planı, yapılan değişikliklere göre yeniden düzenlenir. Sözleşmede değişiklik yapılması",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.25"
+    },
+    {
+      "madde_no": 26,
+      "text": "MADDE 26 - (1) Belirli süreli kredi sözleşmesinin şartları, tüketici aleyhine değiştirilemez. 3 24/10/2024 tarihli ve 7529 sayılı Kanunun 1 inc i maddesi ile bu fıkranın birinci cümlesine “yazılı” ibaresinden sonra gelmek üzere “veya mesafeli” ibaresi eklenmiştir. (2) Belirsiz süreli kredi sözleşmelerinde faiz oranının artırılması durumunda , bu değişikliğin yürürlüğe girmesinden otuz gün önce, tüketiciye kâğıt üzerinde veya kalıcı veri saklayıcısı aracılığıyla yazılı olarak bildirilmesi zorunludur. Bu bildirimde, yeni f aiz oranının yürürlüğe girmesinden sonra yapılacak ödemelerin tutarı, sayısı ile aralıklarının değişmesine ilişkin ayrıntılara yer verilir. Faiz oranının artırılması hâlinde, yeni faiz oranı geriye dönük olarak uygulanamaz. Tüketici, bildirim tarihinden it ibaren en geç altmış gün içinde borcun tamamını ödediği ve kredi kullanmaya son verdiği takdirde faiz artışından etkilenmez.4 Erken ödeme",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.26"
+    },
+    {
+      "madde_no": 27,
+      "text": "MADDE 27 - (1) Tüketici, vadesi gelmemiş bir veya birden çok taksit ödemesinde bulunabilir veya kredi borcunun tamamın ı erken ödeyebilir. Bu hâllerde kredi veren, erken ödenen miktara göre gerekli tüm faiz ve diğer maliyet unsurlarına ilişkin indirim yapmakla yükümlüdür. Temerrüt",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.27"
+    },
+    {
+      "madde_no": 28,
+      "text": "MADDE 28 - (1) Belirli süreli kredi sözleşmelerinde tüketicinin taksitleri ödemede temerrüde düşmesi durumunda, kredi veren, borcun tamamının ifasını talep etme hakkını saklı tutmuşsa, bu hak ancak kredi verenin bütün edimlerini ifa etmiş olması, tüketicinin de birbirini izleyen en az iki taksidi ödemede temerrüde düşmesi hâlinde kullanılabilir. K redi verenin bu hakkı kullanabilmesi için tüketiciye en az otuz gün süre vererek muacceliyet uyarısında bulunması zorunludur. (2) Muaccel kılınan taksitlerin hesaplanmasında faiz, komisyon ve benzeri masraflar dikkate alınmaz. Sigorta, yan finansal ürün ve hizmet sunumu",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.28"
+    },
+    {
+      "madde_no": 29,
+      "text": "MADDE 29 - (Başlığı ile Birlikte Değişik:24/3/2022 -7392/4 md.) (1) Tüketicinin yazılı veya kalıcı veri saklayıcısı aracılığıyla açık talebi olmaksızın kredi bağlantılı sigorta yaptırılamaz. Kredi veren, kredi bağlantılı sigorta içermeyen b ir sözleşmeyi de tüketiciye teklif etmek koşuluyla kredi bağlantılı sigorta yaptırılmasını içeren bir kredi sözleşmesini tüketiciye sunabilir. (2) Tüketicinin istediği sigorta şirketinden sağladığı teminat, kredi veren tarafından kabul edilmek zorundadır. Kredi bağlantılı sigortanın; kredi borcunun geri ödenme teminatını sağlama amacıyla, meblağ sigortalarında kalan borç tutarıyla ve vadesiyle uyumlu olması gerekir. (3) Tüketici kredisi sözleşmesi, kredi ile ilgili olanlar hariç yan finansal ürün ve hizmetl erin satın alınması şartına bağlanamaz. 4 24/3/2022 tarihli ve 7392 sayılı Kanunun 3 üncü maddesiyle bu fıkrada yer alan “oranında değişiklik yapılması hâlinde” ibaresi “oranı nın artırılması durumunda” şeklinde değiştirilmiştir. Bağlı krediler",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.29"
+    },
+    {
+      "madde_no": 30,
+      "text": "MADDE 30 - (1) Bağlı kredi sözleşmesi; tüketici kredisinin münhasıran belirli bir malın veya hizmetin tedarikine ilişkin bir sözleşmenin finansmanı için verildiği ve bu iki sözleşmenin objektif açıdan ekonomik birlik oluşturduğu sözleşmedir. (2) Ekonomik birliğin varlığı; a) Satıcı veya sağlayıcının tüketici için krediyi finanse ettiği, b) Üçüncü bir tarafça finanse edilmesi durumunda, kredi verenin kredi sözleşmesinin imzalanması veya hazırlanması i le ilgili olarak satıcı veya sağlayıcının hizmetlerinden yararlandığı, c) Belirli bir mal veya hizmetin verilmesinin kredi sözleşmesinde açıkça belirtildiği, durumlarından en az birinin varlığı hâlinde kabul edilir. (3) Tüketicinin mal veya hizmet tedarik ine ilişkin sözleşmeden cayması ve buna ilişkin bildirimin cayma süresi içinde ayrıca kredi verene de yöneltilmesi hâlinde, bağlı kredi sözleşmesi de herhangi bir tazminat veya cezai şart ödeme yükümlülüğü olmaksızın sona erer. (4) Bağlı kredilerde, mal v eya hizmet hiç ya da gereği gibi teslim veya ifa edilmez ise satıcı, sağlayıcı ve kredi veren, tüketicinin satış sözleşmesinden dönme veya bedelden indirim hakkını kullanması hâlinde müteselsilen sorumludur. Tüketicinin bedelden indirim hakkını kullanması hâlinde bağlı kredi de bu oranda indirilir ve ödeme planı buna göre değiştirilir. Tüketicinin sözleşmeden dönme hakkını kullanması hâlinde, o güne kadar yapmış olduğu ödemenin iadesi hususunda satıcı, sağlayıcı ve kredi veren müteselsilen sorumludur. Ancak , kredi verenin sorumluluğu; malın teslim veya hizmetin ifa edilmediği durumlarda satış sözleşmesinde veya bağlı kredi sözleşmesinde belirtilen malın teslim veya hizmetin ifa edilme tarihinden, malın teslim veya hizmetin ifa edildiği durumlarda malın tesli m veya hizmetin ifa edildiği tarihten itibaren, kullanılan kredi miktarı ile sınırlı olmak üzere bir yıldır. (5) Kredi veren ile satıcı veya sağlayıcı arasında belirli bir malın veya hizmetin tedarikine ilişkin bir sözleşme olmaksızın, tüketicinin kendisi tarafından belirlenen malın veya hizmetin bedelinin kredi veren tarafından ödenmesi suretiyle kullandırılan krediler bağlı kredi sayılmaz. Diğer hususlar",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.30"
+    },
+    {
+      "madde_no": 31,
+      "text": "MADDE 31 - (1) Belirli süreli kredi sözleşmesine ilişkin bir hesap açılması ve bu hesaptan sadece kre di ile ilgili işlemler yapılması durumunda, tüketiciden bu hesaba ilişkin herhangi bir isim altında ücret veya masraf talep edilemez. Bu hesap, tüketicinin aksine yazılı veya kalıcı veri saklayıcısıyla talebi olmaması hâlinde kredinin ödenmesi ile kapanır.5 5 24/10/2024 tarihli ve 7529 sayılı Kanunun 2 nci maddesi ile bu fıkranın ikinci cümlesine “tük eticinin aksine yazılı” ibaresinden sonra gelmek üzere “veya kalıcı veri saklayıcısıyla” ibaresi eklenmişti r. (2) Tüketicinin açık talimatı olmaksızın, belirli süreli kredi sözleşmesi ile ilişkili bir kredili mevduat sözleşmesi yapılamaz. (3) Kart çıkaran kuruluşlar, tüketicilere yıllık üyelik aidatı ve benzeri isim altında ücret tahsil etmedikleri bir kredi kar tı türü sunmak zorundadır. (4) Sözleşme öncesi bilgilendirme, sözleşmenin zorunlu içeriği, kapsam dışı sözleşmeler, tüketici ile kredi verenin hak ve yükümlülükleri, cayma hakkı, erken ödeme, efektif yıllık faizin hesaplanması, tüketici kredilerine ilişki n reklamların zorunlu içeriği, fesih hakkının kullanılması, temerrüt, kredinin devri, bağlı kredi ile diğer hususlara ilişkin usul ve esaslar yönetmelikle belirlenir. ÜÇÜNCÜ BÖLÜM Konut Finansmanı Konut finansmanı sözleşmeleri",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.31"
+    },
+    {
+      "madde_no": 32,
+      "text": "MADDE 32 - (1) Konut finansma nı sözleşmesi, konut edinmeleri amacıyla; tüketicilere kredi kullandırılması, konutların finansal kiralama yoluyla tüketicilere kiralanması, sahip oldukları konutların teminatı altında tüketicilere kredi kullandırılması ve bu kredilerin yeniden finansmanı amacıyla kredi kullandırılmasına yönelik sözleşmedir. (2) Konut finansmanı sözleşmesi yazılı veya mesafeli olarak kurulmadıkça geçerli olmaz. Geçerli bir sözleşme yapmamış olan konut finansmanı kuruluşu, sonradan sözleşmenin geçersizliğini tüketicinin aley hine olacak şekilde ileri süremez.6 Sözleşme öncesi bilgilendirme yükümlülüğü",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.32"
+    },
+    {
+      "madde_no": 33,
+      "text": "MADDE 33 - (1) Konut finansmanı kuruluşları, tüketiciye, konut finansmanı sözleşmesinin koşullarını içeren sözleşme öncesi bilgi formunu, sözleşmenin kurulmasından makul bir süre önce vermek zorundadır. Temerrüt",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.33"
+    },
+    {
+      "madde_no": 34,
+      "text": "MADDE 34 - (1) Tüketicinin taksitleri ödemede temerrüde düşmesi durumunda konut finansmanı kuruluşu, kalan borcun tamamının ifasını talep etme hakkını saklı tutmuşsa, bu hak ancak konut finansmanı kuruluşunun bütün edimler ini ifa etmiş olması ve tüketicinin de birbirini izleyen en az iki taksidi ödemede temerrüde düşmesi hâlinde kullanılabilir. Konut finansmanı kuruluşunun bu hakkını kullanabilmesi için tüketiciye en az otuz gün süre vererek muacceliyet uyarısında bulunması gerekir. (2) Muaccel kılınan taksitlerin hesaplanmasında faiz, komisyon ve benzeri masraflar dikkate alınmaz. (3) Finansal kiralama işlemlerinde, muacceliyet uyarısında verilen süre içinde tüketicinin edimini yerine getirmemesi hâlinde, bu sürenin sona er mesini takiben konut 6 24/10/2024 tarihli ve 7529 sayılı Kanunun 3 üncü maddesi ile bu fıkranın birinci cümlesine “yazılı” ibaresinden sonra gelmek üzere “veya mesafe li” ibaresi eklenmiştir. finansmanı kuruluşu kalan borcun tamamını ifa etme hakkını kullanmak üzere konut finansmanı sözleşmesini feshettiği takdirde, konutu derhâl satışa çıkarmakla yükümlüdür. Konut finansmanı kuruluşu satış öncesinde konut için 6/12/2012 ta rihli ve 6362 sayılı Sermaye Piyasası Kanunu uyarınca yetki verilmiş olan kişi veya kurumlara kıymet takdiri yaptırır. Takdir edilen kıymet, satıştan en az on iş günü önce tüketiciye bildirilir. Konut finansmanı kuruluşu takdir edilen kıymeti dikkate alara k basiretli bir tacir gibi davranmak suretiyle konutun satışını gerçekleştirir. Konutun satışından elde edilen bedelin, kalan borcu aşması hâlinde aşan kısım tüketiciye derhâl ödenir. Konut finansmanına yönelik finansal kiralama işlemlerinde 21/11/2012 tar ihli ve 6361 sayılı Finansal Kiralama, Faktoring ve Finansman Şirketleri Kanununun 33 üncü maddesi uygulanmaz. (4) Konutun satışının bu maddenin üçüncü fıkrası kapsamında gerçekleştirilmesi ve varsa elde edilen bedelin kalan borcu aşan kısmının tüketiciye ödenmesini takiben tüketici veya zilyetliğin devredilmiş olması hâlinde zilyetliği elinde bulunduran üçüncü şahıslar konutu tahliye etmekle yükümlüdür. Konutun tahliye edilmemesi hâlinde konut sahibi, 9/6/1932 tarihli ve 2004 sayılı İcra ve İflâs Kanununun 26 ncı ve 27 nci maddeleri uyarınca tüketici veya zilyetliği elinde bulunduran üçüncü şahıslar aleyhine icra yoluna başvurabilir. Bağlı krediler",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.34"
+    },
+    {
+      "madde_no": 35,
+      "text": "MADDE 35 - (1) Bağlı kredi sözleşmesi; konut finansmanı kredisinin münhasıran belirli bir konutun satın alınma sı durumunda bir sözleşmenin finansmanı için verildiği ve bu iki sözleşmenin objektif açıdan ekonomik bir birlik oluşturduğu sözleşmedir. (2) Bağlı kredilerde, konutun hiç ya da gereği gibi teslim edilmemesi nedeniyle tüketicinin bu Kanunun 11 inci maddes inde belirtilen seçimlik haklarından birini kullanması hâlinde, satıcı ve konut finansmanı kuruluşu müteselsilen sorumludur. Ancak, konut finansmanı kuruluşunun sorumluluğu; konutun teslim edilmemesi durumunda konut satış sözleşmesinde veya bağlı kredi söz leşmesinde belirtilen konut teslim tarihinden, konutun teslim edilmesi durumunda konutun teslim edildiği tarihten itibaren, kullanılan kredi miktarı ile sınırlı olmak üzere bir yıldır. (3) Konut finansmanı kuruluşları tarafından verilen kredilerin ipotek f inansmanı kuruluşlarına, konut finansmanı fonlarına veya ipotek teminatlı menkul kıymet teminat havuzlarına devrolması hâlinde dahi, kredi veren konut finansmanı kuruluşunun sorumluluğu devam eder. Krediyi devralan kuruluş bu madde kapsamında sorumlu olmaz . (4) Konut finansmanı kuruluşu ile satıcı arasında belirli bir konutun tedarikine ilişkin bir sözleşme olmaksızın, tüketicinin kendisi tarafından belirlenen konutun bedelinin kredi veren konut finansmanı kuruluşu tarafından ödenmesi suretiyle kullandırıla n krediler bağlı kredi sayılmaz. Faiz oranı",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.35"
+    },
+    {
+      "madde_no": 36,
+      "text": "MADDE 36 - (1) Kredilerde geri ödeme tutarlarının, finansal kiralama işlemlerinde ise kira bedellerinin anaparayı aşan kısmı bu madde kapsamında faiz olarak kabul edilir. (2) Sözleşmede belirtilmek suretiyle ko nut finansmanına yönelik kredilerde ve finansal kiralama işlemlerinde faiz oranı sabit veya değişken olarak ya da aynı kredi için her iki yöntem esas alınmak suretiyle belirlenebilir. Faiz oranının sabit olarak belirlenmesi hâlinde, sözleşmenin kurulduğu t arihte belirlenen oran tarafların rızası dışında değiştirilemez. Oranın değişken olarak belirlenmesi hâlinde ise, başlangıçta sözleşmede belirlenen oran, dönemsel geri ödeme tutarı başlangıçta sözleşmede belirlenen azami dönemsel geri ödeme tutarını aşmama k koşuluyla ve sözleşmede belirlenecek yurt içinde veya yurt dışında genel kabul görmüş ve yaygın olarak kullanılan endekslerden en düşük olanı baz alınarak değiştirilebilir. Oranların değişken olarak belirlenmesi hâlinde bu yöntemin muhtemel etkileri konu sunda tüketicilerin bilgilendirilmesi şarttır. Bu amaçlarla kullanılabilecek referans faizler ve endeksler Türkiye Cumhuriyet Merkez Bankası tarafından belirlenir. Erken ödeme",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.36"
+    },
+    {
+      "madde_no": 37,
+      "text": "MADDE 37 - (1) Tüketici, vadesi gelmemiş bir veya birden çok taksit ödemesinde bulunabileceği gibi, konut finansmanı borcunun tamamını erken ödeyebilir. Bu hâllerde, konut finansmanı kuruluşu, erken ödenen miktara göre gerekli tüm faiz ve diğer maliyet unsurlarına ilişkin indirim yapmakla yükümlüdür. (2) Faiz oranının sabit olarak bel irlenmesi hâlinde, sözleşmede yer verilmek suretiyle, bir ya da birden fazla ödemenin vadesinden önce yapılması durumunda, konut finansmanı kuruluşu tarafından tüketiciden erken ödeme tazminatı talep edilebilir. Erken ödeme tazminatı gerekli faiz indirimi yapılarak hesaplanan ve tüketici tarafından konut finansmanı kuruluşuna erken ödenen tutarın kalan vadesi otuz altı ayı aşmayan kredilerde yüzde birini, kalan vadesi otuz altı ayı aşan kredilerde ise yüzde ikisini geçemez. Oranların değişken olarak belirle nmesi hâlinde tüketiciden erken ödeme tazminatı talep edilemez. Sigorta, yan finansal ürün ve hizmet sunumu",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.37"
+    },
+    {
+      "madde_no": 38,
+      "text": "MADDE 38 - (Başlığı ile Birlikte Değişik:24/3/2022 -7392/5 md.) (1) Tüketicinin yazılı veya kalıcı veri saklayıcısı aracılığıyla açık talebi olmaksı zın kredi bağlantılı sigorta yaptırılamaz. Konut finansmanı kuruluşu, kredi bağlantılı sigorta içermeyen bir sözleşmeyi de tüketiciye teklif etmek koşuluyla kredi bağlantılı sigorta yaptırılmasını içeren bir konut finansmanı sözleşmesini tüketiciye sunabil ir. (2) Tüketicinin istediği sigorta şirketinden sağladığı teminat, konut finansmanı kuruluşu tarafından kabul edilmek zorundadır. Kredi bağlantılı sigortanın; kredi borcunun geri ödenme teminatını sağlama amacıyla, meblağ sigortalarında kalan borç tutarıy la ve vadesiyle uyumlu olması gerekir. (3) Konut finansmanı sözleşmesi, kredi ile ilgili olanlar hariç yan finansal ürün ve hizmetlerin satın alınması şartına bağlanamaz. Diğer hususlar",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.38"
+    },
+    {
+      "madde_no": 39,
+      "text": "MADDE 39 - (1) Konut finansmanı sözleşmesine ilişkin bir hesap açılmas ı ve bu hesaptan sadece kredi ile ilgili işlemler yapılması durumunda, tüketiciden bu hesaba ilişkin herhangi bir isim altında ücret veya masraf talep edilemez. Bu hesap, tüketicinin aksine yazılı veya kalıcı veri saklayıcısıyla talebi olmaması hâlinde kre dinin ödenmesi ile kapanır.7 (2) Tüketicinin açık talimatı olmaksızın konut finansmanı sözleşmesi ile ilişkili bir kredili mevduat sözleşmesi yapılamaz. (3) Bu Bölüm hükümlerinin uygulanmasında, konut yapı kooperatiflerinin gerçek kişi ortakları da tüket ici olarak kabul edilir. (4) Sözleşme öncesi bilgilendirme, tüketici ile konut finansmanı kuruluşunun hak ve yükümlülükleri, sözleşmenin zorunlu içeriği, konut finansmanı reklamları, yeniden finansman, bağlı kredi, temerrüt, erken ödeme ve yıllık maliyet o ranının hesaplanması ile diğer hususlara ilişkin usul ve esaslar yönetmelikle belirlenir. DÖRDÜNCÜ BÖLÜM Ön Ödemeli Konut Satışı Ön ödemeli konut satış sözleşmeleri",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.39"
+    },
+    {
+      "madde_no": 40,
+      "text": "MADDE 40 - (1) Ön ödemeli konut satış sözleşmesi, tüketicinin konut amaçlı bir taşınmazın s atış bedelini önceden peşin veya taksitle ödemeyi, satıcının da bedelin tamamen veya kısmen ödenmesinden sonra taşınmazı tüketiciye devir veya teslim etmeyi üstlendiği sözleşmedir. (2) Tüketicilere sözleşmenin kurulmasından en az bir gün önce, Bakanlıkça belirlenen hususları içeren ön bilgilendirme formu verilmek zorundadır. (3) Yapı ruhsatı alınmadan, tüketicilerle ön ödemeli konut satış sözleşmesi yapılamaz. Şekil şartı",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.40"
+    },
+    {
+      "madde_no": 41,
+      "text": "MADDE 41 - (1) Ön ödemeli konut satışının tapu siciline tescil edilmesi, satış vaadi sözleşmesinin ise noterde düzenleme şeklinde yapılması zorunludur. Aksi hâlde satıcı, sonradan sözleşmenin geçersizliğini tüketicinin aleyhine olacak şekilde ileri süremez. (2) Satıcı, geçerli bir sözleşme yapılmış olmadıkça tüketiciden herhangi bir isim altında ödeme yapmasını veya tüketiciyi borç altına sokan herhangi bir belge vermesini isteyemez. Teminat",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.41"
+    },
+    {
+      "madde_no": 42,
+      "text": "MADDE 42 - (1) Bakanlıkça projedeki konut adedi ya da projenin toplam bedeli kriterine göre belirlenecek büyüklüğün üzerindeki projeler için satıcın ın ön ödemeli konut satışına başlamadan önce; kapsamı, koşulları ve uygulama esasları Hazine Müsteşarlığınca belirlenen bina tamamlama sigortası yaptırması veya Bakanlıkça belirlenen diğer teminat ve şartları sağlaması zorunludur. 7 24/10/2024 tarihli ve 7529 sayılı Kanunun 4 üncü maddesi ile bu fıkranın ikinci cümlesine “tüketicinin aksine yazılı” ibaresinden sonra gelmek üzere “veya kalıcı veri saklayıcısıyla” ibaresi eklenmiştir. (2) Bina tamamlama sigor tası kapsamında sağlanan tazminat, teminat ve benzeri güvenceler iflas veya tasfiye masasına dâhil edilemez, haczolunamaz, üzerlerine ihtiyati tedbir ve ihtiyati haciz konulamaz. Cayma hakkı",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.42"
+    },
+    {
+      "madde_no": 43,
+      "text": "MADDE 43 - (1) Tüketici, on dört gün içinde herhangi bir gerekçe göstermeksizin ve cezai şart ödemeksizin ön ödemeli konut satış sözleşmesinden cayma hakkına sahiptir. Cayma hakkının kullanıldığına dair bildirimin bu süre içinde satıcıya yöneltilmiş olması yeterlidir. Satıcı, cayma hakkı konusunda tüketicinin bilgilend irildiğini ispat etmekle yükümlüdür. (2) Taşınmazın kısmen veya tamamen bağlı krediyle alınması durumunda bağlı kredi sözleşmesi, sözleşmenin kurulduğu tarihte hüküm doğurmak üzere bu maddede öngörülen cayma hakkı süresi sonunda yürürlüğe girer. Konut fina nsmanı kuruluşu cayma hakkı süresi içinde tüketiciden faiz, komisyon, yasal yükümlülük ve benzeri isimler altında hiçbir masraf talep edemez. (3) Satıcının aldığı bedeli ve tüketiciyi borç altına sokan her türlü belgeyi iade ettiği tarihten itibaren, tüke tici on gün içinde edinimlerini iade eder. Konutun teslimi",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.43"
+    },
+    {
+      "madde_no": 44,
+      "text": "MADDE 44 - (1) (Değişik:24/3/2022 -7392/6 md.) Ön ödemeli konutun sözleşmede taahhüt edilen süre içinde tüketiciye teslim edilmesi zorunludur. Bu süre her hâlükârda sözleşme tarihinden itibaren kırk sekiz ayı geçemez. Kat irtifakının tüketici adına tapu siciline tescil edilmesiyle birlikte zilyetliğin devri hâlinde de devir ve teslim yapılmış sayılır. Sözleşmeden dönme",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.44"
+    },
+    {
+      "madde_no": 45,
+      "text": "MADDE 45 - (1) (Değişik: 2/1/2017 -KHK -684/8 md.; Aynen kabul: 1/2/2018 - 7074/8 md.) Ön ödemeli konut satışında sözleşme tarihinden itibaren yirmidört aya kadar tüketicinin herhangi bir gerekçe göstermeden sözleşmeden dönme hakkı vardır. Sözleşmeden dönülmesi durumunda satıcı; konutun satışı veya satış vaadi sözleşmesi nedeniyle oluşan vergi, harç ve benzeri yasal yükümlülüklerden doğan masraflar ile sözleşme tarihinden itibaren ilk üç ay için sözleşme bedelinin yüzde ikisine, üç ila altı ay arası için yüzde dördüne, altı ila oniki ay arası için yüzde altısına ve oniki ila yirmidört ay ar ası için de yüzde sekizine kadar tazminatın ödenmesini isteyebilir. (2) Satıcı, yükümlülüklerini hiç ya da gereği gibi yerine getirmezse tüketiciden herhangi bir bedel talep edemez. Tüketicinin ölmesi veya kazanç elde etmekten sürekli olarak yoksun kalması sebebiyle ön ödemeleri yapamayacak duruma düşmesi ya da sözleşmenin yerine olağan koşullarla yapılacak bir taksitle satış sözleşmesinin konulmasına ilişkin önerisinin satıcı tarafından kabul edilmemesi yüzünden sözleşmeden dönülmesi hâllerinde tüketiciden herhangi bir bedel talep edilemez. (3) Sözleşmeden dönülmesi durumunda, tüketiciye iade edilmesi gereken tutar ve tüketiciyi borç altına sokan her türlü belge, dönme bildiriminin satıcıya ulaştığı tarihten itibaren en geç yüzseksen gün içinde tüketiciye geri verilir. Satıcının aldığı bedeli ve tüketiciyi borç altına sokan her türlü belgeyi iade ettiği tarihten itibaren, tüketici on gün içinde edinimlerini iade eder.8 Diğer hususlar",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.45"
+    },
+    {
+      "madde_no": 46,
+      "text": "MADDE 46 - (1) Sözleşme öncesi bilgilendirme, sözleşmenin zorunlu içeriği, tüketici ile satıcının hak ve yükümlülükleri, cayma hakkı ve sözleşmeden dönme ile diğer uygulama usul ve esasları yönetmelikle belirlenir. BEŞİNCİ BÖLÜM Diğer Tüketici Sözleşmeleri İş yeri dışında kurulan sözleşmeler",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.46"
+    },
+    {
+      "madde_no": 47,
+      "text": "MADDE 47/A - (Ek:24/10/2024 -7529/6 md.) (1) Doğrudan satış sistemi, doğrudan satış şirketi tarafından oluşturulan ve iş sözleşmesi ile istihdam edilmeyen, bağımsız temsilci, distribütör, danışman ve benzeri isimlerle komisyon, prim, teşvik ve ödül gibi menfaatler karşılığında faaliyet gösteren doğrudan satıcıların tüketicilere mal veya hizmet pazarladığı satış sistemidir. (2) Doğrudan satış şirketinin sermaye şirketi olması ve yönetmelikle belirlenen diğer koşulları sağlaması zorunludur. (3) Doğrudan satış sisteminin, elde edilecek kazancın ağırlıklı olarak sisteme yeni doğrudan satıcılar kazandırılması ve bu sayede ortaya çıkan menfaatlerin dağıtılması üzerine kurulmaması, mal veya hizmeti n tüketicilere satışını esas alması ve yönetmelikle belirlenen diğer ilkelere uygun olması gerekir. (4) Doğrudan satıcılardan, sisteme dahil olmaları veya sistemde kalmaları için tüketiciye satışı öngörülen mal veya hizmeti içermeyen yenileme, paket, ücret , aidat ve benzeri isimler altında herhangi bir bedel veya borç altına sokan belge alınamaz. Doğrudan satış şirketinin belirlediği miktar ya da tutarda mal veya hizmet satın alınması doğrudan satıcının sistem içindeki seviyesini belirleyemez. (5) Doğrudan satış sistemi kapsamında mal veya hizmet satın alan tüketici otuz gün içinde herhangi bir gerekçe göstermeksizin ve cezai şart ödemeksizin sözleşmeden cayma hakkına sahiptir. Cayma hakkının kullanıldığına dair bildirimin bu süre içinde doğrudan satıcıya ve ya doğrudan satış şirketine yöneltilmiş olması yeterlidir. (6) Doğrudan satış şirketi, Bakanlıkça belirlenen hususlarda tüketicinin bilgilendirilmesini, talep ve bildirimlerini iletebilmesini sağlayan bir sistem kurmakla yükümlüdür. (7) Doğrudan satış şirk etinin, doğrudan satıcının ve tüketicinin hak ve yükümlülükleri, kapsam dışı sözleşmeler, mal veya hizmet satışı, cayma hakkı, bilgilendirme yükümlülüğü, teslimat ile diğer uygulama usul ve esasları yönetmelik ile belirlenir. 9 24/10/2024 tarihli ve 7 529 sayılı Kanunun 5 inci maddesiyle bu fıkrada yer alan yer alan “doğrudan satışlar,” ibaresi madde metnin den çıkarılmıştır. Mesafeli sözleşmeler",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.47"
+    },
+    {
+      "madde_no": 48,
+      "text": "MADDE 48 - (1) Mesafeli sözleşme, satıcı veya sağlayıcı ile tüketicinin eş zamanlı fiziksel varlığı olmaksızın, mal veya hizmetlerin uzaktan pazarlanmasına yönelik olarak oluşturulmuş bir sistem çerçevesinde, taraflar arasında sözleşmenin kurulduğu ana kadar ve kurulduğu an da dâhil olmak üzere uzaktan iletişim araçlarının kullanılması suretiyle kurulan sözleşmelerdir. (2) Tüketici, mesafeli sözleşmeyi ya da buna karşılık gelen herhangi bir teklifi kabul etmeden önce ayrıntıları yönetmelikte belirlenen hususlarda v e siparişi onaylandığı takdirde ödeme yükümlülüğü altına gireceği konusunda açık ve anlaşılır şekilde satıcı veya sağlayıcı tarafından bilgilendirilir. Tüketicinin bilgilendirildiğine ilişkin ispat yükü satıcı veya sağlayıcıya aittir. (3) Satıcı veya sağla yıcı, tüketicinin siparişinin kendisine ulaştığı andan itibaren taahhüt edilen süre içinde edimini yerine getirir. (Değişik cümle:24/3/2022 -7392/7 md.) Tüketicinin isteği veya kişisel ihtiyaçları doğrultusunda hazırlanan mallara ilişkin sözleşmeler haricin de mal satışlarında bu süre her hâlükârda otuz günü geçemez. Satıcı veya sağlayıcının bu süre içinde edimini yerine getirmemesi durumunda tüketici sözleşmeyi feshedebilir. (4) Tüketici, on dört gün içinde herhangi bir gerekçe göstermeksizin ve cezai şart ödemeksizin sözleşmeden cayma hakkına sahiptir. Cayma hakkının kullanıldığına dair bildirimin bu süre içinde satıcı veya sağlayıcıya yöneltilmiş olması yeterlidir. Satıcı veya sağlayıcı, cayma hakkı konusunda tüketicinin bilgilendirildiğini ispat etmekle y ükümlüdür. Tüketici, cayma hakkı konusunda gerektiği şekilde bilgilendirilmezse, cayma hakkını kullanmak için on dört günlük süreyle bağlı değildir. Her hâlükârda bu süre cayma süresinin bittiği tarihten itibaren bir yıl sonra sona erer. Tüketici, cayma ha kkı süresi içinde malın mutat kullanımı sebebiyle meydana gelen değişiklik ve bozulmalardan sorumlu değildir. (5) (Değişik:24/3/2022 -7392/7 md.) Oluşturdukları sistem ile satıcı veya sağlayıcı adına mesafeli sözleşme kurulmasına aracılık eden aracı hizmet sağlayıcılar, sistem aracılığıyla kurulan mesafeli sözleşmelerden doğan hak ve yükümlülüklerin kullanım süresi boyunca tüketicilerin yönetmelikle belirlenen hususlara ilişkin talep ve bildirimlerini iletebilmelerine ve takip edebilmelerine elverişli bir si stemi kurmak ve kesintisiz olarak açık tutmakla yükümlüdür. (6) (Ek:24/3/2022 -7392/7 md.) Aracı hizmet sağlayıcısı olarak faaliyet gösterenler aracılık ettikleri mesafeli sözleşmelere ilişkin olarak;10 a) Tüketiciye ön bilgilendirmenin yapılmasından, teyid inden ve ispatından satıcı veya sağlayıcı ile birlikte müteselsilen, b) Veri girişinin satıcı veya sağlayıcı tarafından yapıldığı durumlar hariç olmak üzere, yönetmelikle belirlenen ön bilgilendirmede bulunması zorunlu hususlardaki eksikliklerden, 10 24/3/2022 tarihli ve 7392 sayılı Kanunun 7 nci maddesiyle bu maddeye beşinci fıkradan sonra gelmek üzere fıkra eklenmiş, mevcut altıncı fıkra yedinci fıkra olarak teselsül ettirilmiş, mevcut altıncı fıkrada yer alan “tüketici ile satıc ı ve sağlayıcının” ibaresi “tüketici, satıcı ve sağlayıcı ile mesafeli sözleşme kurulmasına aracılık eden aracı hizmet sağlayıcının” şeklinde değişti rilmiştir. c) Bu ma ddede yer alan hususlardan dolayı tüketicilerin satıcı veya sağlayıcılar ile yaptıkları işlemlere ilişkin kayıtların tutulmasından ve istenilmesi hâlinde bu bilgilerin ilgili kamu kurum ve kuruluşları ile tüketicilere verilmesinden, ç) Satıcı veya sağlayıc ı ile yaptıkları aracılık hizmetine ilişkin sözleşmeye aykırı uygulamaları nedeniyle satıcı ve sağlayıcıların bu madde hükümlerine aykırı davranmasına sebep oldukları her bir işlemden, d) Satıcı veya sağlayıcı adına bedel tahsil etmesi hâlinde, mal veya hi zmetin tüketiciye teslim veya ifası sonrası bedelin satıcıya veya sağlayıcıya aktarıldığı durumlar ile 11 inci ve 15 inci maddelerde yer alan hakların kullanımı hariç olmak üzere teslim veya ifa ile cayma hakkına ilişkin yükümlülüklerden satıcı veya sağlay ıcı ile birlikte müteselsilen, e) Satıcı veya sağlayıcı onayı olmaksızın düzenledikleri kampanyalı, promosyonlu veya indirimli satışlarda, sözleşmenin hiç ya da gereği gibi ifa edilmemesinden, f) Ön bilgilendirmede yer alan hususlar ile reklamlarında yer a lan bilgilerin uyumlu olmasından ve ispatından, sorumludur. (7) Mesafeli sözleşmelerde, kapsam dışı sözleşmeler, tüketici, satıcı ve sağlayıcı ile mesafeli sözleşme kurulmasına aracılık eden aracı hizmet sağlayıcının hak ve yükümlülükleri, cayma hakkı, bil gilendirme yükümlülüğü, teslimat ile diğer uygulama usul ve esasları yönetmelikle belirlenir.10 Finansal hizmetlere ilişkin mesafeli sözleşmeler",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.48"
+    },
+    {
+      "madde_no": 49,
+      "text": "MADDE 49 - (1) Finansal hizmetler, her türlü banka hizmeti, kredi, sigorta, bi reysel emeklilik, yatırım ve ödeme ile ilgili hizmetleri ifade eder. Finansal hizmetlere ilişkin mesafeli sözleşme, finansal hizmetlerin uzaktan pazarlanmasına yönelik olarak oluşturulmuş bir sistem çerçevesinde, sağlayıcı ile tüketici arasında uzaktan ile tişim araçlarının kullanılması suretiyle kurulan sözleşmelerdir. (2) Finansal hizmetlere ilişkin mesafeli sözleşmelerde, tüketicinin sözleşmenin kurulmasına ilişkin iradesini açıklamadan önce, cayma hakkı, tüketicinin kabul beyanı vermesi hâlinde yükümlül ük altına gireceği ve ayrıntıları Bakanlıkça belirlenen diğer hususlarda, açık, anlaşılır ve kullanılan iletişim araçlarına uygun bir şekilde bilgilendirilmesi zorunludur. Bu bilgilendirmenin ticari amaçla yapıldığı anlaşılır olmalı ve sesli iletişim araçl arının kullanıldığı hâllerde sağlayıcının kimliği ile görüşme talebinin sebebi her görüşmenin başında belirtilmelidir. Tüketicinin sözleşmenin kurulmasına dair kabul beyanı kullanılan iletişim araçlarına uygun olarak fiziki veya elektronik ortamda tespit v eya kayıt edilir. Sağlayıcı, cayma hakkının iletilmesi ile fiziki veya elektronik ortamda yapılacak tespit veya kayıtlar için gerekli önlemleri almakla yükümlüdür. (3) Sağlayıcının, sözleşmenin bütün şartlarını ve Bakanlıkça belirlenen diğer hususları, kâğıt üzerinde veya kalıcı veri saklayıcısı aracılığıyla tüketiciye iletmesi zorunludur. Bu yükümlülük, tüketicinin sözleşmeyi kuran iradesini yöneltmesinden önce veya tüketicinin talebi üzerine yazılı bilgilendirmeye elverişli olmayan bir uzaktan iletişim a racı kullanılarak sözleşmenin kurulması hâlinde sözleşmenin kurulmasından hemen sonra yerine getirilir. (4) Tüketici, sözleşme ilişkisinin devam ettiği süre içinde herhangi bir ücret ödemeksizin sözleşmenin kâğıt üzerinde yazılı bir örneğini talep edebili r. Ayrıca tüketici, finansal hizmetin niteliğiyle bağdaşması hâlinde kullanılan uzaktan iletişim aracını değiştirme hakkına sahiptir. (5) Tüketici, finansal hizmetlere ilişkin mesafeli sözleşmelerden on dört gün içinde herhangi bir gerekçe göstermeksizin ve cezai şart ödemeksizin cayma hakkına sahiptir. Cayma hakkının kullanıldığına dair bildirimin bu süre içinde sağlayıcıya yöneltilmiş olması yeterlidir. Sağlayıcı, cayma hakkı konusunda tüketicinin bilgilendirildiğini ispatla yükümlüdür. Sigorta sözleşmel erine ve bireysel emekliliğe ilişkin sözleşmelerde ise cayma süresi hakkında diğer mevzuatta yer alan tüketici lehine olan hükümler uygulanır. (6) Finansal hizmetlere ilişkin mesafeli sözleşmelerde, tüketicinin sözleşmeyi sona erdirmesine ilişkin talebini herhangi bir uzaktan iletişim aracıyla iletmesi yeterlidir. Tüketici, sözleşmeyi sona erdirmek için sözleşmenin tesis edilmesini sağlayan yöntemden daha ağır koşullar içeren bir yöntem kullanmak zorunda bırakılamaz. (7) Finansal hizmetlere ilişkin mesafel i sözleşmelerde, uzaktan iletişim araçlarının kullanılması, kapsam dışı sözleşmeler, kartla ödeme, tüketici ile sağlayıcının hak ve yükümlülükleri, cayma hakkı ile diğer uygulama usul ve esasları yönetmelikle belirlenir. Devre tatil ve uzun süreli tatil h izmeti sözleşmeleri",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.49"
+    },
+    {
+      "madde_no": 50,
+      "text": "MADDE 50 - (1) Devre tatil sözleşmesi, bir yıldan uzun süre için kurulan ve tüketiciye bu süre zarfında birden fazla dönem için bir veya daha fazla sayıda gecelik konaklama imkânı veren sözleşmelerdir. (2) (Değişik:24/3/2022 -7392/8 md.) Devre tatil sözleşmeleri ile sağlanan hakkın şahsi veya ayni bir hak olması ya da devre tatil satışının finansal kiralama ile yapılması bu maddenin uygulanmasını engellemez. 23/6/1965 tarihli ve 634 sayılı Kat Mülkiyeti Kanununun sekizinci bölümü hükümler i kapsamında kurulan devre mülk hakkı veren sözleşmeler hariç olmak üzere, tüketicilerle mülkiyet payına bağlı ayni hak sağlayan devre tatil sözleşmesi kurulamaz. Kooperatif veya ticaret şirketi ortaklığı ya da dernek veya vakıf üyeliği suretiyle devre tat il hakkı tanınamaz. Devre tatile konu mal üzerinde ayni hak sahibi olmayanlar devre tatil satışı yapamaz. (3) Uzun süreli tatil hizmeti sözleşmesi, bir yıldan uzun süre için kurulan ve tüketiciye, belirlenen süre zarfında konaklamaya veya konaklama ile bir likte seyahat ya da diğer hizmetlerin beraber sunulduğu durumlara ilişkin indirim yahut diğer menfaatlerden faydalanma hakkı verilen sözleşmelerdir. (4) Tüketicilere aşağıdaki sözleşmelerin kurulmasından en az bir gün önce, Bakanlıkça belirlenen hususları içeren ön bilgilendirme formu verilmesi zorunludur: a) Devre tatil sözleşmeleri b) Uzun süreli tatil hizmeti sözleşmeleri c) Değişim sözleşmeleri ç) Satıcı veya sağlayıcının, devre tatil veya uzun süreli tatil hizmetinin alınıp satılması hususunda tüketic iye yardımcı olduğu yeniden satış sözleşmeleri. (5) Mesafeli satış yöntemiyle kurulan sözleşmeler hariç olmak üzere satıcı veya sağlayıcı, tüketicinin kendi el yazısıyla sözleşme tarihini yazmasını ve sözleşmeyi imzalamasını sağlamakla yükümlüdür. Yazılı v eya mesafeli olarak kurulan bu sözleşmelerin bir nüshasının kâğıt üzerinde veya kalıcı veri saklayıcısı ile tüketiciye verilmesi zorunludur. Daha ağır şekil şartları öngören kanun hükümleri saklıdır. (6) Tüketici, on dört gün içinde herhangi bir gerekçe gö stermeksizin ve cezai şart ödemeksizin sözleşmeden cayma hakkına sahiptir. Cayma süresi dolmadan satıcı veya sağlayıcı, tüketiciden herhangi bir isim altında ödeme yapmasını veya tüketiciyi borç altına sokan herhangi bir belge vermesini isteyemez. (Ek cüml eler:24/3/2022 -7392/8 md.) Bu yasağa rağmen, tüketiciden herhangi bir bedel alınması durumunda alınan bedel tüketiciye derhâl iade edilir. Ayrıca tüketiciyi borç altına sokan her türlü belge tüketici yönünden geçersizdir. Devre tatil, uzun süreli tatil hiz meti sözleşmeleri ve bu sözleşmelerle birlikte düzenlenmiş olan yeniden satım, değişim ve ilgili diğer tüm sözleşmeler cayma hakkının kullanılması ile birlikte kendiliğinden sona erer.11 (7) Tüketicinin ödeyeceği bedel, kısmen veya tamamen satıcı veya sağla yıcı ile kredi veren arasındaki anlaşmaya dayanılarak bir kredi veren tarafından karşılanıyorsa, tüketicinin sözleşmeden cayması ve buna ilişkin bildirimin cayma süresi içinde ayrıca kredi verene de yöneltilmesi hâlinde, bağlı kredi sözleşmesi de herhangi bir tazminat veya cezai şart ödeme yükümlülüğü olmaksızın sona erer. (8) (Değişik:24/3/2022 -7392/8 md.) Devre mülk hakkı veren sözleşmeler de dâhil olmak üzere tüketicilerle ön ödemeli devre tatil sözleşmesi kurulamaz. (9) (Değişik:24/3/2022 -7392/8 md.) Devre mülk hakkı veren sözleşmeler hariç olmak üzere, devre tatil sözleşmeleri en fazla on yıl için kurulur. (10) (Değişik:24/3/2022 -7392/8 md.) Tüketici, şahsi hak sağlayan devre tatil sözleşmesinden kaynaklanan tatil hakkını belirli bir dönem için kullan mayacağını tatilin başlayacağı tarihten en az doksan gün önce sağlayıcıya bildirirse, o dönem için tüketiciden herhangi bir isim altında bedel talep edilemez. (11) Devre tatil, uzun süreli tatil hizmeti, yeniden satım, değişim sözleşmeleri ve ön bilgilendi rmenin içeriği, tüketici ile satıcı ve sağlayıcının hak ve yükümlülükleri, cayma hakkı (…)12 ile diğer uygulama usul ve esasları yönetmelikle belirlenir. 11 24/3/2022 tarihli ve 7392 sayılı Kanunun 8 inci maddesiyle bu fıkranın ikinci cümlesinde yer a lan “Devre mülk hakkı veren sözleşmeler hariç olmak üzere, cayma” ibaresi “Cayma” şeklinde değiştirilmiştir. 12 24/3/2022 tarihli ve 7392 sayılı Kanun un 8 inci maddesiyle bu fıkrada yer alan “, ön ödemeli satışlar” ibaresi madde metninden çıkarılmıştır. Paket tur sözleşmeleri",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.50"
+    },
+    {
+      "madde_no": 51,
+      "text": "MADDE 51 - (1) Paket tur sözleşmesi, paket tur düzenleyicileri veya aracıları tarafından aşağıdaki hizmetlerden en az ikisinin birlikte, her şeyin dâhil olduğu fiyatla satıldığı veya satımının vaat edildiği ve hizmetin yirmi dört saatten uzun bir süreyi kapsadığı veya gecelik konaklamayı içerdiği sözleşmelerdir: a) Ulaştırma b) Konak lama c) Ulaştırma ve konaklama hizmetlerine bağlı olmayan başka turizm hizmetleri. (2) Turun ayrıntılarının, paket tur düzenleyicisi, aracısı veya tüketici tarafından belirlenmiş olması veya aynı paket tur içindeki hizmetlerin ayrı ayrı faturalandırılması hâllerinde de bu madde hükümleri uygulanır. (3) Paket tur düzenleyicisinin Türkiye’de temsilcisinin bulunmadığı hâllerde paket tur aracısı paket tur düzenleyicisi gibi sorumlu olur. (4) Paket tur sözleşmesinin kurulmasından önce tüketiciye ön bilgilendirm e amaçlı broşür verilmesi zorunludur. (5) Paket tur düzenleyicileri veya aracıları, yazılı veya mesafeli olarak kurulan paket tur sözleşmelerinin bir nüshasını kâğıt üzerinde veya kalıcı veri saklayıcısı aracılığıyla tüketiciye vermek zorundadır. (6) Tüke tici, kendisinden kaynaklanmayan nedenlerle paket tur sözleşmesinin esaslı unsurlarından birisinin değişmesi veya turun başlamadan önce iptal edilmesi hâllerinde bu değişikliği veya paket tur düzenleyicisi tarafından sunulan alternatif bir turu kabul edebi leceği gibi sözleşmeden dönme hakkına da sahiptir. Sözleşmeden dönülmesi hâlinde paket tur düzenleyicisi veya aracısının, dönme bildiriminin kendisine ulaştığı tarihten itibaren tüketicinin ödemiş olduğu tüm bedeli herhangi bir kesinti yapmaksızın derhâl i ade etmesi zorunludur. (7) Tüketicinin, sözleşmenin ifası sürecinde ortaya çıkan her türlü eksiklik nedeniyle bedelin indirilmesini talep etme hakkı vardır. Paket tur düzenleyicisinin, tur başladıktan sonra önemli bir yükümlülüğünü yerine getirmediği veya getiremeyeceği tespit edildiğinde tüketici sözleşmeden dönebilir. Bu hâllerde paket tur düzenleyicisi veya aracısının ücret talep etme hakkı sona erer. Yapılmış olan ödemelerin sözleşmeden dönüldüğü tarihten itibaren tüketiciye derhâl iade edilmesi zorunl udur. Ancak paket tur düzenleyicisi o ana kadar ifa etmiş olduğu edimler için tüketiciden hizmetten faydalandığı oranda uygun bir karşılık talep edebilir. (8) 14/9/1972 tarihli ve 1618 sayılı Seyahat Acentaları ve Seyahat Acentaları Birliği Kanununun zoru nlu sigorta ile ilgili hükümleri saklı olmak üzere, paket tur düzenleyicisi sözleşmenin hiç veya gereği gibi ifa edilmemesi nedeniyle tüketicinin uğradığı her türlü zarardan sorumludur. Tüketici boşa harcanan tatil zamanı için de uygun bir tazminat talep e debilir. (9) Ticari veya mesleki faaliyetleri çerçevesinde paket tur hizmetinden faydalanan kişiler de tüketici olarak kabul edilir. (10) Ön bilgilendirme, sözleşmenin içeriği, paket turun devri, sözleşmede değişiklik yapılmasının koşulları ve bu hâllerde tüketicinin hakları, paket turun iptal edilmesinin sonuçları, paket tur düzenleyicisinin ve aracısının sorumlulukları, tüketicinin hangi hâllerde tazminat talep edebileceği, sözleşmeden dönme ve sonuçları ile diğer uygulama usul ve esasları yönetmelikle b elirlenir. Abonelik sözleşmeleri",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.51"
+    },
+    {
+      "madde_no": 52,
+      "text": "MADDE 52 - (1) Abonelik sözleşmesi, tüketicinin, belirli bir mal veya hizmeti sürekli veya düzenli aralıklarla edinmesini sağlayan sözleşmelerdir. (2) Yazılı veya mesafeli olarak kurulan bu sözleşmelerin bir nüshasının kâğ ıt üzerinde veya kalıcı veri saklayıcısı ile tüketiciye verilmesi zorunludur. (3) Belirli süreli abonelik sözleşmelerine sözleşmenin belirlenen süre kadar uzayacağına ilişkin hükümler konulamaz; ancak abonelik sözleşmesinin kurulmasından sonra, sözleşmenin sona ereceği tarihe kadar tüketicinin talepte bulunması veya onay vermesi hâlinde abonelik sözleşmesi uzatılabilir. (4) Tüketici, belirsiz süreli veya süresi bir yıldan daha uzun olan belirli süreli abonelik sözleşmesini herhangi bir gerekçe göstermeksizi n ve cezai şart ödemeksizin istediği zaman feshetme hakkına sahiptir. Süresi bir yıldan az olan belirli süreli abonelik sözleşmesinde satıcı veya sağlayıcı tarafından sözleşme koşullarında değişiklik yapılması hâlinde de tüketici sözleşmeyi feshedebilir. F esih bildiriminin kâğıt üzerinde veya kalıcı veri saklayıcısı ile satıcı veya sağlayıcıya yöneltilmiş olması yeterlidir. Satıcı veya sağlayıcı, abonelik sözleşmesinin feshi için sözleşmenin tesis edilmesini sağlayan yöntemden daha ağır koşullar içeren bir yöntem belirleyemez. (5) Satıcı veya sağlayıcı, tüketicinin aboneliğe son verme isteğini yönetmelikle belirlenen süreler içinde yerine getirmekle yükümlüdür. Aboneliğin belirlenen süreler içinde sona erdirilmediği durumlarda, bu sürelerin bitiminden itibar en mal veya hizmetten yararlanılmış olsa dahi, tüketiciden herhangi bir bedel talep edilemez. Satıcı veya sağlayıcı, fesih bildiriminin hüküm ifade etmesinden itibaren on beş gün içinde tüketici tarafından ödenmiş olan ücretin geri kalan kısmını kesinti ya pmaksızın iade etmekle yükümlüdür. (6) Satıcı veya sağlayıcı, abonelik sözleşmesinin feshedilmesi ile ilgili bildirim ve taleplere ilişkin işlemleri yerine getirmek üzere gerekli tedbirleri almak ve gerektiğinde uygun bir sistem kurup bu sistemi kesintisi z olarak açık tutmakla yükümlüdür. (7) Sözleşmenin zorunlu içeriği, tüketici ile satıcı ve sağlayıcının hak ve yükümlülükleri ile diğer uygulama usul ve esasları yönetmelikle belirlenir. Süreli yayın kuruluşlarınca düzenlenen promosyon uygulamaları",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.52"
+    },
+    {
+      "madde_no": 53,
+      "text": "MADDE 53- (1) Süreli yayın kuruluşlarınca düzenlenen ve her ne amaç ve şekilde olursa olsun, bilet, kupon, iştirak numarası, oyun, çekiliş ve benzeri yollarla süreli yayın dışında ikinci bir mal veya hizmetin verilmesinin taahhüt edildiği veya verildiği promosyo n uygulamalarında, yönetmelikle belirlenen süreli yayıncılık amaçlarına uygun kültürel mal veya hizmetler dışında başka bir mal veya hizmet verilemez. (2) Süreli yayının birden fazla sayıda satın alınmasını gerektiren ve belirli bir zamana yayılan promosyo n uygulamalarının süresi; günlük süreli yayınlarda yetmiş beş günü, haftalık süreli yayınlarda on sekiz haftayı, daha uzun süreli yayınlarda ise on iki ayı geçemez. (3) Süreli yayın kuruluşu, promosyon uygulamasına ait reklamlarda uygulamaya konu olan mal veya hizmetin Türkiye genelinde teslim ve ifa tarihlerine ilişkin programını ilan etmek ve bu mal veya hizmetin teslim ve ifasını, promosyon uygulamasının bitiminden itibaren kırk beş gün içinde yerine getirmek zorundadır. (4) Promosyon uygulaması süresinc e, süreli yayının satış fiyatı, ikinci ürün olarak verilmesi taahhüt edilen mal veya hizmetin yol açtığı maliyet artışı nedeniyle artırılamaz. Promosyon uygulamasına konu olan mal veya hizmet bedelinin tamamının veya bir bölümünün tüketici tarafından karşı lanması istenemez. (5) Promosyon uygulamasına konu olan mal veya hizmet taahhüdü ve dağıtımı bölünerek yapılamaz ve bu mal veya hizmetin ayrılmaz ya da tamamlayıcı parçaları da ayrı bir promosyon konusu hâline getirilemez. Bu Kanunun uygulanmasında ikinci ürün olarak verilmesi taahhüt edilen her bir mal veya hizmete ilişkin işlemler bağımsız bir promosyon uygulaması olarak kabul edilir. (6) Süreli yayın kuruluşları tarafından düzenlenmeyen ancak süreli yayınla doğrudan veya dolaylı ilişkilendirilen promosy on uygulamaları da bu madde hükümlerine tabidir. (7) Promosyon uygulamalarına ilişkin usul ve esaslar yönetmelikle belirlenir. BEŞİNCİ KISIM Tüketicinin Bilgilendirilmesi ve Menfaatlerinin Korunması Fiyat etiketi",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.53"
+    },
+    {
+      "madde_no": 54,
+      "text": "MADDE 54 - (1) Perakende satışa arz edilen malların veya ambalajlarının yahut kaplarının üzerine kolaylıkla görülebilir ve okunabilir şekilde tüketicinin ödeyeceği tüm vergiler dâhil satış fiyatı ve birim fiyatını gösteren, üretim yeri ve ayırıcı özelliklerini içeren etiket konulması; etiket konul ması mümkün olmayan hâllerde aynı bilgileri kapsayan listelerin görülebilecek şekilde uygun yerlere asılması zorunludur. Hizmetlerin tarife ve fiyatlarını gösteren listeler de bu madde hükmüne göre düzenlenerek asılır. (2) Etiket, tarife ve fiyat listeler inde belirtilen fiyat ile kasa fiyatı arasında fark olması durumunda tüketici lehine olan fiyat uygulanır. (3) İndirimli satışa konu edilen mal veya hizmetlerin indirimli satış fiyatı, indirimden önceki fiyatı, tarife ve fiyat listeleri ile etiketlerinde gösterilir. İndirimli satışa konu edilen mal veya hizmetlerin indirimden önceki fiyattan daha düşük fiyatla satışa sunulduğunun ispatı satıcı veya sağlayıcıya aittir. (4) Bakanlık, belediyeler ve ilgili odalar, bu madde hükümlerinin uygulanması ve izlenmes ine ilişkin işleri yürütmekle görevlidirler. (5) Etiket, tarife ve fiyat listeleri, indirimli satışlara ilişkin süre ile diğer uygulama usul ve esasları yönetmelikle belirlenir. Tanıtma ve kullanma kılavuzu",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.54"
+    },
+    {
+      "madde_no": 55,
+      "text": "MADDE 55 - (1) Tüketicinin kullanımına sunulan ma lların tanıtım, kullanım, kurulum, bakım ve basit onarımına ilişkin Türkçe tanıtma ve kullanma kılavuzuyla, gerektiğinde uluslararası sembol ve işaretleri kapsayan etiketle satışa sunulması zorunludur. (2) Malın güvenli kullanımına ilişkin hususların malın üzerinde yer alması hâlinde yazılı ve sesli ifadelerin Türkçe olması zorunludur. (3) Malların ilgili teknik düzenlemesi uyarınca kişinin sağlığı ile çevreye zararlı veya tehlikeli olabilmesi durumunda, bu malın güvenli kullanılabilmesi için malın üzerine veya tanıtma ve kullanma kılavuzuna bu durumla ilgili açıklayıcı bilgi ve uyarılar açıkça görülecek ve okunacak şekilde konulur veya yazılır. (4) Türkçe tanıtma ve kullanma kılavuzlarının hazırlanması sorumluluğu üretici ve ithalatçıya; tüketiciye verilmes i ve teslim edildiğinin ispat sorumluluğu ise satıcıya aittir. (5) Hangi malların tanıtma ve kullanma kılavuzu ve etiket ile satılmak zorunda olduğu ve bunlarda bulunması gereken asgari unsurlar ile diğer uygulama usul ve esasları yönetmelikle belirlenir. Garanti belgesi",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.55"
+    },
+    {
+      "madde_no": 56,
+      "text": "MADDE 56 - (1) Üretici ve ithalatçılar, tüketiciye yönelik üretilen veya ithal edilen mallar için içeriği yönetmelikle belirlenen bir garanti belgesi düzenlemek zorundadır. Bu belgenin tekemmül ettirilerek tüketiciye verilmesi sorumluluğu satıcıya aittir. (2) Garanti süresi malın teslim tarihinden itibaren başlamak üzere asgari iki yıldır. Ancak, özelliği nedeniyle bazı malların garanti şartları Bakanlıkça başka bir ölçü birimi ile belirlenebilir. (3) Tüketici bu Kanunun 11 inci maddesinde belirtilen seçimlik haklarından onarım hakkını kullanmışsa, malın garanti süresi içinde tekrar arızalanması veya tamiri için gereken azami sürenin aşılması veya tamirinin mümkün bulunmadığının anlaşılması hâllerinde 11 inci maddede yer alan diğer seçimlik haklarını kullanabilir. Satıcı tüketicinin talebini reddedemez. Bu talebin yerine getirilmemesi durumunda satıcı, üretici ve ithalatçı müteselsilen sorumludur. (4) Hangi malların garanti belgesi ile satılmak zorunda olduğu ile diğer uygulama usul ve esasl arı yönetmelikle belirlenir. İhtiyari garanti",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.56"
+    },
+    {
+      "madde_no": 57,
+      "text": "MADDE 57/A - (Ek:24/3/2022 -7392/9 md.) (1) Yenilenmiş ürünler; donanım, yazılım veya fizik i özelliklerinde iyileştirme yapılarak tekrar satışa sunulan kullanılmış mallardır. (2) Yenilenmiş ürünlere tüketiciye teslim tarihinden itibaren asgari bir yıl garanti verilmesi zorunludur. Ancak özelliği nedeniyle bazı malların garanti şartları Bakanlıkç a başka bir ölçü birimi ile de belirlenebilir. (3) Yönetmelikle belirlenen mallar ancak Bakanlıkça yetkilendirilen merkezlerde yenilenmesi şartı ile yenilenmiş ürün olarak satılabilir. (4) Yenileme merkezlerinin Bakanlıktan yetki belgesi alması zorunludur. (5) Elektronik kimlik bilgisi bulunan malların kullanılmış ve kayıtlı olduğuna ilişkin doğrulama yapılmasının gerektiği durumda bu doğrulamalar Bakanlık, yenileme merkezi ve yetkili alıcı tarafından Bakanlıkça belirlenen usul ve esaslara göre Bilgi Teknol ojileri ve İletişim Kurumu kayıtlarından yapılır. (6) Hangi malların yenileme merkezleri tarafından yenileneceği, yenileme merkezlerinin kuruluşu ve sorumluluğu ile diğer uygulama usul ve esasları yönetmelikle belirlenir. Satış sonrası hizmetler",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.57"
+    },
+    {
+      "madde_no": 58,
+      "text": "MADDE 58 - (1) Üretici veya ithalatçılar, ürettikleri veya ithal ettikleri mallar için Bakanlıkça belirlenen kullanım ömrü süresince, satış sonrası bakım ve onarım hizmetlerini sağlamak zorundadır. (2) Üretici veya ithalatçılar, yönetmelikle belirlenen mallar için Bakanlıkça onaylı satış sonrası hizmet yeterlilik belgesi almak ve tüm yetkili servis istasyonlarına ilişkin bilgileri güncel olarak Bakanlıkça oluşturulan sisteme kaydetmek zorundadır. 13 (3) Bir malın yetkili servis istasyonlarındaki tamir süresi, yönetme likle belirlenen azami süreyi geçemez. 13 24/3/2022 tarihli ve 7392 sayılı Kanunun 10 uncu maddesiyle bu fıkraya “belgesi almak” ibaresinden sonra gelmek üzere “ve tüm yetkili servis istasyonl arına ilişkin bilgileri güncel olarak Bakanlıkça oluşturulan sisteme kaydetmek” ibaresi eklenmiştir. (4) Üretici veya ithalatçılar, yetkili servis istasyonlarını kendileri kurabileceği gibi servis istasyonlarının verdiği hizmetlerden sorumlu olmak şartıyla kurulu bulunan servis istasyonlarından veya servis organizasy onlarından da faydalanabilir. (5) Herhangi bir üretici veya ithalatçıya bağlı olmaksızın faaliyette bulunan servis istasyonları da verdikleri hizmetten dolayı tüketiciye karşı sorumludur. (Ek cümle:24/3/2022 - 7392/10 md.) Bu servis istasyonlarının, her türl ü mecrada ve faaliyetlerinde kolaylıkla görülebilir ve okunabilir şekilde “özel servis” ibaresini kullanması zorunludur. (6) İthalatçının herhangi bir şekilde ticari faaliyetinin sona ermesi hâlinde bakım ve onarım hizmetlerinin sunulmasından garanti süres i boyunca satıcı, üretici ve yeni ithalatçı müteselsilen sorumludur. Garanti süresi geçtikten sonra ise kullanım ömrü süresince bakım ve onarım hizmetlerini üretici veya yeni ithalatçı sunmak zorundadır. (7) (Değişik :24/3/2022 -7392/10 md.) Garanti süresi bittikten sonra Bakanlıkça belirlenen kullanım ömrü süresince mala ilişkin satış sonrası hizmetin üretici veya ithalatçı tarafından sağlanmaması hâlinde tüketici zararın tazminini talep edebilir. (8) (Ek:24/3/2022 -7392/10 md.) Satış sonrası hizmet sunulmas ı zorunlu olan mallar, oluşturulması gereken asgari yetkili servis istasyonu sayıları, azami tamir süreleri, servis istasyonlarının sorumlulukları ile diğer uygulama usul ve esasları yönetmelikle belirlenir. Tüketicinin bilinçlendirilmesi",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.58"
+    },
+    {
+      "madde_no": 59,
+      "text": "MADDE 59 - (1) Tü keticinin bilinçlendirilmesi konusunda örgün ve yaygın eğitim kurumlarının ders programlarına, Bakanlığın görüşü alınarak Millî Eğitim Bakanlığınca gerekli ilaveler yapılır. (2) Ülke genelinde yayın yapan radyo ve televizyon kuruluşları 08.00 -22.00 saatle ri arasında, ayda on beş dakikadan az olmamak üzere tüketicinin bilinçlendirilmesi amacıyla yayınlar yapmak zorundadır. Yapılan yayınların tarih, saat, süre ve içerik bilgileri liste hâlinde her ay düzenli olarak Radyo ve Televizyon Üst Kuruluna bildirilir . Bu saatler dışında yapılan yayınlar, aylık on beş dakikalık süreye dâhil edilmez. Bu süreler, Radyo ve Televizyon Üst Kurulu tarafından denetlenir ve sonuçları Bakanlığa bildirilir. Tüketici ödülleri",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.59"
+    },
+    {
+      "madde_no": 60,
+      "text": "MADDE 60 - (1) Tüketici ödülleri, tüketicinin korunmas ı ve bilinçlendirilmesi ile yasal haklarını kullanmaları konusunda özendirilmesi amaçlarına yönelik olarak verilen ödüllerdir. (2) Tüketici ödülü ve benzeri isimler altında verilen ödüllerin herhangi bir menfaat temin edilmeksizin verilmesi ve bu ödüllerin önceden ilan edilen objektif kriterlere dayanması esastır. (3) Tüketici ödülü verilmesine ilişkin usul ve esaslar yönetmelikle belirlenir. ALTINCI KISIM Ticari Reklam ve Haksız Ticari Uygulamalar Ticari reklam",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.60"
+    },
+    {
+      "madde_no": 61,
+      "text": "MADDE 61 - (1) Ticari reklam, ticaret, iş, z anaat veya bir meslekle bağlantılı olarak; bir mal veya hizmetin satışını ya da kiralanmasını sağlamak, hedef kitleyi oluşturanları bilgilendirmek veya ikna etmek amacıyla reklam verenler tarafından herhangi bir mecrada yazılı, görsel, işitsel ve benzeri y ollarla gerçekleştirilen pazarlama iletişimi niteliğindeki duyurulardır. (2) Ticari reklamların Reklam Kurulunca belirlenen ilkelere, genel ahlaka, kamu düzenine, kişilik haklarına uygun, doğru ve dürüst olmaları esastır. (3) Tüketiciyi aldatıcı veya onun tecrübe ve bilgi noksanlıklarını istismar edici, can ve mal güvenliğini tehlikeye düşürücü, şiddet hareketlerini ve suç işlemeyi özendirici, kamu sağlığını bozucu, hastaları, yaşlıları, çocukları ve engellileri istismar edici ticari reklam yapılamaz. (4) Reklam olduğu açıkça belirtilmeksizin yazı, haber, yayın ve programlarda, mal veya hizmetlere ilişkin isim, marka, logo veya diğer ayırt edici şekil veya ifadelerle ticari unvan veya işletme adlarının reklam yapmak amacıyla yer alması ve tanıtıcı mahiyette sunulması örtülü reklam olarak kabul edilir. Her türlü iletişim aracında sesli, yazılı ve görsel olarak örtülü reklam yapılması yasaktır. (5) Aynı ihtiyaçları karşılayan ya da aynı amaca yönelik rakip mal veya hizmetlerin karşılaştırmalı reklamı yapılabil ir. (6) Reklam verenler ticari reklamlarında yer alan iddiaların doğruluğunu ispatla yükümlüdür. (7) Reklam verenler, reklam ajansları ve mecra kuruluşları bu madde hükümlerine uymakla yükümlüdür. (8) Ticari reklamlara ilişkin getirilecek sınırlamalar ile bu reklamlarda uyulması gereken usul ve esaslar yönetmelikle belirlenir. Haksız ticari uygulamalar",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.61"
+    },
+    {
+      "madde_no": 62,
+      "text": "MADDE 62 - (1) Bir ticari uygulamanın; mesleki özenin gereklerine uymaması ve ulaştığı ortalama tüketicinin ya da yöneldiği grubun ortalama üyesinin mal vey a hizmete ilişkin ekonomik davranış biçimini önemli ölçüde bozması veya önemli ölçüde bozma ihtimalinin olması durumunda haksız olduğu kabul edilir. Özellikle aldatıcı veya saldırgan nitelikte olan uygulamalar ile yönetmelik ekinde yer alan uygulamalar hak sız ticari uygulama olarak kabul edilir. Tüketiciye yönelik haksız ticari uygulamalar yasaktır. (2) Ticari uygulamanın haksız olduğunun iddia edilmesi hâlinde, ticari uygulamada bulunan, bu uygulamasının haksız ticari uygulama olmadığını ispatla yükümlüdür . (3) Haksız ticari uygulamanın reklam yoluyla gerçekleştirildiği hâllerde bu Kanunun 61 inci maddesi hükümleri uygulanır. (4) Haksız ticari uygulamaların tespit edilmesine ve bunların denetlenmesine ilişkin usul ve esaslar ile her hâlükârda haksız ticari uygulama olarak kabul edilecek uygulamalar yönetmelikle belirlenir. Reklam Kurulu",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.62"
+    },
+    {
+      "madde_no": 63,
+      "text": "MADDE 63 - (1) Ticari reklamlarda uyulması gereken ilkeleri belirleme ve haksız ticari uygulamalara karşı tüketiciyi korumaya yönelik düzenlemeleri yapma, bu hususlar çerçeve sinde inceleme ve gerektiğinde denetim yapma, inceleme ve denetim sonucuna göre durdurma veya aynı yöntemle düzeltme veya idari para cezası veya gerekli görülen hâllerde de üç aya kadar tedbiren durdurma cezası ya da içeriğin çıkarılması ve/veya erişimin engellenmesi kararı verme hususlarında görevli bir Reklam Kurulu oluşturulur. Kurul tedbiren durdurma kararı verme yetkisini Reklam Kurulu Başkanına devredebilir. Kurulun kararları Bakanlıkça uygulanır.14 (2) Başkanlığı, Bakanın görevlendireceği ilgili Gene l Müdür tarafından yürütülen Reklam Kurulu; a) Bakanlığın ilgili Genel Müdür yardımcıları arasından görevlendireceği bir üye, b) Adalet Bakanlığının, bu Bakanlıkta idari görevlerde çalışan hâkim veya savcılar arasından görevlendireceği bir üye, c) Gıda, Tarım ve Hayvancılık Bakanlığının görevlendireceği bir üye, ç) Sağlık Bakanlığının görevlendireceği bir üye, d) Kültür ve Turizm Bakanlığının görevlendireceği bir üye, e) Radyo ve Televizyon Üst Kurulunun görevlendireceği bir üye, f) Türk Standartları En stitüsünden bir üye, g) Ankara, İstanbul ve İzmir büyükşehir belediyelerinin kendi aralarından seçeceği bir üye, ğ) Yükseköğretim Kurulunun, reklamcılık, iletişim veya ticaret hukuku alanında uzman öğretim üyeleri arasından görevlendireceği bir üye, h) Tü rkiye Odalar ve Borsalar Birliğinin, Türkiye Medya ve İletişim Meclisi üyeleri arasından görevlendireceği bir üye, ı) Türkiye Esnaf ve Sanatkârları Konfederasyonunun görevlendireceği bir üye, i) Tüketici Konseyinin Konseye katılan tüketici örgütü temsilcil eri arasından seçeceği bir üye, j) Reklam verenler derneklerinin veya varsa üst kuruluşlarının seçeceği bir üye, k) Reklamcılar derneklerinin veya varsa üst kuruluşlarının seçeceği bir üye, l) Türk Eczacıları Birliğinin görevlendireceği eczacı bir üye, m) Türk Diş Hekimleri Birliğinin görevlendireceği diş hekimi bir üye, n) Türk Tabipleri Birliği Merkez Konseyinin görevlendireceği doktor bir üye, o) Türkiye Barolar Birliğinin görevlendireceği avukat bir üye, olmak üzere başkan dâhil on dokuz üyeden oluşur. (3) Kurul üyelerinin görev süreleri üç yıldır. Süresi bitenler yeniden görevlendirilebilir veya seçilebilir. Üyelikler herhangi bir sebeple boşaldığı takdirde boşalan üyeliklere ikinci 14 23/5/2024 tarihli 7511 sayılı Kanunun 18 inci maddesi ile bu fıkraya “durdurma cezası” ibaresinden sonra gelmek üzere “ya da içeriğin çıkarılması ve/veya erişimin engellenmesi kararı” ibaresi eklenmiştir. fıkra esasları dâhilinde bir ay içinde görevlendirme veya seçim yapılı r. Süresi dolan üyenin görevi, yeni üye görevine başlayıncaya kadar devam eder. (4) Kurul ayda en az bir defa veya ihtiyaç duyulduğu her zaman Başkanın çağrısı üzerine toplanır. (5) Kurul, Başkan dâhil en az on bir üyenin hazır bulunması ile toplanır ve to plantıya katılanların salt çoğunluğu ile karar verir. (Ek cümle:24/3/2022 -7392/11 md.) Başkanın toplantıya katılamadığı hâllerde Kurula Bakanlığın ilgili genel müdür yardımcısı başkanlık yapar. Oyların eşit olması hâlinde Başkanın oy kullandığı taraf çoğun luğu sağlar. (6) Bakanlıkça, Kurulun karar vermesine yardımcı olmak üzere sektörel alanlarda ihtisas komisyonları kurulur. Komisyonlar, başkan dâhil en az üç en fazla beş kişiden oluşur. (7) Kurul Başkan ve üyeleri ile ihtisas komisyonu başkan ve üyeleri ne ödenecek huzur hakkı ve huzur ücreti ile buna ilişkin usul ve esaslar Maliye Bakanlığının uygun görüşü alınarak Bakanlıkça belirlenir. (8) Kurul, incelemesini ilgili belgelerin yer aldığı dosya üzerinden yapar. Kurulun sekretarya hizmetleri Genel Müdürl ük tarafından yerine getirilir. (9) Kurul, gerekli gördüğü takdirde özel uzmanlık gerektiren hususlarla ilgili olarak ihtisas sahibi üniversiteler, özel hukuk tüzel kişileri ile gerçek kişilerin görüşlerine başvurabilir. (10) Kurul kararları, tüketiciler in bilgilendirilmesi, aydınlatılması ve ekonomik çıkarlarının korunması amacıyla Bakanlıkça açıklanır. (11) Reklam Kurulunun ve ihtisas komisyonlarının kuruluşu, görevleri, çalışma usul ve esasları ile sekretarya hizmetleri ve diğer hususlar yönetmelikle belirlenir. YEDİNCİ KISIM Tüketici Kuruluşları BİRİNCİ BÖLÜM Tüketici Konseyi ve Reklam Konseyi Tüketici Konseyi",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.63"
+    },
+    {
+      "madde_no": 64,
+      "text": "MADDE 64 - (1) Tüketici sorunlarının ve ihtiyaçlarının belirlenmesi ile çıkarlarının korunmasına ilişkin gerekli tedbirleri araştırmak ve bu K anunun uygulanmasına yönelik tedbirlere dair görüşleri öncelikle ele alınmak üzere ilgili mercilere iletmek amacıyla yılda en az bir kez Bakanlığın koordinatörlüğünde Tüketici Konseyi toplanır. (2) Tüketici Konseyine kamu kurum ve kuruluşlarından gelen tem silcilerin sayısı, hiçbir şekilde Konseyin toplam üye sayısının yüzde ellisinden fazla olamaz. (3) Tüketici Konseyinin üyeleri, çalışma usul ve esasları ile diğer hususlar yönetmelikle belirlenir. Reklam Konseyi",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.64"
+    },
+    {
+      "madde_no": 65,
+      "text": "MADDE 65 - (1) Reklam politikalarının oluşt urulması ve uygulanması ile ilgili olarak çağdaş iletişim uygulamalarını takip etmek, reklam sektörünün ve reklam denetim işlevinin geliştirilmesine yönelik araştırma ve çalışmalar yapmak, bu alanda görüş ve önerilerde bulunmak ve bu görüş ve önerileri ilg ili mercilere iletmek amacıyla yılda en az bir kez Bakanlığın koordinatörlüğünde Reklam Konseyi toplanır. (2) Reklam Konseyine kamu kurum ve kuruluşlarından gelen temsilcilerin sayısı, hiçbir şekilde Konseyin toplam üye sayısının yüzde ellisinden fazla ola maz. (3) Reklam Konseyinin üyeleri, çalışma usul ve esasları ile diğer hususlar yönetmelikle belirlenir. İKİNCİ BÖLÜM Tüketici Hakem Heyeti Kuruluşu ve görev alanı",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.65"
+    },
+    {
+      "madde_no": 66,
+      "text": "MADDE 66 - (1) (Değişik:24/3/2022 -7392/12 md.) Bakanlık, tüketici işlemleri ile tüketiciye y önelik uygulamalardan doğabilecek uyuşmazlıklara çözüm bulmak amacıyla tüketici hakem heyetleri oluşturmakla görevlidir. Tüketici hakem heyetlerinin yetki alanı ile iş bölümü Bakanlıkça belirlenir. (2) Başkanlığı illerde ticaret il müdürü, ilçelerde ise ka ymakam veya bunların görevlendireceği bir memur tarafından yürütülen tüketici hakem heyeti; a) Belediye başkanının konunun uzmanı belediye personeli arasından görevlendireceği bir üye, b) Baronun, mensupları arasından görevlendireceği bir üye, c) Satıcı nın tacir olduğu uyuşmazlıklarda ticaret ve sanayi odasının ya da bunların ayrı ayrı örgütlendiği yerlerde ticaret odasının; satıcının esnaf ve sanatkâr olduğu uyuşmazlıklarda, illerde esnaf ve sanatkârlar odaları birliğinin, ilçelerde ise en fazla üyeye sahip esnaf ve sanatkârlar odasının görevlendireceği bir üye, ç) Tüketici örgütlerinin kendi aralarından seçecekleri bir üye, olmak üzere başkan dâhil beş üyeden oluşur. Başkan ve üyelerin bu fıkrada yer alan niteliklere sahip yedekleri de ayrıca belirleni r. (Ek cümleler:11/7/2020 -7249/26 md.) Birden fazla baro kurulan illerde il ve ilçe tüketici hakem heyetlerine üye görevlendirilmesi, baroların eşit ve dönüşümlü temsili esas alınarak yapılır. Görevlendirmeye ilişkin usul ve esaslar Türkiye Barolar Birliği tarafından hazırlanan yönetmelikte gösterilir. (3) Tüketici hakem heyetinin oluşumunun sağlanamadığı yerlerde noksan üyelikler, yönetmelikle belirlenen üyelik niteliklerine sahip Devlet memurları arasından illerde ticaret il müdürü, ilçelerde ise kaymakam tarafından tamamlanır. Raportör",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.66"
+    },
+    {
+      "madde_no": 67,
+      "text": "MADDE 67 - (1) Raportörler il ve ilçe merkezlerinde kurulu bulunan tüketici hakem heyetlerinde istihdam edilebilir. Raportör sayısının yeterli olmadığı illerde ticaret il müdürü tarafından ticaret il müdürlüğü personeli ara sından, ilçelerde ise kaymakam tarafından ilçede görevli Devlet memurları arasından yeterli sayıda raportör görevlendirilir. (2) Tüketici hakem heyeti raportörleri, heyetin çalışmalarına ve kararlarına esas olacak dosyaları hazırlamak ve uyuşmazlığa ilişki n raporu sunmakla görevlidir. Başvuru15",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.67"
+    },
+    {
+      "madde_no": 68,
+      "text": "MADDE 68 - (1) (Değişik cümle:24/3/2022 -7392/13 md.) Tarafların İcra ve İflas Kanunundaki hakları saklı kalmak kaydıyla; değeri otuz bin Türk Lirasının altında bulunan uyuşmazlıklarda tüketici hakem heyetlerine başvur u zorunludur. Bu değerlerin üzerindeki uyuşmazlıklar için tüketici hakem heyetlerine başvuru yapılamaz. (2) Tüketici hakem heyetleri kendilerine yapılan başvuruları gereğini yapmak üzere kabul etmek zorundadır. (3) Başvurular, tüketicinin yerleşim yerinin bulunduğu veya tüketici işleminin yapıldığı yerdeki tüketici hakem heyetine yapılabilir. (Değişik cümle:24/3/2022 -7392/13 md.) Tüketici hakem heyetinin bulunmadığı yerlerde ise başvurular o ilçe kaymakamlığına yapılabilir. (Ek cümle:24/3/2022 -7392/13 md.) Yapılan bu başvurular, kaymakamlıklarca gereği yapılmak üzere Bakanlıkça belirlenen yetkili tüketici hakem heyetine iletilir. (4) Bu maddede belirtilen parasal sınırlar her takvim yılı başından itibaren geçerli olmak üzere, o yıl için 4/1/1961 tarihli ve 2 13 sayılı Vergi Usul Kanununun mükerrer 298 inci maddesi hükümleri uyarınca tespit ve ilan edilen yeniden değerleme oranında artırılarak uygulanır. Bu artışların hesabında bin Türk Lirasının küsuru dikkate alınmaz. 16 (5) Bu madde tüketicilerin ilgili mevzu atına göre alternatif uyuşmazlık çözüm mercilerine başvurmasına engel değildir. İnceleme",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.68"
+    },
+    {
+      "madde_no": 69,
+      "text": "MADDE 69 - (1) Tüketici hakem heyetleri uyuşmazlık konusuna ilişkin her türlü bilgi ve belgeyi taraflardan, ilgili kurum veya kuruluşlardan isteyebilir. Karar ve kar ara itiraz",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.69"
+    },
+    {
+      "madde_no": 70,
+      "text": "MADDE 70 - (1) (Değişik cümle:24/3/2022 -7392/14 md.) Tüketici hakem heyeti kararları tarafları bağlar. (Ek cümle:10/9/2014 -6552/140 md.) Tüketici hakem heyetlerince vekâlet ücreti ödenmesine karar verilemez. (2) (Değişik cümle:24/3/2022 -7392/14 m d.) Tüketici hakem heyeti tarafından tebliği gereken evrakın taraflara veya vekillerine 213 sayılı Kanunun 107/A maddesi hükümlerine göre elektronik ortamda tebliği yapılır, bu kapsamda elektronik ortamda tebligat yapılamadığı durumlarda 11/2/1959 tarihli ve 7201 sayılı Tebligat Kanunu hükümleri uygulanır. Tüketici hakem heyetinin kararları, İcra ve İflâs Kanununun ilamların yerine getirilmesi hakkındaki hükümlerine göre yerine getirilir. 15 Bu maddede yer alan parasal sınırların 1/1/202 6 tarih inden itibaren uygulanması ile ilgili olarak 23/12/2025 tarihli ve 3 3116 sayılı Resmî Gazete’ de yayımlanan Ticaret Bakanlığının 6502 Sayılı Tüketici nin Koru nması Hakkında Kanunun 68 inci v e Tüketici Ha kem Heyetleri Yönetmeliğinin 6 n cı Maddelerinde Yer Al an Parasal Sınırların Artırılmasına İlişkin Tebliğ ’e bakınız. 16 24/3/2022 tarihli 7392 sayılı Kanunun 13 ncü maddesiyle bu fıkrada yer alan “on” ibar esi “bin” şeklinde değiştirilmiştir . (3) Taraflar, tüketici hakem heyetinin kararlarına karşı tebliğ tarih inden itibaren iki hafta içinde tüketici hakem heyetinin veya tüketicinin yerleşim yerinin bulunduğu yerdeki tüketici mahkemesine itiraz edebilir. İtiraz, tüketici hakem heyeti kararının icrasını durdurmaz. Ancak talep edilmesi şartıyla hâkim, tüketici hak em heyeti kararının icrasını tedbir yoluyla durdurabilir. 1718 (4) İtiraz olunan kararın, esas yönünden kanuna uygun olup da, kanunun olaya uygulanmasında hata edilmiş olmasından dolayı itirazın kabul edilmesi gerektiği veya kanuna uymayan husus hakkında yen iden yargılamayı gerektirmediği takdirde tüketici mahkemesi evrak üzerinde, kararı değiştirerek veya düzelterek onama kararı verebilir. Tarafların kimliklerine, ticari unvanlarına ait yanlışlıklarla, yazı, hesap veya diğer açık ifade yanlışlıkları hakkında da bu hüküm uygulanır. Karar, usule ve kanuna uygun olup da gösterilen gerekçe doğru bulunmazsa, gerekçe değiştirilerek veya düzeltilerek onanır. (5) Tüketici hakem heyeti kararlarına karşı yapılan itiraz üzerine tüketici mahkemesinin vereceği karar kesin dir. (6) Tüketici hakem heyetlerinin tüketici lehine verdiği kararlara karşı açılan itiraz davalarında, kararın iptali durumunda tüketici aleyhine, avukatlık asgari ücret tarifesine göre nisbi tarife üzerinden vekâlet ücretine hükmedilir. (Ek cümle:24/3/2 022-7392/14 md.) Ancak, mevcut olduğu hâlde tüketici hakem heyetine sunulmayan bir bilgi veya belgenin tüketici mahkemesine sunulması nedeniyle kararın iptali hâlinde tüketici aleyhine yargılama giderine ve vekâlet ücretine hükmedilemez. (7) Uyuşmazlıkla i lgili olarak tüketici hakem heyeti tarafından tüketici aleyhine verilen kararlarda tebligat ve bilirkişi ücretleri Bakanlıkça karşılanır. Uyuşmazlığın tüketicinin lehine sonuçlanması durumunda ise, tebligat ve bilirkişi ücretleri 21/7/1953 tarihli ve 6183 sayılı Amme Alacaklarının Tahsil Usulü Hakkında Kanun hükümlerine göre karşı taraftan tahsil olunarak bütçeye gelir kaydedilir. Huzur hakkı ve ücreti",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.70"
+    },
+    {
+      "madde_no": 71,
+      "text": "MADDE 71 - (1) Tüketici hakem heyeti başkan ve üyelerine, raportör olarak görevlendirilen diğer kamu pers oneline ödenecek huzur hakkı ve huzur ücreti ile bilirkişi ücreti ve bu ödemelere ilişkin usul ve esaslar Maliye Bakanlığının uygun görüşü alınarak Bakanlıkça belirlenir. Diğer hususlar 17 24/3/2022 tarihli ve 7392 sayılı Kanunun 14 üncü maddesiyle bu fıkra da yer alan “içinde tüketici hakem heyetinin” ibaresinden sonra gelmek üzere “veya tüketicinin yerleşim yerinin” ibaresi eklenmiştir. 18 2/3/2024 tari hli ve 7499 sayılı Kanunun 37 nci maddesi ile bu fıkrada yer alan “on beş gün” ibaresi “iki hafta” şeklinde değiştirilmiştir.",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.71"
+    },
+    {
+      "madde_no": 72,
+      "text": "MADDE 72 - (1) Tüketici hakem heyetlerinin kurulması, çalışma usul ve esasları, raportörlerin nitelikleri ile bilirkişilik müessesesine ilişkin usul ve esaslar ile diğer hususlar yönetmelikle belirlenir. SEKİZİNCİ KISIM Yargılama, Denetim ve Cezaya İlişkin Hükümler Tüketici mahkemeleri",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.72"
+    },
+    {
+      "madde_no": 73,
+      "text": "MADDE 73/A - (Ek:22/7/2020 -7251/59 md.) (1) Tüketici mahkemelerinde görülen uyuşmazlıklarda dava açılmadan önce arabulucuya başvurulmuş olması dava şartıdır. Şu kadar ki, aşağıda belirtilen hususlarda dava şartı olarak arabuluculuğa ilişkin hükümler uygulanmaz: a) Tüketici hakem heyetinin görevi kapsamında olan uyuşmazlıklar b) Tüketici hakem heyeti kararlarına yapılan itirazlar c) 73 üncü maddenin altıncı fıkrasında belirtilen davalar ç) 74 üncü maddede belirtilen davalar d) Tüketici işlemi mahiyetinde olan ve taşınmazın aynından doğan uyuşmazlıklar (2) 7/6/2012 tarihli ve 6325 sayılı Hukuk Uyuşmazlıklarında Arabuluculu k Kanununun 18/A maddesinin onbirinci fıkrası tüketici aleyhine uygulanmaz. (3) Arabuluculuk faaliyeti sonunda taraflara ulaşılamaması, taraflar katılmadığı için görüşme yapılamaması veya tarafların anlaşmaları ya da anlaşamamaları hâlinde tüketicinin ödem esi gereken arabuluculuk ücreti, Adalet Bakanlığı bütçesinden karşılanır. Ancak belirtilen hâllerde arabuluculuk ücreti, Arabuluculuk Asgari Ücret Tarifesinin eki Arabuluculuk Ücret Tarifesinin Birinci Kısmına göre iki saatlik ücret tutarını geçemez. (4) A rabuluculuk faaliyeti sonunda açılan davanın tüketici lehine sonuçlanması hâlinde arabuluculuk ücreti, 6183 sayılı Kanun hükümlerine göre davalıdan tahsil olunarak bütçeye gelir kaydedilir. Üretimin veya satışın durdurulması ve malın toplatılması",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.73"
+    },
+    {
+      "madde_no": 74,
+      "text": "MADDE 74 - (1) Satışa sunulan bir seri malın ayıplı olduğunun tespiti, üretiminin veya satışının durdurulması, ayıbın ortadan kaldırılması ve satış amacıyla elinde bulunduranlardan toplatılması için Bakanlık, tüketiciler veya tüketici örgütleri dava açabilir. (2) S atışa sunulan seri malın ayıplı olduğunun mahkeme kararı ile tespit edilmesi hâlinde, mahkeme ayıbın niteliğine göre malın satışını geçici olarak durdurma veya ayıbı giderme kararları verebilir. Üretici veya ithalatçı mahkeme kararının tebliğ tarihinden it ibaren en geç üç ay içinde malın ayıbını ortadan kaldırmakla yükümlüdür. Malın ayıbının ortadan kalkmasının imkânsız olması hâlinde mal, üretici veya ithalatçı tarafından toplanır veya toplattırılır. Toplatılan mallar taşıdıkları risklere göre kısmen veya tamamen imha edilir veya ettirilir. İmha edilen malla ilgili tüketicinin dava ve tazminat hakları saklıdır. (3) Satışa sunulan bir seri malın, tüketicinin güvenliğini tehlikeye sokan bir ayıp taşıması durumunda Ürünlere İlişkin Teknik Mevzuatın Hazırlanma sı ve Uygulanmasına Dair Kanun hükümleri saklıdır. Denetim",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.74"
+    },
+    {
+      "madde_no": 75,
+      "text": "MADDE 75 - (1) Bu Kanunun uygulanmasında, Bakanlık müfettişleri, gümrük ve ticaret denetmenleri ile Bakanlıkça görevlendirilecek personel, mal veya hizmet sunulan her yerde denetleme, inceleme ve araştırma yapmaya yetkilidir. (2) Bu Kanun kapsamına giren hususlarda, yetkili ve görevli kişi veya kuruluşlara her türlü bilgi ve belgenin doğru olarak gösterilmesi veya istenmesi hâlinde belgelerin aslının veya onaylı kopyalarının verilmesi zorunludur. Tüketici ürünü ve hizmet denetimi",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.75"
+    },
+    {
+      "madde_no": 76,
+      "text": "MADDE 76 - (1) Tüketici ürünü; hizmet sektöründe kullanılanlar dâhil olmak üzere tüketicilerin kullanması için tasarlanan veya makul koşullarda tüketiciler tarafından kullanılması öngörülen, gerek ticari faaliyetler sonucu nda gerekse başka yollarla tedarik edilen veya kullanılabilir hâle getirilen yeni, kullanılmış veya ıslah edilmiş her türlü üründür. (2) Üretici veya dağıtıcının, tüketiciye açıkça bilgi vermesi kaydıyla antika olan veya kullanılmadan önce tamir veya ıslah edilmesi gereken ikinci el ürünler birinci fıkra kapsamında değerlendirilmez. (3) Tüketici ürünleri ile tüketiciye sunulan hizmetler; can ve mal güvenliğine ve çevreye zarar vermemeli, uygulanması zorunlu her türlü idari ve teknik düzenlemeye uygun olmalı dır. (4) Bakanlık sorumlu olduğu tüketici ürünlerinin piyasa gözetimi ve denetimini Ürünlere İlişkin Teknik Mevzuatın Hazırlanması ve Uygulanmasına Dair Kanun hükümlerine göre yerine getirmekle görevlidir. Yaptırım hükümleri192021",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.76"
+    },
+    {
+      "madde_no": 77,
+      "text": "MADDE 77/A - (Ek:28/11/2017 -7061/116 md.) (1) Bu Kanunda öngörülen idari para cezaları ha kkında, ceza muhatabı tarafından, tespit edilen aykırılıkların kanun hükümlerine yeterince nüfuz edememekten veya kanun hükümlerini yanlış yorumlamaktan kaynaklandığının veya yargı kararları ile idarenin ihtilaf konusu olayda görüş farklılığının olduğunun ileri sürülmesi durumunda, Bakanlık bu maddede yer alan hükümler çerçevesinde idari para cezasının muhatabı ile uzlaşabilir. (2) (Mülga:24/10/2024 -7529/ 8 md.) (3) Uzlaşma talebi, idari para cezası kararının tebliğ tarihinden itibaren on beş gün içinde, henüz idari yargı yoluna başvuru yapılmamış idari para cezaları için yapılır. Uzlaşma talebinde bulunulması hâlinde, dava açma süresi durur; uzlaşma sağlanamaması hâlinde süre kaldığı yerden işlemeye başlar. Uzlaşma sağlanamaması hâlinde yeniden uzlaşma taleb inde bulunulamaz. (4) Bu madde kapsamında yapılan uzlaşma talepleri, uzlaşma komisyonları tarafından değerlendirilir. Uzlaşma komisyonlarının tutacakları uzlaşma tutanakları kesin olup gereği idarece derhâl yerine getirilir. Ceza muhatabı, üzerinde uzlaşıl an ve tutanakla tespit olunan hususlar hakkında dava açamaz ve hiçbir mercie şikâyette bulunamaz. (5) Uzlaşma halinde, idari para cezasında yapılacak indirim oranı yüzde elliyi geçemez. Bu madde uyarınca üzerinde uzlaşma talebinde bulunulan idari para ceza ları hakkında 30/3/2005 tarihli ve 5326 sayılı Kabahatler Kanununun 17 nci maddesi uyarınca ayrıca peşin ödeme indiriminden yararlanılamaz. Uzlaşma konusu yapılan idari para cezaları, uzlaşma gerçekleştiği takdirde, uzlaşma tutanağı uzlaşma anında tebliğ e dilir ve tebliğinden itibaren on beş gün içinde ödenir. (6) Uzlaşma komisyonlarının başkan ve üyelerine, bu komisyonlardaki çalışmaları dolayısıyla verilecek huzur hakkı ve huzur ücreti ile buna ilişkin usul ve esaslar Maliye Bakanlığının uygun görüşü alın arak Bakanlıkça belirlenir. (7) Uzlaşma komisyonlarının kurulması, çalışması ile bu madde kapsamında yapılacak başvurulara ilişkin usul ve esaslar yönetmelikle düzenlenir. Cezalarda yetki ve itiraz",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.77"
+    },
+    {
+      "madde_no": 78,
+      "text": "MADDE 78 - (1) (Değişik:24/3/2022 -7392/16 md.) 77 nci maddenin on ikinci ve on üçüncü fıkralarında öngörülen idari yaptırım kararları Reklam Kurulu, diğer fıkralarında öngörülen idari yaptırım kararları ise Bakanlık tarafından verilir. Bakanlık bu yetkisini taşrada ticaret il müdürlüklerine devredebilir. (2) Bu Kanun hükümlerine göre verilen idari yaptırım kararlarına karşı 6/1/1982 tarihli ve 2577 sayılı İdari Yargılama Usulü Kanunu hükümlerine göre idari yargı yoluna başvurulabilir. Ancak, idare mahkemesinde dava, işlemin tebliğini izleyen günden itibaren otuz gün içinde açılır. İdare mahkemesinde iptal davası açılmış olması, kararın yerine getirilmesini durdurmaz. (3) Bu Kanuna göre verilen idari para cezalarının, tebliğinden itibaren bir ay içinde ödenmesi zorunludur. DOKUZUNCU KISIM Çeşitli Hükümler Yiyecek taklidi ürünler",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.78"
+    },
+    {
+      "madde_no": 79,
+      "text": "MADDE 79 - (1) Gıda ürünü olmamalarına rağmen, sahip oldukları şekil, koku, renk, görünüm, ambalaj, etiket, hacim veya boyutları nedeniyle olduklarından farklı görünen ve bu sebeple tüketiciler, özellikle çocuklar tarafından, gıda ürünleriy le karıştırılarak tüketicilerin sağlığını ve güvenliğini tehlikeye atan ürünlerin üretilmesi, pazarlanması, ithalatı ve ihracatı yasaktır. Gıda ürünü olmamalarına rağmen geleneksel el sanatı ürünü olarak gıda ürünü şeklinde üretilen ve sağlığa zarar vermey en ürünler, üzerinde uyarı işareti ve yazısı bulunması şartıyla bu hükmün dışındadır. (2) Bakanlık, olduklarından farklı görünerek tüketicilerin sağlığını ve güvenliğini tehlikeye atan bu ürünlere karşı gerekli tedbirleri almaya ve düzenlemeleri yapmaya ye tkilidir. (3) Piyasaya arz edilmiş olan bu ürünlerin güvensizliğinin tespit edilmesi hâlinde alınacak önlemler ile bu önlemlerin Avrupa Komisyonuna bildirilmesi hususunda Ürünlere İlişkin Teknik Mevzuatın Hazırlanması ve Uygulanmasına Dair Kanun hükümleri uygulanır. (4) Bakanlık, bu kapsamdaki ürünlerin piyasa gözetimi ve denetimini yapmakla görevlidir. (5) Yiyecek taklidi ürünleri satın alan tüketicilerin uğradıkları maddi ve manevi zararlar nedeniyle dava açma hakları saklıdır. Piramit satış sistemler i",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.79"
+    },
+    {
+      "madde_no": 80,
+      "text": "MADDE 80 - (1) Piramit satış; katılımcılarına bir miktar para veya malvarlığı ortaya koymak karşılığında, sisteme aynı şartlar altında başka katılımcılar bulma koşuluyla bir para veya malvarlığı kazancı olanağı ümidi veren ve malvarlığı kazancının elde ed ilmesini tamamen veya kısmen diğer katılımcıların da koşullara uygun davranmasına bağlı kılan, gerçekçi olmayan veya gerçekleşmesi çok güç olan kazanç beklentisi sistemidir. (2) Piramit satış sisteminin kurulması, yayılması veya tavsiye edilmesi yasaktır. (3) Bakanlık, piramit satış sistemleri ile ilgili gerekli incelemeleri yapmaya ve varsa elektronik sistemin ülkemizde durdurulması dâhil ilgili kamu kurum veya kuruluşlarıyla iş birliği içinde gerekli önlemleri almaya yetkilidir. Test, muayene ve analizl er",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.80"
+    },
+    {
+      "madde_no": 81,
+      "text": "MADDE 81 - (1) Bakanlık, bu Kanunun uygulaması için resmi veya özel kuruluşların laboratuvarlarından yararlanabilir. Test ve muayene ücretleri Bakanlık bütçesinden karşılanır. (2) Test ve muayene sonuçlarının ilgili idari ve teknik düzenlemesine aykırı çıkması hâlinde buna ilişkin tüm giderler üretici veya ithalatçıdan Amme Alacaklarının Tahsil Usulü Hakkında Kanun hükümlerine göre tahsil olunur. Tahsil olunan test ve muayene ücretleri bütçeye gelir kaydedilir. Ödenek",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.81"
+    },
+    {
+      "madde_no": 82,
+      "text": "MADDE 82 - (1) Reklam Kurulu, Reklam Konseyi, Tüketici Konseyi ve tüketici hakem heyetlerinin faaliyetlerine ilişkin masraflar, Bakanlığın tüketicinin korunması amacına yönelik masrafları ve sair harcamalar Bakanlık bütçesine konulacak ödenekten karşılanır. Diğer hükümler",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.82"
+    },
+    {
+      "madde_no": 83,
+      "text": "MADDE 83 - (1) Bu K anunda hüküm bulunmayan hâllerde genel hükümler uygulanır. (2) Taraflardan birini tüketicinin oluşturduğu işlemler ile ilgili diğer kanunlarda düzenleme olması, bu işlemin tüketici işlemi sayılmasını ve bu Kanunun görev ve yetkiye ilişkin hükümlerinin uyg ulanmasını engellemez. Yönetmelikler ve diğer düzenleyici işlemler",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.83"
+    },
+    {
+      "madde_no": 84,
+      "text": "MADDE 84 - (1) Bakanlık, bu Kanunun uygulanmasıyla ilgili olarak mevzuat çerçevesinde gerekli tedbirleri almaya ve düzenlemeleri yapmaya yetkilidir. (2) Bu Kanunda öngörülen yönetmelikler , Kanunun yürürlüğe girdiği tarihten itibaren altı ay içinde Bakanlık tarafından çıkarılır. (3) Bakanlıkça çıkarılacak ikincil düzenlemelerde ilgili kamu kurum ve kuruluşlarının, kamu kurumu niteliğindeki meslek kuruluşlarının, sivil toplum kuruluşlarının ve meslek örgütlerinin görüşleri alınır. Kadro ihdası25",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.84"
+    },
+    {
+      "madde_no": 85,
+      "text": "MADDE 85 - (1) Ekli listede yer alan kadrolar ihdas edilerek 13/12/1983 tarihli ve 190 sayılı Genel Kadro ve Usulü Hakkında Kanun Hükmünde Kararnamenin eki (I) sayılı cetvelin Gümrük ve Ticaret Bakanlı ğına ait bölümüne eklenmiştir. Yürürlükten kaldırılan hükümler",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.85"
+    },
+    {
+      "madde_no": 86,
+      "text": "MADDE 86 - (1) 23/2/1995 tarihli ve 4077 sayılı Tüketicinin Korunması Hakkında Kanun yürürlükten kaldırılmıştır. Diğer mevzuatta Tüketicinin Korunması Hakkında Kanuna yapılan atıflar bu Kanuna yapılmış sayılır. Geçiş hükümleri GEÇİCİ",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.86"
+    },
+    {
+      "madde_no": 87,
+      "text": "MADDE 87 - (1) Bu Kanun yayımı tarihinden itibaren altı ay sonra yürürlüğe girer. Yürütme",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.87"
+    },
+    {
+      "madde_no": 88,
+      "text": "MADDE 88 - (1) Bu Kanun hükümlerini Bakanlar Kurulu yürütür. 6502 SAYILI TÜKETİ CİNİN KORUNMASI HAKKINDA KANUNUN 77 NCİ MADDESİNDEKİ İDARİ PARA CEZALARI MİKTARLARIYLA İLGİLİ TABLO (23/12/2025 tarihli ve 33116 sayılı Resmî Gazete’de yayımlanan 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 77 nci Maddesine Göre 202 6 Yılında Uygul anacak Olan İdari Para Cezalarına İlişkin Tebliğ i ile 6502 sayılı Tüketicinin Korunması Hakkında Kanunun 77 nci maddesinde düzenlenmiş olan idari para cezaları miktarları, 1/1/20 26 tarihinden itibaren aşağıdaki şekilde uygulanacaktır.) 6502 sayılı Kanunu n 77 nci maddesinin; TL Birinci fıkrasındaki ceza miktarı (a) bendi 3.973 (b) bendi 3.973 İkinci fıkrasındaki ceza miktarı 3.922 26 23/5/ 2024 tarihli 7511 sayılı Kanunun 20 nci maddesi ile bu fıkrada yer alan “yapılabilir.” ibaresi “yapılabilir, kooperatif veya ticaret şirketi ortaklığ ı ya da dernek veya vakıf üyeliği suretiyle devre tatil hakkı tanınabilir, devre tatile konu mal üzerinde a yni hak sahibi olmayanlar devre tatil satışı yapabilir.” şeklinde değiştirilmiştir. Üçüncü fıkrasındaki ceza miktarı 19.827 Dördüncü fıkrasındaki ceza miktarı (a) bendi 31.902.048 22.329 Beşinci fıkras ındaki ceza miktarı 1.987.014 446.627 Altıncı fıkrasındaki ceza miktarı 3.922 Yedinci fıkrasındaki ceza miktarı 1.987.014 Sekizinci fıkrasındaki ceza miktarları 99.352.237 9.935.181 Dokuzuncu fıkrasındaki ceza miktarları 99.315 1.987.014 198.65 6 Onuncu fıkrasındaki ceza miktarları (a) bendi 3.190.204 3.187 (b) bendi 1. alt bent 2.013.887 32.510 2. alt bent 32.510 3. alt bent 223.965 (c) bendi 3.973 On birinci fıkrasındaki ceza miktarı 198.656 On ikinci fıkrasındaki ceza mikta rı (a) bendi 198.679 1.986.795 (b) bendi 3.991.652 39.916.524 (c) bendi 99.339 993.397 1.995.826 19.958.262 (ç) bendi 108.370 1.083.706 (d) bendi 1.083.706 10.837.065 (e) bendi 1.083.706 10.837.065 (f) bendi 505.729 5.057.297 (g) bendi 108.370 1.083.706 On üçüncü fıkrasındaki ceza miktarları 108.370 1.083.706 1.083.706 10.837.065 On dördüncü fıkrasındaki ceza miktarları 6.380.408 1.987.014 99.315 On beşinci fıkrasındaki ceza miktarları 510.430 10.837.065 1.806.177 90.308 19.141.229 On altıncı fıkrasındaki ceza miktarı 3.922 On yedinci fıkrasındaki ceza miktarı (a) bendi 6.274.500 2.760 (b) bendi 1.254.900 On sekizinci fıkrasındaki ceza miktarının alt ve üst sınırları 19.827 -738.286 On dokuzuncu fıkrasındaki ceza miktarının alt ve üst sınırları 510.430 -765.649.243 01.04.2022 tarihli ve 31796 sayılı Resmi Gazetede yayımlanan 7392 sayılı Kanunun 17 nci maddesi ile 6502 sayılı Kanuna eklenen Geçici Madde 3 kapsamında, 6502 sayılı Kanunun söz konusu değişiklikten önceki düzenlemelerine göre idari para cezası uygulanması gereken durumlarda, 6502 sayılı Kanunun bu değişiklik öncesindeki 77 maddesinin; TL Üçüncü fıkrasındaki ceza miktarı 19.827 Dördüncü fıkrasındaki ceza miktarları 397.376 19.827 Beşinci fıkrasındaki ceza miktarı 1.987.014 Sekizinci fıkrasındaki ceza miktarları 9.935.181 On dokuzuncu fıkrasındaki ceza miktarının alt sınırı 496.719 6502 SAYILI KANUNA EK VE DEĞİŞİKLİK GETİREN MEVZUATIN VEYA ANAYASA MAHKEMESİ TARAFINDAN İPTAL EDİLEN HÜKÜ MLERİN YÜRÜRLÜĞE GİRİŞ TARİHİNİ GÖSTERİR LİSTE Değiştiren Kanunun/KHK’nin/ Tebliğin veya İptal Eden Anayasa Mahkemesi Kararının Numarası 6502 Sayılı Kanunun Değişen veya İptal Edilen Maddeleri Yürürlüğe Giriş Tarihi TGM -2014/1 77, Ek Tab lo 1/1/2015 TGM -2014/2 68 1/1/2015 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 68 inci ve Tüketici Hakem Heyetleri Yönetmeliğinin 6 ncı Maddelerinde Yer Alan Parasal Sınırların Artırılmasına İlişkin Tebliğ 68 1/1/2016 6502 Sayılı Tüketicinin Koru nması Hakkında Kanunun 77 nci Maddesine Göre 2016 Yılında Uygulanacak Olan İdari Para Cezalarına İlişkin Te bliğ 77, Ek Tablo 1/1/2016 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 68 inci ve Tüketici Hakem Heyetleri Yönetmeliğinin 6 ncı Maddelerinde Yer Alan Parasal Sınırların Artırılmasına İlişkin Tebliğ 68 1/1/2017 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 77 nci Maddesine Göre 2017 Yılında Uygulanacak Olan İdari Para Cezalarına İlişkin Tebliğ 77, Ek Tablo 1/1/2017 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 68 inci ve Tüketici Hakem Heyetleri Yönetmeliğinin 6 ncı Maddelerinde Yer Alan Parasal Sınırların Artırılmasına İlişkin Tebliğ 68 1/1/2018 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 77 nci Maddesine Göre 201 8 Yılında Uy gulanacak Olan İdari Para Cezalarına İlişkin Tebliğ 77, Ek Tablo 1/1/2018 6502 Sayılı Tüketicinin Korunmas ı Hakkında Kanunun 68 inci ve Tüketici Hakem Heyetleri Yönetmeliğinin 6 ncı Maddelerinde Yer Alan Parasal Sınırların Artırılmasına İlişkin Tebliğ 68 1/1/2020 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 77 nci Maddesine Göre 2018 Yılında Uygulanacak Olan İdari Para Cezalarına İlişkin Tebliğ 77 1/1/2020 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 68 inci ve Tüketici Hakem Heyetleri Yönetm eliğinin 6 ncı Maddelerinde Yer Alan Parasal Sınırların Artırılmasına İlişkin Tebliğ 68 1/1/2022 6502 Sayı lı Tüketicinin Korunması Hakkında Kanunun 77 nci Maddesine Göre 2022 Yılında Uygulanacak Olan İdari Para Cezalarına İlişkin Tebliğ 77 1/1/2022 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 68 inci Ve Tüketici Hakem Heyetleri Yönetmeliğinin 6 ncı Madd elerinde Yer Alan Parasal Sınırların Artırılmasına İlişkin Tebliğ 68 1/1/2023 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 77 nci Maddesine Göre 2023 Yılında Uygulanacak Olan İdari Para Cezalarına İlişkin Tebliğ 77 1/1/2023 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 68 inci Ve Tüketici Hakem Heyetleri Yönetmeliğinin 6 ncı Maddelerinde Yer Alan Parasal Sınırların Artırılmasına İlişkin Te bliğ 68 1/1/2024 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 77 nci Maddesine Göre 202 4 Yılında Uyg ulanacak Olan İdari Para Cezalarına İlişkin Tebliğ 77 1/1/2024 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 68 inci ve Tüketici Hakem Heyetler i Yönetmeliğinin 6 ncı Maddelerinde Yer Alan Parasal Sınırların Artırılmasına İlişkin Tebliğ 68 1/1/2025 6502 Sayılı Tüketicinin Korunması Hakkında Kanunun 77 nci Maddesine Göre 2025 Yılında Uygulanacak Olan 77 1/1/202 5 İdari Para Cezalarına İlişkin Tebliğ Değiştiren Kanunun/KHK’nin/ Tebliğin veya İptal Eden Anayasa Mahkemesi Kararının Numarası 6502 Sayılı Kanunun Değişen veya İptal Edilen Maddeleri Yürürlüğe Giriş Tarihi 6552 70 11/9/2014 KHK/684 45 23/1/2017 7061 77/A 5/12/2017 7063 68 20/12/2017 7074 45 8/3/2018 7222 4 25/2/2020 7249 66 15/7/2020 7251 73/A, Geçici Madde 2 28/07/2020 7392 50, 77 nci maddesinin dördüncü fıkrası, Geçici 3 üncü maddenin ikinci ve üçüncü fıkraları 1/4/2022 19, 24, 26, 29, 38, 44, 48, 57/A, 58, 63, 66, 68, 70, 77 , 78, Geçici 3 üncü maddenin birinci ve dördüncü fıkraları yayımı tarihinden altı ay sonra (1/10/2022) 7499 70 1/6/2024 7511 63, 77, Geçici Madde 3 29/5/2024 7529 22, 31, 32, 39,77 (onikinci, onüçüncü, onbeşinci fıkralarında yapılan değişiklikler), 77/ A 30/10/2024 47, 47/A, 77 (onyedinci fıkrası) Yayımından dokuz ay sonra (30/7/2025)",
+      "kanun_no": 6502,
+      "kanun_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "kanun_kisa": "tuketici",
+      "ref": "6502 s. TUKETICI m.88"
+    }
+  ],
+  "scrape_date": "2026-03-16"
+}

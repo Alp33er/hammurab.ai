@@ -1,0 +1,194 @@
+{
+  "sablonlar": [
+    {
+      "id": "ihtarname",
+      "ad": "İhtarname",
+      "aciklama": "Karşı tarafa hukuki uyarı göndermek için noter aracılığıyla keşide edilen belge",
+      "hukuk_dali": "genel",
+      "alanlar": [
+        {"ad": "gonderen_ad", "etiket": "Gönderen Ad Soyad", "zorunlu": true},
+        {"ad": "gonderen_adres", "etiket": "Gönderen Adres", "zorunlu": true},
+        {"ad": "muhatap_ad", "etiket": "Muhatap Ad Soyad", "zorunlu": true},
+        {"ad": "muhatap_adres", "etiket": "Muhatap Adres", "zorunlu": true},
+        {"ad": "konu", "etiket": "İhtarname Konusu", "zorunlu": true},
+        {"ad": "olaylar", "etiket": "Olay Özeti", "zorunlu": true},
+        {"ad": "talep", "etiket": "Talep (ne isteniyor)", "zorunlu": true},
+        {"ad": "sure", "etiket": "Verilen Süre (gün)", "zorunlu": true, "varsayilan": "7"}
+      ],
+      "sablon": "İ H T A R N A M E\n\nGÖNDEREN    : {gonderen_ad}\nADRES       : {gonderen_adres}\n\nMUHATAP     : {muhatap_ad}\nADRES       : {muhatap_adres}\n\nKONU        : {konu}\n\nAÇIKLAMALAR:\n\n{olaylar}\n\nYukarıda açıklanan nedenlerle;\n\n{talep}\n\nAksi takdirde {sure} gün içinde yasal yollara başvurulacağını ihtar ederim.\n\nSaygılarımla,\n{tarih}\n{gonderen_ad}"
+    },
+    {
+      "id": "bosanma_davasi",
+      "ad": "Boşanma Davası Dilekçesi",
+      "aciklama": "Anlaşmalı veya çekişmeli boşanma davası açmak için aile mahkemesine sunulan dilekçe",
+      "hukuk_dali": "medeni",
+      "alanlar": [
+        {"ad": "mahkeme", "etiket": "Mahkeme", "zorunlu": true, "varsayilan": "... AİLE MAHKEMESİ SAYIN HAKİMLİĞİNE"},
+        {"ad": "davaci_ad", "etiket": "Davacı Ad Soyad", "zorunlu": true},
+        {"ad": "davaci_tc", "etiket": "Davacı TC", "zorunlu": true},
+        {"ad": "davaci_adres", "etiket": "Davacı Adres", "zorunlu": true},
+        {"ad": "vekil_ad", "etiket": "Vekil Av. Ad Soyad", "zorunlu": false},
+        {"ad": "davali_ad", "etiket": "Davalı Ad Soyad", "zorunlu": true},
+        {"ad": "davali_tc", "etiket": "Davalı TC", "zorunlu": true},
+        {"ad": "davali_adres", "etiket": "Davalı Adres", "zorunlu": true},
+        {"ad": "evlenme_tarihi", "etiket": "Evlenme Tarihi", "zorunlu": true},
+        {"ad": "bosanma_nedeni", "etiket": "Boşanma Nedeni", "zorunlu": true},
+        {"ad": "olaylar", "etiket": "Olayların Kronolojik Özeti", "zorunlu": true},
+        {"ad": "talepler", "etiket": "Talepler (nafaka, velayet, tazminat vb.)", "zorunlu": true}
+      ],
+      "sablon": "{mahkeme}\n\nDAVACI     : {davaci_ad} (TC: {davaci_tc})\nADRES      : {davaci_adres}\nVEKİLİ     : {vekil_ad}\n\nDAVALI     : {davali_ad} (TC: {davali_tc})\nADRES      : {davali_adres}\n\nKONU       : Boşanma, nafaka, tazminat ve velayet talebi\n\nACELE      : Tedbir nafakası talebi mevcuttur.\n\nAÇIKLAMALAR:\n\nI. OLAY ÖZETİ\n\nMüvekkilim ile davalı {evlenme_tarihi} tarihinde evlenmişlerdir.\n\n{olaylar}\n\nII. HUKUKİ DAYANAK\n\n{bosanma_nedeni}\n\n(4721 s. TMK m.161-166, m.169, m.174, m.175, m.182)\n\nIII. DELİLLER\n\n1. Nüfus kaydı\n2. Tanık beyanları\n3. Sair her türlü yasal delil\n\nSONUÇ VE TALEP:\n\nYukarıda arz ve izah edilen nedenlerle;\n\n{talepler}\n\nFazlaya ilişkin haklarımız saklı kalmak kaydıyla arz ederiz.\n\nSaygılarımla,\n{tarih}\nAv. {vekil_ad}"
+    },
+    {
+      "id": "is_davasi",
+      "ad": "İş Davası Dilekçesi (İşçilik Alacakları)",
+      "aciklama": "İşçilik alacakları (kıdem, ihbar, fazla mesai, yıllık izin) talebiyle iş mahkemesine başvuru",
+      "hukuk_dali": "is",
+      "alanlar": [
+        {"ad": "mahkeme", "etiket": "Mahkeme", "zorunlu": true, "varsayilan": "... İŞ MAHKEMESİ SAYIN HAKİMLİĞİNE"},
+        {"ad": "davaci_ad", "etiket": "Davacı İşçi Ad Soyad", "zorunlu": true},
+        {"ad": "davaci_tc", "etiket": "Davacı TC", "zorunlu": true},
+        {"ad": "vekil_ad", "etiket": "Vekil Av. Ad Soyad", "zorunlu": false},
+        {"ad": "davali_isyeri", "etiket": "Davalı İşyeri/Şirket", "zorunlu": true},
+        {"ad": "ise_giris", "etiket": "İşe Giriş Tarihi", "zorunlu": true},
+        {"ad": "isten_cikis", "etiket": "İşten Çıkış Tarihi", "zorunlu": true},
+        {"ad": "son_maas", "etiket": "Son Brüt Maaş (TL)", "zorunlu": true},
+        {"ad": "fesih_nedeni", "etiket": "Fesih Nedeni/Şekli", "zorunlu": true},
+        {"ad": "talepler", "etiket": "Talep Edilen Alacaklar", "zorunlu": true},
+        {"ad": "olaylar", "etiket": "Olay Özeti", "zorunlu": true}
+      ],
+      "sablon": "{mahkeme}\n\nDAVACI     : {davaci_ad} (TC: {davaci_tc})\nVEKİLİ     : Av. {vekil_ad}\n\nDAVALI     : {davali_isyeri}\n\nKONU       : İşçilik alacaklarının tahsili talebi\n\nHUKUKİ DAYANAK: 4857 s. İş Kanunu, 6098 s. TBK\n\nAÇIKLAMALAR:\n\nI. ÇALIŞMA DÖNEMİ\n\nMüvekkilim {ise_giris} — {isten_cikis} tarihleri arasında davalı işyerinde çalışmıştır.\nSon brüt maaşı {son_maas} TL'dir.\n\nII. FESİH\n\n{fesih_nedeni}\n\nIII. OLAY ÖZETİ\n\n{olaylar}\n\nIV. HUKUKİ DEĞERLENDİRME\n\n4857 s. İş Kanunu m.17 (ihbar tazminatı), m.25 (haklı fesih), m.41 (fazla çalışma),\nm.53-54 (yıllık izin), 1475 s. eski İK m.14 (kıdem tazminatı) hükümleri uygulanmalıdır.\n\nV. DELİLLER\n\n1. SGK hizmet dökümü\n2. Banka hesap ekstresi\n3. Bordro kayıtları\n4. Tanık beyanları\n5. İşyeri dosyası (celp)\n6. Bilirkişi incelemesi\n7. Sair her türlü yasal delil\n\nSONUÇ VE TALEP:\n\nYukarıda arz ve izah edilen nedenlerle;\n\n{talepler}\n\nFazlaya ilişkin haklarımız saklı kalmak kaydıyla arz ederiz.\n\nSaygılarımla,\n{tarih}\nAv. {vekil_ad}"
+    },
+    {
+      "id": "icra_takibi",
+      "ad": "İcra Takip Talebi",
+      "aciklama": "Alacağın tahsili için icra müdürlüğüne başvuru (ilamsız/ilamlı)",
+      "hukuk_dali": "icra_iflas",
+      "alanlar": [
+        {"ad": "icra_mudurlugu", "etiket": "İcra Müdürlüğü", "zorunlu": true, "varsayilan": "... İCRA MÜDÜRLÜĞÜNE"},
+        {"ad": "alacakli_ad", "etiket": "Alacaklı Ad Soyad", "zorunlu": true},
+        {"ad": "alacakli_tc", "etiket": "Alacaklı TC/VKN", "zorunlu": true},
+        {"ad": "vekil_ad", "etiket": "Vekil Av. Ad Soyad", "zorunlu": false},
+        {"ad": "borclu_ad", "etiket": "Borçlu Ad Soyad", "zorunlu": true},
+        {"ad": "borclu_tc", "etiket": "Borçlu TC/VKN", "zorunlu": true},
+        {"ad": "borclu_adres", "etiket": "Borçlu Adres", "zorunlu": true},
+        {"ad": "alacak_tutari", "etiket": "Alacak Tutarı (TL)", "zorunlu": true},
+        {"ad": "alacak_turu", "etiket": "Alacak Türü (senet, fatura, sözleşme vb.)", "zorunlu": true},
+        {"ad": "vade_tarihi", "etiket": "Vade/Ödeme Tarihi", "zorunlu": true}
+      ],
+      "sablon": "{icra_mudurlugu}\n\nALACAKLI   : {alacakli_ad} (TC/VKN: {alacakli_tc})\nVEKİLİ     : Av. {vekil_ad}\n\nBORÇLU     : {borclu_ad} (TC/VKN: {borclu_tc})\nADRES      : {borclu_adres}\n\nALACAĞIN TÜRÜ     : {alacak_turu}\nALACAĞIN TUTARI    : {alacak_tutari} TL\nVADE TARİHİ        : {vade_tarihi}\nFAİZ               : Yasal/ticari faiz ({vade_tarihi} tarihinden itibaren)\n\nTAKİP TÜRÜ         : İlamsız (Genel Haciz Yoluyla)\n\nAÇIKLAMA:\n\nBorçlu yukarıda belirtilen borcu vadesinde ödememiştir.\n2004 s. İİK m.58 uyarınca takip başlatılması talep olunur.\n\nSaygılarımla,\n{tarih}\nAv. {vekil_ad}"
+    },
+    {
+      "id": "itiraz_dilekce",
+      "ad": "İcra Takibine İtiraz",
+      "aciklama": "Ödeme emrine karşı 7 gün içinde icra müdürlüğüne sunulan itiraz dilekçesi",
+      "hukuk_dali": "icra_iflas",
+      "alanlar": [
+        {"ad": "icra_mudurlugu", "etiket": "İcra Müdürlüğü", "zorunlu": true},
+        {"ad": "dosya_no", "etiket": "İcra Dosya No", "zorunlu": true},
+        {"ad": "borclu_ad", "etiket": "İtiraz Eden (Borçlu) Ad Soyad", "zorunlu": true},
+        {"ad": "borclu_tc", "etiket": "TC Kimlik No", "zorunlu": true},
+        {"ad": "alacakli_ad", "etiket": "Alacaklı Ad Soyad", "zorunlu": true},
+        {"ad": "itiraz_nedeni", "etiket": "İtiraz Nedenleri", "zorunlu": true},
+        {"ad": "teblig_tarihi", "etiket": "Ödeme Emri Tebliğ Tarihi", "zorunlu": true}
+      ],
+      "sablon": "{icra_mudurlugu}\n\nDOSYA NO   : {dosya_no}\n\nİTİRAZ EDEN\n(BORÇLU)   : {borclu_ad} (TC: {borclu_tc})\n\nALACAKLI   : {alacakli_ad}\n\nKONU       : Ödeme emrine itiraz\n\nTEBLİĞ TARİHİ: {teblig_tarihi}\n\nAÇIKLAMALAR:\n\n{dosya_no} sayılı dosyanızdan tarafıma gönderilen ödeme emri {teblig_tarihi} tarihinde tebliğ edilmiştir.\n\nAşağıdaki nedenlerle borca itiraz ediyorum:\n\n{itiraz_nedeni}\n\n2004 s. İİK m.62 uyarınca yasal süre içinde itirazımın kabulü ile takibin durdurulmasını talep ederim.\n\nSaygılarımla,\n{tarih}\n{borclu_ad}"
+    },
+    {
+      "id": "ceza_sikayet",
+      "ad": "Suç Duyurusu / Şikâyet Dilekçesi",
+      "aciklama": "Savcılığa suç duyurusunda bulunmak veya şikâyette bulunmak için dilekçe",
+      "hukuk_dali": "ceza",
+      "alanlar": [
+        {"ad": "savcilik", "etiket": "Savcılık", "zorunlu": true, "varsayilan": "... CUMHURİYET BAŞSAVCILIĞINA"},
+        {"ad": "mustedki_ad", "etiket": "Müşteki/Şikâyetçi Ad Soyad", "zorunlu": true},
+        {"ad": "mustedki_tc", "etiket": "TC Kimlik No", "zorunlu": true},
+        {"ad": "mustedki_adres", "etiket": "Adres", "zorunlu": true},
+        {"ad": "supheliler", "etiket": "Şüpheli(ler)", "zorunlu": true},
+        {"ad": "suc_tarihi", "etiket": "Suç Tarihi", "zorunlu": true},
+        {"ad": "suc_yeri", "etiket": "Suç Yeri", "zorunlu": true},
+        {"ad": "suc_turu", "etiket": "Suç Türü", "zorunlu": true},
+        {"ad": "olaylar", "etiket": "Olayların Anlatımı", "zorunlu": true},
+        {"ad": "deliller", "etiket": "Deliller", "zorunlu": true}
+      ],
+      "sablon": "{savcilik}\n\nMÜŞTEKİ   : {mustedki_ad} (TC: {mustedki_tc})\nADRES      : {mustedki_adres}\n\nŞÜPHELİ   : {supheliler}\n\nSUÇ TARİHİ : {suc_tarihi}\nSUÇ YERİ   : {suc_yeri}\nSUÇ        : {suc_turu}\n\nKONU       : Şikâyet ve soruşturma talebi\n\nAÇIKLAMALAR:\n\nI. OLAY ÖZETİ\n\n{olaylar}\n\nII. SUÇ NİTELENDİRMESİ\n\n{suc_turu} — 5237 s. TCK ilgili maddeleri\n\nIII. DELİLLER\n\n{deliller}\n\nSONUÇ VE TALEP:\n\nYukarıda açıklanan nedenlerle şüpheli hakkında soruşturma başlatılarak kamu davası açılmasını saygıyla talep ederim.\n\n{tarih}\n{mustedki_ad}"
+    },
+    {
+      "id": "istinaf",
+      "ad": "İstinaf Başvuru Dilekçesi",
+      "aciklama": "İlk derece mahkemesi kararına karşı bölge adliye mahkemesine istinaf başvurusu",
+      "hukuk_dali": "usul",
+      "alanlar": [
+        {"ad": "mahkeme", "etiket": "Kararı Veren Mahkeme", "zorunlu": true},
+        {"ad": "dosya_no", "etiket": "Dosya No", "zorunlu": true},
+        {"ad": "karar_tarihi", "etiket": "Karar Tarihi", "zorunlu": true},
+        {"ad": "teblig_tarihi", "etiket": "Tebliğ Tarihi", "zorunlu": true},
+        {"ad": "basvurucu_ad", "etiket": "İstinaf Eden Ad Soyad", "zorunlu": true},
+        {"ad": "vekil_ad", "etiket": "Vekil Av. Ad Soyad", "zorunlu": false},
+        {"ad": "karsi_taraf_ad", "etiket": "Karşı Taraf Ad Soyad", "zorunlu": true},
+        {"ad": "karar_ozeti", "etiket": "İlk Derece Kararının Özeti", "zorunlu": true},
+        {"ad": "istinaf_nedenleri", "etiket": "İstinaf Nedenleri", "zorunlu": true}
+      ],
+      "sablon": "{mahkeme}\n(BÖLGE ADLİYE MAHKEMESİNE GÖNDERİLMEK ÜZERE)\n\nDOSYA NO   : {dosya_no}\nKARAR TARİHİ: {karar_tarihi}\nTEBLİĞ TARİHİ: {teblig_tarihi}\n\nİSTİNAF EDEN\n(DAVACI/DAVALI): {basvurucu_ad}\nVEKİLİ         : Av. {vekil_ad}\n\nKARŞI TARAF    : {karsi_taraf_ad}\n\nKONU           : İstinaf başvurusu\n\nAÇIKLAMALAR:\n\nI. KARARIN ÖZETİ\n\n{karar_ozeti}\n\nII. İSTİNAF NEDENLERİ\n\n{istinaf_nedenleri}\n\nIII. HUKUKİ DAYANAK\n\n6100 s. HMK m.341-360 (istinaf)\n\nSONUÇ VE TALEP:\n\nYukarıda arz ve izah edilen nedenlerle ilk derece mahkemesi kararının KALDIRILMASINI ve davanın yeniden görülmesini / talebimiz doğrultusunda karar verilmesini saygıyla arz ederiz.\n\n{tarih}\nAv. {vekil_ad}"
+    },
+    {
+      "id": "tuketici_sikayet",
+      "ad": "Tüketici Şikâyet Dilekçesi",
+      "aciklama": "Tüketici hakem heyetine veya tüketici mahkemesine başvuru",
+      "hukuk_dali": "tuketici",
+      "alanlar": [
+        {"ad": "basvuru_yeri", "etiket": "Başvuru Yeri", "zorunlu": true, "varsayilan": "... TÜKETİCİ HAKEM HEYETİ BAŞKANLIĞINA"},
+        {"ad": "basvurucu_ad", "etiket": "Başvurucu Ad Soyad", "zorunlu": true},
+        {"ad": "basvurucu_tc", "etiket": "TC Kimlik No", "zorunlu": true},
+        {"ad": "basvurucu_adres", "etiket": "Adres", "zorunlu": true},
+        {"ad": "basvurucu_tel", "etiket": "Telefon", "zorunlu": true},
+        {"ad": "satici_firma", "etiket": "Satıcı/Sağlayıcı Firma", "zorunlu": true},
+        {"ad": "satici_adres", "etiket": "Firma Adresi", "zorunlu": true},
+        {"ad": "urun_hizmet", "etiket": "Ürün/Hizmet", "zorunlu": true},
+        {"ad": "satis_tarihi", "etiket": "Satış/Sözleşme Tarihi", "zorunlu": true},
+        {"ad": "tutar", "etiket": "Tutar (TL)", "zorunlu": true},
+        {"ad": "sikayet", "etiket": "Şikâyet Konusu", "zorunlu": true},
+        {"ad": "talep", "etiket": "Talep", "zorunlu": true}
+      ],
+      "sablon": "{basvuru_yeri}\n\nBAŞVURUCU  : {basvurucu_ad} (TC: {basvurucu_tc})\nADRES      : {basvurucu_adres}\nTELEFON    : {basvurucu_tel}\n\nŞİKÂYET EDİLEN:\n{satici_firma}\nADRES      : {satici_adres}\n\nÜRÜN/HİZMET   : {urun_hizmet}\nSATIŞ TARİHİ   : {satis_tarihi}\nTUTAR          : {tutar} TL\n\nŞİKÂYET KONUSU:\n\n{sikayet}\n\nHUKUKİ DAYANAK:\n6502 s. Tüketicinin Korunması Hakkında Kanun\n\nTALEP:\n\n{talep}\n\nEK:\n1. Fatura/fiş\n2. Sözleşme\n3. Yazışmalar\n\nSaygılarımla,\n{tarih}\n{basvurucu_ad}"
+    },
+    {
+      "id": "kira_tahliye",
+      "ad": "Kira Tahliye Davası Dilekçesi",
+      "aciklama": "Kiracının tahliyesi için sulh hukuk mahkemesine başvuru",
+      "hukuk_dali": "borclar",
+      "alanlar": [
+        {"ad": "mahkeme", "etiket": "Mahkeme", "zorunlu": true, "varsayilan": "... SULH HUKUK MAHKEMESİ SAYIN HAKİMLİĞİNE"},
+        {"ad": "davaci_ad", "etiket": "Davacı (Kiraya Veren) Ad Soyad", "zorunlu": true},
+        {"ad": "davaci_tc", "etiket": "TC Kimlik No", "zorunlu": true},
+        {"ad": "vekil_ad", "etiket": "Vekil Av. Ad Soyad", "zorunlu": false},
+        {"ad": "davali_ad", "etiket": "Davalı (Kiracı) Ad Soyad", "zorunlu": true},
+        {"ad": "tasinmaz_adres", "etiket": "Taşınmaz Adresi", "zorunlu": true},
+        {"ad": "kira_baslangic", "etiket": "Kira Başlangıç Tarihi", "zorunlu": true},
+        {"ad": "aylik_kira", "etiket": "Aylık Kira Bedeli (TL)", "zorunlu": true},
+        {"ad": "tahliye_nedeni", "etiket": "Tahliye Nedeni", "zorunlu": true},
+        {"ad": "olaylar", "etiket": "Olay Özeti", "zorunlu": true}
+      ],
+      "sablon": "{mahkeme}\n\nDAVACI     : {davaci_ad} (TC: {davaci_tc})\nVEKİLİ     : Av. {vekil_ad}\n\nDAVALI     : {davali_ad}\n\nKONU       : Tahliye talebi\n\nTAŞINMAZ   : {tasinmaz_adres}\nKİRA BAŞLANGIÇ: {kira_baslangic}\nAYLIK KİRA : {aylik_kira} TL\n\nAÇIKLAMALAR:\n\nI. KİRA İLİŞKİSİ\n\nDavalı, müvekkilime ait yukarıda belirtilen taşınmazda {kira_baslangic} tarihinden itibaren kiracı olarak oturmaktadır.\n\nII. TAHLİYE NEDENİ\n\n{tahliye_nedeni}\n\nIII. OLAY ÖZETİ\n\n{olaylar}\n\nIV. HUKUKİ DAYANAK\n\n6098 s. TBK m.347-356 (konut ve çatılı işyeri kirası — sona erme)\n\nV. DELİLLER\n\n1. Kira sözleşmesi\n2. İhtarname\n3. Tapu kaydı\n4. Tanık beyanları\n5. Sair yasal delil\n\nSONUÇ VE TALEP:\n\nYukarıda arz ve izah edilen nedenlerle davalının tahliyesine karar verilmesini saygıyla arz ederiz.\n\n{tarih}\nAv. {vekil_ad}"
+    },
+    {
+      "id": "idari_dava",
+      "ad": "İdari Dava (İptal) Dilekçesi",
+      "aciklama": "İdari işlemin iptali talebiyle idare mahkemesine başvuru",
+      "hukuk_dali": "idare",
+      "alanlar": [
+        {"ad": "mahkeme", "etiket": "Mahkeme", "zorunlu": true, "varsayilan": "... İDARE MAHKEMESİ BAŞKANLIĞINA"},
+        {"ad": "davaci_ad", "etiket": "Davacı Ad Soyad/Unvan", "zorunlu": true},
+        {"ad": "davaci_tc", "etiket": "TC/VKN", "zorunlu": true},
+        {"ad": "davaci_adres", "etiket": "Adres", "zorunlu": true},
+        {"ad": "vekil_ad", "etiket": "Vekil Av. Ad Soyad", "zorunlu": false},
+        {"ad": "davali_idare", "etiket": "Davalı İdare", "zorunlu": true},
+        {"ad": "islem_tarihi", "etiket": "Dava Konusu İşlem Tarihi", "zorunlu": true},
+        {"ad": "islem_sayi", "etiket": "İşlem Sayı/No", "zorunlu": true},
+        {"ad": "teblig_tarihi", "etiket": "Tebliğ Tarihi", "zorunlu": true},
+        {"ad": "islem_ozeti", "etiket": "İdari İşlemin Özeti", "zorunlu": true},
+        {"ad": "iptal_nedenleri", "etiket": "İptal Nedenleri", "zorunlu": true}
+      ],
+      "sablon": "{mahkeme}\n\nYÜRÜTMENİN DURDURULMASI TALEPLİDİR.\n\nDAVACI     : {davaci_ad} (TC/VKN: {davaci_tc})\nADRES      : {davaci_adres}\nVEKİLİ     : Av. {vekil_ad}\n\nDAVALI     : {davali_idare}\n\nDAVA KONUSU İŞLEM:\nTarih      : {islem_tarihi}\nSayı       : {islem_sayi}\nTebliğ     : {teblig_tarihi}\n\nKONU       : İdari işlemin iptali ve yürütmenin durdurulması talebi\n\nAÇIKLAMALAR:\n\nI. İŞLEMİN ÖZETİ\n\n{islem_ozeti}\n\nII. İPTAL NEDENLERİ\n\n{iptal_nedenleri}\n\nIII. HUKUKİ DAYANAK\n\n2577 s. İYUK m.2 (iptal davası), m.7 (dava açma süresi — 60 gün),\nm.27 (yürütmenin durdurulması)\nAnayasa m.125 (idarenin her türlü eylem ve işlemine karşı yargı yolu açıktır)\n\nIV. YÜRÜTMENİN DURDURULMASI TALEBİ\n\nDava konusu işlemin uygulanması halinde telafisi güç veya imkansız zararlar doğacaktır.\nİşlemin açıkça hukuka aykırılığı nedeniyle yürütmenin durdurulması talep olunur.\n\nSONUÇ VE TALEP:\n\n1. Öncelikle yürütmenin durdurulmasına,\n2. Dava konusu idari işlemin İPTALİNE,\n3. Yargılama giderleri ve vekâlet ücretinin davalı idareye yükletilmesine\nkarar verilmesini saygıyla arz ederiz.\n\n{tarih}\nAv. {vekil_ad}"
+    }
+  ]
+}

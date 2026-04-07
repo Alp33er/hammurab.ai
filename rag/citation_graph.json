@@ -1,0 +1,261 @@
+{
+  "madde_to_kararlar": {
+    "tbk_m327": [
+      {
+        "karar_id": "495919900",
+        "ref": "Yargıtay 3. Hukuk Dairesi E.2017/4652",
+        "daire": "3. Hukuk Dairesi"
+      },
+      {
+        "karar_id": "504153100",
+        "ref": "Yargıtay 3. Hukuk Dairesi E.2017/7779",
+        "daire": "3. Hukuk Dairesi"
+      }
+    ],
+    "tbk_m328": [
+      {
+        "karar_id": "495919900",
+        "ref": "Yargıtay 3. Hukuk Dairesi E.2017/4652",
+        "daire": "3. Hukuk Dairesi"
+      },
+      {
+        "karar_id": "504153100",
+        "ref": "Yargıtay 3. Hukuk Dairesi E.2017/7779",
+        "daire": "3. Hukuk Dairesi"
+      }
+    ],
+    "tmk_m466": [
+      {
+        "karar_id": "723434400",
+        "ref": "Yargıtay 3. Hukuk Dairesi E.2021/7816",
+        "daire": "3. Hukuk Dairesi"
+      }
+    ],
+    "tmk_m564": [
+      {
+        "karar_id": "1044860300",
+        "ref": "Yargıtay Hukuk Genel Kurulu E.2022/380",
+        "daire": "Hukuk Genel Kurulu"
+      },
+      {
+        "karar_id": "260979100",
+        "ref": "Yargıtay 1. Hukuk Dairesi E.2013/15448",
+        "daire": "1. Hukuk Dairesi"
+      },
+      {
+        "karar_id": "255577000",
+        "ref": "Yargıtay 1. Hukuk Dairesi E.2013/13183",
+        "daire": "1. Hukuk Dairesi"
+      },
+      {
+        "karar_id": "84101500",
+        "ref": "Yargıtay 1. Hukuk Dairesi E.2013/14424",
+        "daire": "1. Hukuk Dairesi"
+      },
+      {
+        "karar_id": "260181300",
+        "ref": "Yargıtay 1. Hukuk Dairesi E.2013/9905",
+        "daire": "1. Hukuk Dairesi"
+      }
+    ],
+    "tmk_m565": [
+      {
+        "karar_id": "260979100",
+        "ref": "Yargıtay 1. Hukuk Dairesi E.2013/15448",
+        "daire": "1. Hukuk Dairesi"
+      },
+      {
+        "karar_id": "255577000",
+        "ref": "Yargıtay 1. Hukuk Dairesi E.2013/13183",
+        "daire": "1. Hukuk Dairesi"
+      },
+      {
+        "karar_id": "84101500",
+        "ref": "Yargıtay 1. Hukuk Dairesi E.2013/14424",
+        "daire": "1. Hukuk Dairesi"
+      },
+      {
+        "karar_id": "260181300",
+        "ref": "Yargıtay 1. Hukuk Dairesi E.2013/9905",
+        "daire": "1. Hukuk Dairesi"
+      }
+    ],
+    "hmk_m297": [
+      {
+        "karar_id": "643466100",
+        "ref": "Yargıtay 8. Hukuk Dairesi E.2012/3942",
+        "daire": "8. Hukuk Dairesi"
+      },
+      {
+        "karar_id": "433304100",
+        "ref": "Yargıtay 8. Hukuk Dairesi E.2012/10019",
+        "daire": "8. Hukuk Dairesi"
+      },
+      {
+        "karar_id": "436116500",
+        "ref": "Yargıtay 8. Hukuk Dairesi E.2013/3801",
+        "daire": "8. Hukuk Dairesi"
+      }
+    ],
+    "hmk_m323": [
+      {
+        "karar_id": "212644600",
+        "ref": "Yargıtay 3. Hukuk Dairesi E.2015/12641",
+        "daire": "3. Hukuk Dairesi"
+      }
+    ]
+  },
+  "karar_to_maddeler": {
+    "495919900": [
+      {
+        "ref": "6098 s. TBK m.327",
+        "kanun_kisa": "tbk",
+        "madde_no": 327
+      },
+      {
+        "ref": "6098 s. TBK m.328",
+        "kanun_kisa": "tbk",
+        "madde_no": 328
+      }
+    ],
+    "504153100": [
+      {
+        "ref": "6098 s. TBK m.327",
+        "kanun_kisa": "tbk",
+        "madde_no": 327
+      },
+      {
+        "ref": "6098 s. TBK m.328",
+        "kanun_kisa": "tbk",
+        "madde_no": 328
+      }
+    ],
+    "723434400": [
+      {
+        "ref": "4721 s. TMK m.466",
+        "kanun_kisa": "tmk",
+        "madde_no": 466
+      }
+    ],
+    "1044860300": [
+      {
+        "ref": "4721 s. TMK m.564",
+        "kanun_kisa": "tmk",
+        "madde_no": 564
+      }
+    ],
+    "260979100": [
+      {
+        "ref": "4721 s. TMK m.565",
+        "kanun_kisa": "tmk",
+        "madde_no": 565
+      },
+      {
+        "ref": "4721 s. TMK m.564",
+        "kanun_kisa": "tmk",
+        "madde_no": 564
+      }
+    ],
+    "255577000": [
+      {
+        "ref": "4721 s. TMK m.565",
+        "kanun_kisa": "tmk",
+        "madde_no": 565
+      },
+      {
+        "ref": "4721 s. TMK m.564",
+        "kanun_kisa": "tmk",
+        "madde_no": 564
+      }
+    ],
+    "84101500": [
+      {
+        "ref": "4721 s. TMK m.565",
+        "kanun_kisa": "tmk",
+        "madde_no": 565
+      },
+      {
+        "ref": "4721 s. TMK m.564",
+        "kanun_kisa": "tmk",
+        "madde_no": 564
+      }
+    ],
+    "260181300": [
+      {
+        "ref": "4721 s. TMK m.565",
+        "kanun_kisa": "tmk",
+        "madde_no": 565
+      },
+      {
+        "ref": "4721 s. TMK m.564",
+        "kanun_kisa": "tmk",
+        "madde_no": 564
+      }
+    ],
+    "643466100": [
+      {
+        "ref": "6100 s. HMK m.297",
+        "kanun_kisa": "hmk",
+        "madde_no": 297
+      }
+    ],
+    "433304100": [
+      {
+        "ref": "6100 s. HMK m.297",
+        "kanun_kisa": "hmk",
+        "madde_no": 297
+      }
+    ],
+    "436116500": [
+      {
+        "ref": "6100 s. HMK m.297",
+        "kanun_kisa": "hmk",
+        "madde_no": 297
+      }
+    ],
+    "212644600": [
+      {
+        "ref": "6100 s. HMK m.323",
+        "kanun_kisa": "hmk",
+        "madde_no": 323
+      }
+    ]
+  },
+  "madde_to_maddeler": {},
+  "stats": {
+    "toplam_karar": 12,
+    "atif_yapilan_madde": 7,
+    "toplam_atif": 18,
+    "capraz_referans": 0,
+    "en_cok_atif_alan": [
+      {
+        "madde": "tmk_m564",
+        "atif_sayisi": 5
+      },
+      {
+        "madde": "tmk_m565",
+        "atif_sayisi": 4
+      },
+      {
+        "madde": "hmk_m297",
+        "atif_sayisi": 3
+      },
+      {
+        "madde": "tbk_m327",
+        "atif_sayisi": 2
+      },
+      {
+        "madde": "tbk_m328",
+        "atif_sayisi": 2
+      },
+      {
+        "madde": "tmk_m466",
+        "atif_sayisi": 1
+      },
+      {
+        "madde": "hmk_m323",
+        "atif_sayisi": 1
+      }
+    ]
+  }
+}

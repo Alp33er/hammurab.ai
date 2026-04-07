@@ -1,0 +1,32 @@
+# Environment & secrets
+.env
+.env.*
+
+# Large binary files (rebuild with indexer.py)
+rag/chroma_db/
+rag/bm25_index.pkl
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Sessions (runtime data)
+sessions/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/

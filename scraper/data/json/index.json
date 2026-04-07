@@ -1,0 +1,277 @@
+{
+  "kanunlar": [
+    {
+      "kanun_no": 2709,
+      "kisa_ad": "anayasa",
+      "tam_ad": "Türkiye Cumhuriyeti Anayasası",
+      "dosya": "anayasa_2709.json"
+    },
+    {
+      "kanun_no": 4721,
+      "kisa_ad": "tmk",
+      "tam_ad": "Türk Medeni Kanunu",
+      "dosya": "tmk_4721.json"
+    },
+    {
+      "kanun_no": 6098,
+      "kisa_ad": "tbk",
+      "tam_ad": "Türk Borçlar Kanunu",
+      "dosya": "tbk_6098.json"
+    },
+    {
+      "kanun_no": 6100,
+      "kisa_ad": "hmk",
+      "tam_ad": "Hukuk Muhakemeleri Kanunu",
+      "dosya": "hmk_6100.json"
+    },
+    {
+      "kanun_no": 5237,
+      "kisa_ad": "tck",
+      "tam_ad": "Türk Ceza Kanunu",
+      "dosya": "tck_5237.json"
+    },
+    {
+      "kanun_no": 5271,
+      "kisa_ad": "cmk",
+      "tam_ad": "Ceza Muhakemesi Kanunu",
+      "dosya": "cmk_5271.json"
+    },
+    {
+      "kanun_no": 4857,
+      "kisa_ad": "ik",
+      "tam_ad": "İş Kanunu",
+      "dosya": "ik_4857.json"
+    },
+    {
+      "kanun_no": 6102,
+      "kisa_ad": "ttk",
+      "tam_ad": "Türk Ticaret Kanunu",
+      "dosya": "ttk_6102.json"
+    },
+    {
+      "kanun_no": 2577,
+      "kisa_ad": "iyuk",
+      "tam_ad": "İdari Yargılama Usulü Kanunu",
+      "dosya": "iyuk_2577.json"
+    },
+    {
+      "kanun_no": 6331,
+      "kisa_ad": "isg",
+      "tam_ad": "İş Sağlığı ve Güvenliği Kanunu",
+      "dosya": "isg_6331.json"
+    },
+    {
+      "kanun_no": 5510,
+      "kisa_ad": "sgk",
+      "tam_ad": "Sosyal Sigortalar ve Genel Sağlık Sigortası Kanunu",
+      "dosya": "sgk_5510.json"
+    },
+    {
+      "kanun_no": 2004,
+      "kisa_ad": "iik",
+      "tam_ad": "İcra ve İflas Kanunu",
+      "dosya": "iik_2004.json"
+    },
+    {
+      "kanun_no": 6325,
+      "kisa_ad": "arabuluculuk",
+      "tam_ad": "Hukuk Uyuşmazlıklarında Arabuluculuk Kanunu",
+      "dosya": "arabuluculuk_6325.json"
+    },
+    {
+      "kanun_no": 6502,
+      "kisa_ad": "tuketici",
+      "tam_ad": "Tüketicinin Korunması Hakkında Kanun",
+      "dosya": "tuketici_6502.json"
+    },
+    {
+      "kanun_no": 4734,
+      "kisa_ad": "ihale",
+      "tam_ad": "Kamu İhale Kanunu",
+      "dosya": "ihale_4734.json"
+    },
+    {
+      "kanun_no": 5846,
+      "kisa_ad": "fsek",
+      "tam_ad": "Fikir ve Sanat Eserleri Kanunu",
+      "dosya": "fsek_5846.json"
+    },
+    {
+      "kanun_no": 6769,
+      "kisa_ad": "sinai",
+      "tam_ad": "Sınai Mülkiyet Kanunu",
+      "dosya": "sinai_6769.json"
+    },
+    {
+      "kanun_no": 3065,
+      "kisa_ad": "kdv",
+      "tam_ad": "Katma Değer Vergisi Kanunu",
+      "dosya": "kdv_3065.json"
+    },
+    {
+      "kanun_no": 193,
+      "kisa_ad": "gvk",
+      "tam_ad": "Gelir Vergisi Kanunu",
+      "dosya": "gvk_193.json"
+    },
+    {
+      "kanun_no": 5520,
+      "kisa_ad": "kvk",
+      "tam_ad": "Kurumlar Vergisi Kanunu",
+      "dosya": "kvk_5520.json"
+    },
+    {
+      "kanun_no": 6698,
+      "kisa_ad": "kvkk",
+      "tam_ad": "Kişisel Verilerin Korunması Kanunu",
+      "dosya": "kvkk_6698.json"
+    },
+    {
+      "kanun_no": 4982,
+      "kisa_ad": "bilgi_edinme",
+      "tam_ad": "Bilgi Edinme Hakkı Kanunu",
+      "dosya": "bilgi_edinme_4982.json"
+    },
+    {
+      "kanun_no": 5326,
+      "kisa_ad": "kabahatler",
+      "tam_ad": "Kabahatler Kanunu",
+      "dosya": "kabahatler_5326.json"
+    },
+    {
+      "kanun_no": 5275,
+      "kisa_ad": "infaz",
+      "tam_ad": "Ceza ve Güvenlik Tedbirlerinin İnfazı Hakkında Kanun",
+      "dosya": "infaz_5275.json"
+    },
+    {
+      "kanun_no": 6284,
+      "kisa_ad": "ailenin_korunmasi",
+      "tam_ad": "Ailenin Korunması ve Kadına Karşı Şiddetin Önlenmesine Dair Kanun",
+      "dosya": "ailenin_korunmasi_6284.json"
+    },
+    {
+      "kanun_no": 5901,
+      "kisa_ad": "vatandaslik",
+      "tam_ad": "Türk Vatandaşlık Kanunu",
+      "dosya": "vatandaslik_5901.json"
+    },
+    {
+      "kanun_no": 5490,
+      "kisa_ad": "nufus",
+      "tam_ad": "Nüfus Hizmetleri Kanunu",
+      "dosya": "nufus_5490.json"
+    },
+    {
+      "kanun_no": 634,
+      "kisa_ad": "kat_mulkiyeti",
+      "tam_ad": "Kat Mülkiyeti Kanunu",
+      "dosya": "kat_mulkiyeti_634.json"
+    },
+    {
+      "kanun_no": 3402,
+      "kisa_ad": "kadastro",
+      "tam_ad": "Kadastro Kanunu",
+      "dosya": "kadastro_3402.json"
+    },
+    {
+      "kanun_no": 2942,
+      "kisa_ad": "kamulastirma",
+      "tam_ad": "Kamulaştırma Kanunu",
+      "dosya": "kamulastirma_2942.json"
+    },
+    {
+      "kanun_no": 3194,
+      "kisa_ad": "imar",
+      "tam_ad": "İmar Kanunu",
+      "dosya": "imar_3194.json"
+    },
+    {
+      "kanun_no": 5411,
+      "kisa_ad": "bankacilik",
+      "tam_ad": "Bankacılık Kanunu",
+      "dosya": "bankacilik_5411.json"
+    },
+    {
+      "kanun_no": 6362,
+      "kisa_ad": "spk",
+      "tam_ad": "Sermaye Piyasası Kanunu",
+      "dosya": "spk_6362.json"
+    },
+    {
+      "kanun_no": 5941,
+      "kisa_ad": "cek",
+      "tam_ad": "Çek Kanunu",
+      "dosya": "cek_5941.json"
+    },
+    {
+      "kanun_no": 6356,
+      "kisa_ad": "sendikalar",
+      "tam_ad": "Sendikalar ve Toplu İş Sözleşmesi Kanunu",
+      "dosya": "sendikalar_6356.json"
+    },
+    {
+      "kanun_no": 1136,
+      "kisa_ad": "avukatlik",
+      "tam_ad": "Avukatlık Kanunu",
+      "dosya": "avukatlik_1136.json"
+    },
+    {
+      "kanun_no": 1512,
+      "kisa_ad": "noterlik",
+      "tam_ad": "Noterlik Kanunu",
+      "dosya": "noterlik_1512.json"
+    },
+    {
+      "kanun_no": 5393,
+      "kisa_ad": "belediye",
+      "tam_ad": "Belediye Kanunu",
+      "dosya": "belediye_5393.json"
+    },
+    {
+      "kanun_no": 5216,
+      "kisa_ad": "buyuksehir",
+      "tam_ad": "Büyükşehir Belediyesi Kanunu",
+      "dosya": "buyuksehir_5216.json"
+    },
+    {
+      "kanun_no": 2872,
+      "kisa_ad": "cevre",
+      "tam_ad": "Çevre Kanunu",
+      "dosya": "cevre_2872.json"
+    },
+    {
+      "kanun_no": 4735,
+      "kisa_ad": "ihale_sozlesmeleri",
+      "tam_ad": "Kamu İhale Sözleşmeleri Kanunu",
+      "dosya": "ihale_sozlesmeleri_4735.json"
+    },
+    {
+      "kanun_no": 2918,
+      "kisa_ad": "trafik",
+      "tam_ad": "Karayolları Trafik Kanunu",
+      "dosya": "trafik_2918.json"
+    },
+    {
+      "kanun_no": 5253,
+      "kisa_ad": "dernekler",
+      "tam_ad": "Dernekler Kanunu",
+      "dosya": "dernekler_5253.json"
+    },
+    {
+      "kanun_no": 6216,
+      "kisa_ad": "aym",
+      "tam_ad": "Anayasa Mahkemesi Kuruluş Kanunu",
+      "dosya": "aym_6216.json"
+    },
+    {
+      "kanun_no": 2797,
+      "kisa_ad": "yargitay",
+      "tam_ad": "Yargıtay Kanunu",
+      "dosya": "yargitay_2797.json"
+    }
+  ],
+  "toplam_madde": 7675,
+  "toplam_kanun": 45,
+  "scrape_date": "2026-03-16"
+}
