@@ -2,8 +2,13 @@
 """
 Hammurab.AI — Türk Hukuk Chatbot (Gradio UI)
 Fine-tuned Qwen2.5-7B-Instruct (QLoRA) + RAG ile hukuki soru-cevap.
+
+ENV override:
+  HAMMURAB_MODEL_DIR=/path/to/lora    (varsayılan: ./model)
+  HAMMURAB_SHARE=1                     (Gradio public URL — Colab için)
 """
 
+import os
 import sys
 from pathlib import Path
 
@@ -15,8 +20,15 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # ─── MODEL YÜKLEME ─────────────────────────────────
 
-MODEL_DIR = Path(__file__).parent / "model"
+MODEL_DIR = Path(os.environ.get(
+    "HAMMURAB_MODEL_DIR",
+    str(Path(__file__).parent / "model"),
+))
 BASE_MODEL = "Qwen/Qwen2.5-7B-Instruct"
+
+# Colab'da otomatik public URL aç
+IN_COLAB = "COLAB_GPU" in os.environ or "COLAB_RELEASE_TAG" in os.environ
+SHARE = IN_COLAB or os.environ.get("HAMMURAB_SHARE", "").lower() in ("1", "true", "yes")
 
 device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
 print(f"Device: {device}")
@@ -208,4 +220,8 @@ with gr.Blocks(title="Hammurab.AI") as demo:
 
 
 if __name__ == "__main__":
-    demo.launch(server_name="127.0.0.1", server_port=7860)
+    if SHARE:
+        # Colab veya HAMMURAB_SHARE=1 → Gradio public URL (gradio.live)
+        demo.launch(share=True)
+    else:
+        demo.launch(server_name="127.0.0.1", server_port=7860)
