@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
 """
 Hammurab.AI — Türk Hukuk Chatbot (Gradio UI)
-Fine-tuned Qwen2.5-7B-Instruct (QLoRA) + RAG ile hukuki soru-cevap.
+Qwen2.5-7B-Instruct (+ opsiyonel QLoRA adapter) + RAG ile hukuki soru-cevap.
 
 ENV override:
   HAMMURAB_MODEL_DIR=/path/to/lora    (varsayılan: ./model)
   HAMMURAB_SHARE=1                     (Gradio public URL — Colab için)
+  HAMMURAB_NO_LORA=1                   (LoRA adapter'ı yükleme — sadece base model)
 """
 
 import os
@@ -68,9 +69,12 @@ tokenizer = AutoTokenizer.from_pretrained(tokenizer_path, trust_remote_code=True
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 
-# LoRA adapter yükle (varsa)
+# LoRA adapter yükle (varsa ve devre dışı bırakılmadıysa)
 adapter_loaded = False
-if (MODEL_DIR / "adapter_config.json").exists():
+no_lora = os.environ.get("HAMMURAB_NO_LORA", "").lower() in ("1", "true", "yes")
+if no_lora:
+    print("⏭  HAMMURAB_NO_LORA=1 → adapter yüklenmiyor, sadece base model.")
+elif (MODEL_DIR / "adapter_config.json").exists():
     from peft import PeftModel
     print(f"LoRA adapter yükleniyor: {MODEL_DIR}")
     model = PeftModel.from_pretrained(model, str(MODEL_DIR))
