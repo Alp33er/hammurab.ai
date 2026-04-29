@@ -127,18 +127,21 @@ def generate(soru, history, rag_kullan, max_tokens, temperature):
             messages.append({"role": "assistant", "content": bot_msg})
     messages.append({"role": "user", "content": user_content})
 
-    input_ids = tokenizer.apply_chat_template(
+    inputs = tokenizer.apply_chat_template(
         messages,
         tokenize=True,
         add_generation_prompt=True,
         return_tensors="pt",
+        return_dict=True,
         truncation=True,
         max_length=2048,
-    ).to(model.device)
+    )
+    inputs = {k: v.to(model.device) for k, v in inputs.items()}
+    input_len = inputs["input_ids"].shape[1]
 
     with torch.no_grad():
         outputs = model.generate(
-            input_ids,
+            **inputs,
             max_new_tokens=int(max_tokens),
             do_sample=True,
             temperature=float(temperature),
@@ -148,7 +151,7 @@ def generate(soru, history, rag_kullan, max_tokens, temperature):
             pad_token_id=tokenizer.eos_token_id,
         )
 
-    generated = outputs[0][input_ids.shape[1]:]
+    generated = outputs[0][input_len:]
     response = tokenizer.decode(generated, skip_special_tokens=True).strip()
 
     if kaynaklar:
