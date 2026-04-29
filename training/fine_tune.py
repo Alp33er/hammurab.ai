@@ -32,7 +32,10 @@ from trl import SFTTrainer, SFTConfig
 # ─── KONFİGÜRASYON ─────────────────────────────────
 
 BASE_MODEL = "unsloth/Qwen2.5-7B-Instruct-bnb-4bit"
-DATA_PATH = Path(__file__).parent / "data" / "hukuk_qa.jsonl"
+DATA_PATH = Path(os.environ.get(
+    "HAMMURAB_DATA_PATH",
+    str(Path(__file__).parent / "data" / "hukuk_qa.jsonl"),
+))
 
 # Çıktı dizini — Colab free için Drive'a yazmak disconnect'e karşı korur
 OUTPUT_DIR = Path(os.environ.get(
