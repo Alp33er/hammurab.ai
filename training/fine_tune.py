@@ -140,9 +140,6 @@ def main():
         tokenizer=tokenizer,
         train_dataset=train_ds,
         eval_dataset=val_ds,
-        dataset_text_field="text",
-        max_seq_length=MAX_SEQ_LENGTH,
-        packing=False,
         args=SFTConfig(
             output_dir=str(checkpoint_dir),
             num_train_epochs=EPOCHS,
@@ -164,6 +161,11 @@ def main():
             save_total_limit=2,
             report_to="none",
             seed=SEED,
+            # SFTConfig (TRL 0.13+) yeni alanlar
+            dataset_text_field="text",
+            max_length=MAX_SEQ_LENGTH,
+            packing=True,                 # kısa örnekleri tek sequence'e paketle
+            packing_strategy="bfd",       # Best Fit Decreasing — TRL'in önerdiği
         ),
     )
 
