@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Hammurab.AI — Türk Hukuk Chatbot (Gradio UI)
-Fine-tuned Qwen2.5-1.5B + RAG ile hukuki soru-cevap.
+Fine-tuned Qwen2.5-7B-Instruct (QLoRA) + RAG ile hukuki soru-cevap.
 """
 
 import sys
@@ -16,21 +16,58 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # ─── MODEL YÜKLEME ─────────────────────────────────
 
 MODEL_DIR = Path(__file__).parent / "model"
-BASE_MODEL = "Qwen/Qwen2.5-1.5B"
+BASE_MODEL = "Qwen/Qwen2.5-7B-Instruct"
 
-model_path = str(MODEL_DIR) if MODEL_DIR.exists() else BASE_MODEL
+device = "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu"
+print(f"Device: {device}")
+print(f"Base model: {BASE_MODEL}")
 
-print(f"Model yükleniyor: {model_path}")
-tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
-model = AutoModelForCausalLM.from_pretrained(model_path, trust_remote_code=True)
+if device == "cuda":
+    # GPU varsa 4-bit quantize ile yükle (T4/L4/A100 hepsinde sığar)
+    from transformers import BitsAndBytesConfig
+    bnb_config = BitsAndBytesConfig(
+        load_in_4bit=True,
+        bnb_4bit_quant_type="nf4",
+        bnb_4bit_compute_dtype=torch.float16,
+        bnb_4bit_use_double_quant=True,
+    )
+    model = AutoModelForCausalLM.from_pretrained(
+        BASE_MODEL,
+        quantization_config=bnb_config,
+        device_map="auto",
+        trust_remote_code=True,
+    )
+else:
+    # GPU yok — fp16 (Mac MPS için ~14 GB RAM gerekir)
+    print("⚠️  CUDA yok, fp16 yükleniyor (yavaş + bellek yoğun olabilir).")
+    model = AutoModelForCausalLM.from_pretrained(
+        BASE_MODEL,
+        torch_dtype=torch.float16,
+        trust_remote_code=True,
+        low_cpu_mem_usage=True,
+    )
+    if device == "mps":
+        model = model.to("mps")
+
+# Tokenizer — model/ varsa fine-tune sonrası kaydedilen tokenizer'ı kullan
+tokenizer_path = str(MODEL_DIR) if (MODEL_DIR / "tokenizer.json").exists() else BASE_MODEL
+tokenizer = AutoTokenizer.from_pretrained(tokenizer_path, trust_remote_code=True)
 
 if tokenizer.pad_token is None:
     tokenizer.pad_token = tokenizer.eos_token
 
+# LoRA adapter yükle (varsa)
+adapter_loaded = False
+if (MODEL_DIR / "adapter_config.json").exists():
+    from peft import PeftModel
+    print(f"LoRA adapter yükleniyor: {MODEL_DIR}")
+    model = PeftModel.from_pretrained(model, str(MODEL_DIR))
+    adapter_loaded = True
+else:
+    print(f"⚠️  LoRA adapter bulunamadı ({MODEL_DIR}). Base model kullanılıyor.")
+
 model.eval()
-device = "mps" if torch.backends.mps.is_available() else "cuda" if torch.cuda.is_available() else "cpu"
-model.to(device)
-print(f"Model hazır ({device})")
+print(f"Model hazır ({device}) | LoRA: {'aktif' if adapter_loaded else 'devre dışı'}")
 
 
 # ─── RAG (opsiyonel) ───────────────────────────────
@@ -46,6 +83,14 @@ except Exception:
 
 # ─── YANIT ÜRETME ──────────────────────────────────
 
+SYSTEM_PROMPT = (
+    "Sen Türk hukuku konusunda uzman bir hukuk araştırma asistanısın. "
+    "Soruları verilen mevzuat metinlerine dayanarak yanıtla, "
+    "ilgili kanun maddesini ve referansını mutlaka göster, "
+    "context'te olmayan bilgiyi uydurma."
+)
+
+
 def generate(soru, history, rag_kullan, max_tokens, temperature):
     """Kullanıcı sorusuna yanıt üret."""
 
@@ -59,46 +104,40 @@ def generate(soru, history, rag_kullan, max_tokens, temperature):
                 [f"- {r['ref']} ({r.get('dal_label', '')})" for r in results[:5]]
             )
 
-    # ChatML prompt
-    prompt = "<|im_start|>system\nSen Türk hukuku konusunda uzman bir hukuk asistanısın. Soruları ilgili mevzuat maddelerine dayanarak yanıtla.<|im_end|>\n"
-
-    # Önceki konuşma (son 2 tur)
-    if history:
-        for user_msg, bot_msg in history[-2:]:
-            prompt += f"<|im_start|>user\n{user_msg}<|im_end|>\n"
-            prompt += f"<|im_start|>assistant\n{bot_msg}<|im_end|>\n"
-
-    # Mevzuat + soru
     user_content = soru
     if mevzuat:
-        user_content += f"\n\nİlgili Mevzuat:\n{mevzuat[:3000]}"
+        user_content += f"\n\n[İlgili Mevzuat]\n{mevzuat[:3000]}"
 
-    prompt += f"<|im_start|>user\n{user_content}<|im_end|>\n"
-    prompt += "<|im_start|>assistant\n"
+    messages = [{"role": "system", "content": SYSTEM_PROMPT}]
+    if history:
+        for user_msg, bot_msg in history[-2:]:
+            messages.append({"role": "user", "content": user_msg})
+            messages.append({"role": "assistant", "content": bot_msg})
+    messages.append({"role": "user", "content": user_content})
 
-    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=2048).to(device)
+    input_ids = tokenizer.apply_chat_template(
+        messages,
+        tokenize=True,
+        add_generation_prompt=True,
+        return_tensors="pt",
+        truncation=True,
+        max_length=2048,
+    ).to(model.device)
 
     with torch.no_grad():
         outputs = model.generate(
-            **inputs,
+            input_ids,
             max_new_tokens=int(max_tokens),
             do_sample=True,
             temperature=float(temperature),
             top_p=0.9,
             top_k=50,
-            repetition_penalty=1.2,
+            repetition_penalty=1.1,
             pad_token_id=tokenizer.eos_token_id,
         )
 
-    generated = outputs[0][inputs["input_ids"].shape[1]:]
-    response = tokenizer.decode(generated, skip_special_tokens=True)
-
-    # Stop token'larda kes
-    for stop in ["<|im_start|>", "<|im_end|>", "<|endoftext|>"]:
-        if stop in response:
-            response = response[:response.index(stop)]
-
-    response = response.strip()
+    generated = outputs[0][input_ids.shape[1]:]
+    response = tokenizer.decode(generated, skip_special_tokens=True).strip()
 
     if kaynaklar:
         response += f"\n\n---\n**Kaynaklar:**\n{kaynaklar}"
@@ -113,7 +152,7 @@ with gr.Blocks(title="Hammurab.AI") as demo:
 
     gr.Markdown("""
     # Hammurab.AI — Türk Hukuk Chatbot
-    **Fine-tuned Qwen2.5-1.5B** modeli ile hukuki sorularınıza yanıt alın.
+    **Fine-tuned Qwen2.5-7B-Instruct (QLoRA)** modeli ile hukuki sorularınıza yanıt alın.
 
     *CIF425 — Introduction to Large Language Models | Term Project*
     """)
@@ -136,7 +175,7 @@ with gr.Blocks(title="Hammurab.AI") as demo:
                 interactive=rag_available,
             )
             max_tokens = gr.Slider(
-                minimum=64, maximum=512, value=256, step=32,
+                minimum=64, maximum=1024, value=512, step=32,
                 label="Max Token",
             )
             temperature = gr.Slider(
@@ -157,7 +196,11 @@ with gr.Blocks(title="Hammurab.AI") as demo:
         inputs=msg,
     )
 
-    gr.Markdown(f"**Model:** `{model_path}` | **Device:** `{device}` | **RAG:** `{'Aktif' if rag_available else 'Devre dışı'}`")
+    gr.Markdown(
+        f"**Base:** `{BASE_MODEL}` | **Device:** `{device}` | "
+        f"**LoRA:** `{'aktif' if adapter_loaded else 'yok'}` | "
+        f"**RAG:** `{'aktif' if rag_available else 'yok'}`"
+    )
 
     msg.submit(generate, [msg, chatbot, rag_toggle, max_tokens, temperature], [chatbot, msg])
     send_btn.click(generate, [msg, chatbot, rag_toggle, max_tokens, temperature], [chatbot, msg])

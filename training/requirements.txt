@@ -1,0 +1,24 @@
+# Unsloth + QLoRA training stack — Colab T4 / RunPod / vast.ai için.
+# Kurulum:
+#   pip install -r training/requirements.txt
+#
+# NOT: Bu paketler CUDA gerektirir, Mac/CPU üzerinde kurulamaz.
+
+# Unsloth (CUDA gerekli) — colab-new exta T4/L4/A100 hepsiyle uyumlu wheel'ı seçer
+unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git
+
+# Trainer + LoRA + quantization
+trl>=0.10.0,<0.12.0
+peft>=0.11.0
+accelerate>=0.30.0
+bitsandbytes>=0.43.0
+
+# HF stack (Unsloth ile uyumlu sürümler)
+transformers>=4.43.0
+datasets>=2.20.0
+
+# Veri/ML
+torch>=2.2.0
+xformers
+sentencepiece
+protobuf

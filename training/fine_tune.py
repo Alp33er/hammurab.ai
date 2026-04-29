@@ -1,271 +1,196 @@
 #!/usr/bin/env python3
 """
-Qwen2.5-1.5B LoRA Fine-Tuning — Hukuk Q&A
+Qwen2.5-7B-Instruct + Unsloth + QLoRA Fine-Tuning — Türk Hukuk Q&A.
+
+Hedef ortamlar:
+  - Colab Free T4 (16GB)      — varsayılan ayarlar, 1 epoch ~1.5-2 saat
+  - Colab Pro+/A100, RunPod   — EPOCHS=3, MAX_SEQ_LENGTH=2048 yapılabilir
 
 Kullanım:
-  1. Önce veri seti oluştur:  python training/prepare_dataset.py
-  2. Fine-tune başlat:        python training/fine_tune.py
+  1. python training/prepare_dataset.py
+  2. python training/fine_tune.py
 
-Google Colab T4 GPU'da ~30-45 dk sürer.
+ENV ile override:
+  HAMMURAB_OUTPUT_DIR=/content/drive/MyDrive/hammurab_lora python training/fine_tune.py
+  HAMMURAB_EPOCHS=3 HAMMURAB_MAX_SEQ=2048 python training/fine_tune.py
+  HAMMURAB_RESUME=1 python training/fine_tune.py
+
+NOT: Bu script CUDA GPU + Unsloth gerektirir.
+     Kurulum: pip install -r training/requirements.txt
 """
 
-import json
-import math
+import os
 from pathlib import Path
 
 import torch
-from torch.utils.data import Dataset, DataLoader, random_split
-from transformers import (
-    AutoTokenizer,
-    AutoModelForCausalLM,
-    BitsAndBytesConfig,
-    get_linear_schedule_with_warmup,
-)
-from peft import LoraConfig, get_peft_model, TaskType
+from datasets import load_dataset
+
+from unsloth import FastLanguageModel
+from unsloth.chat_templates import get_chat_template
+from trl import SFTTrainer, SFTConfig
 
 # ─── KONFİGÜRASYON ─────────────────────────────────
 
-BASE_MODEL = "Qwen/Qwen2.5-1.5B"
+BASE_MODEL = "unsloth/Qwen2.5-7B-Instruct-bnb-4bit"
 DATA_PATH = Path(__file__).parent / "data" / "hukuk_qa.jsonl"
-OUTPUT_DIR = Path(__file__).parent.parent / "model"
 
-# Eğitim parametreleri
-EPOCHS = 3
-BATCH_SIZE = 4
+# Çıktı dizini — Colab free için Drive'a yazmak disconnect'e karşı korur
+OUTPUT_DIR = Path(os.environ.get(
+    "HAMMURAB_OUTPUT_DIR",
+    str(Path(__file__).parent.parent / "model"),
+))
+
+# Free Colab T4 için güvenli varsayılanlar; A100'de yükseltilebilir
+MAX_SEQ_LENGTH = int(os.environ.get("HAMMURAB_MAX_SEQ", "1024"))
+EPOCHS = int(os.environ.get("HAMMURAB_EPOCHS", "1"))
+RESUME = os.environ.get("HAMMURAB_RESUME", "").lower() in ("1", "true", "yes")
+
+# LoRA
+LORA_R = 16
+LORA_ALPHA = 16
+LORA_DROPOUT = 0.0  # Unsloth optimize: dropout 0 → en hızlı
+
+# Eğitim
+BATCH_SIZE = 2          # T4'te kararlı; A100'de 4-8 yapılabilir
+GRAD_ACCUM = 4          # Efektif batch = BATCH_SIZE * GRAD_ACCUM
 LEARNING_RATE = 2e-4
-MAX_LENGTH = 512
 WARMUP_RATIO = 0.1
-VAL_SPLIT = 0.1
-GRADIENT_ACCUMULATION_STEPS = 4
-
-# LoRA parametreleri
-LORA_R = 16          # LoRA rank
-LORA_ALPHA = 32      # LoRA alpha
-LORA_DROPOUT = 0.05  # LoRA dropout
+WEIGHT_DECAY = 0.01
+SAVE_STEPS = 200        # Drive'a sık checkpoint — disconnect'te kayıp az olur
+SEED = 3407
 
 
-# ─── DATASET ────────────────────────────────────────
-
-class HukukQADataset(Dataset):
-    """Hukuk Q&A veri seti — ChatML formatında."""
-
-    def __init__(self, data_path: Path, tokenizer, max_length: int):
-        self.tokenizer = tokenizer
-        self.max_length = max_length
-        self.examples = []
-
-        with open(data_path, "r", encoding="utf-8") as f:
-            for line in f:
-                item = json.loads(line)
-                full_text = item["prompt"] + item["completion"] + tokenizer.eos_token
-                self.examples.append(full_text)
-
-        print(f"Veri seti yüklendi: {len(self.examples)} örnek")
-
-    def __len__(self):
-        return len(self.examples)
-
-    def __getitem__(self, idx):
-        text = self.examples[idx]
-        encoding = self.tokenizer(
-            text,
-            truncation=True,
-            max_length=self.max_length,
-            padding="max_length",
-            return_tensors="pt",
+def main():
+    if not torch.cuda.is_available():
+        raise RuntimeError(
+            "CUDA GPU bulunamadı. Bu script Unsloth ile çalışır → NVIDIA GPU şart.\n"
+            "Local Mac için: Colab/RunPod kullan."
         )
-        input_ids = encoding["input_ids"].squeeze()
-        attention_mask = encoding["attention_mask"].squeeze()
 
-        labels = input_ids.clone()
-        labels[attention_mask == 0] = -100
+    gpu_name = torch.cuda.get_device_name(0)
+    vram_gb = torch.cuda.get_device_properties(0).total_memory / 1e9
+    print(f"GPU: {gpu_name}")
+    print(f"VRAM: {vram_gb:.1f} GB")
+    print(f"BF16 destek: {torch.cuda.is_bf16_supported()}")
 
-        return {
-            "input_ids": input_ids,
-            "attention_mask": attention_mask,
-            "labels": labels,
-        }
+    if not DATA_PATH.exists():
+        raise FileNotFoundError(
+            f"Veri seti yok: {DATA_PATH}\n"
+            f"Önce çalıştır: python training/prepare_dataset.py"
+        )
 
-
-# ─── EĞİTİM ────────────────────────────────────────
-
-def train():
-    # Device
-    if torch.cuda.is_available():
-        device = torch.device("cuda")
-        print(f"GPU: {torch.cuda.get_device_name(0)}")
-        print(f"VRAM: {torch.cuda.get_device_properties(0).total_memory / 1e9:.1f} GB")
-    elif torch.backends.mps.is_available():
-        device = torch.device("mps")
-        print("Device: Apple MPS")
-    else:
-        device = torch.device("cpu")
-        print("Device: CPU (yavaş olacak!)")
-
-    # Tokenizer
+    # ─── Model + Tokenizer ─────────────────────────
     print(f"\nModel yükleniyor: {BASE_MODEL}")
-    tokenizer = AutoTokenizer.from_pretrained(BASE_MODEL, trust_remote_code=True)
+    model, tokenizer = FastLanguageModel.from_pretrained(
+        model_name=BASE_MODEL,
+        max_seq_length=MAX_SEQ_LENGTH,
+        dtype=None,             # auto: T4→fp16, A100→bf16
+        load_in_4bit=True,
+    )
 
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-
-    # Model — 4-bit quantization (GPU bellek tasarrufu)
-    if torch.cuda.is_available():
-        bnb_config = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_quant_type="nf4",
-            bnb_4bit_compute_dtype=torch.float16,
-            bnb_4bit_use_double_quant=True,
-        )
-        model = AutoModelForCausalLM.from_pretrained(
-            BASE_MODEL,
-            quantization_config=bnb_config,
-            device_map="auto",
-            trust_remote_code=True,
-        )
-    else:
-        # MPS veya CPU — quantization olmadan
-        model = AutoModelForCausalLM.from_pretrained(
-            BASE_MODEL,
-            torch_dtype=torch.float32,
-            trust_remote_code=True,
-        )
-        model.to(device)
-
-    model.config.pad_token_id = tokenizer.pad_token_id
-
-    # LoRA ayarları
-    lora_config = LoraConfig(
-        task_type=TaskType.CAUSAL_LM,
+    # LoRA adapter ekle
+    model = FastLanguageModel.get_peft_model(
+        model,
         r=LORA_R,
+        target_modules=[
+            "q_proj", "k_proj", "v_proj", "o_proj",
+            "gate_proj", "up_proj", "down_proj",
+        ],
         lora_alpha=LORA_ALPHA,
         lora_dropout=LORA_DROPOUT,
-        target_modules=["q_proj", "k_proj", "v_proj", "o_proj"],
         bias="none",
+        use_gradient_checkpointing="unsloth",   # %30 daha az VRAM
+        random_state=SEED,
+        max_seq_length=MAX_SEQ_LENGTH,
     )
 
-    model = get_peft_model(model, lora_config)
+    tokenizer = get_chat_template(tokenizer, chat_template="qwen-2.5")
 
-    trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)
-    total = sum(p.numel() for p in model.parameters())
-    print(f"Toplam parametre: {total:,}")
-    print(f"Eğitilen parametre (LoRA): {trainable:,} ({100 * trainable / total:.2f}%)")
+    # ─── Veri Seti ─────────────────────────────────
+    print(f"\nVeri seti: {DATA_PATH}")
+    dataset = load_dataset("json", data_files=str(DATA_PATH), split="train")
 
-    # Veri seti
-    if not DATA_PATH.exists():
-        print(f"\nHATA: Veri seti bulunamadı: {DATA_PATH}")
-        print("Önce çalıştır: python training/prepare_dataset.py")
-        return
+    def format_messages(batch):
+        texts = [
+            tokenizer.apply_chat_template(
+                msgs, tokenize=False, add_generation_prompt=False
+            )
+            for msgs in batch["messages"]
+        ]
+        return {"text": texts}
 
-    dataset = HukukQADataset(DATA_PATH, tokenizer, MAX_LENGTH)
-
-    val_size = int(len(dataset) * VAL_SPLIT)
-    train_size = len(dataset) - val_size
-    train_dataset, val_dataset = random_split(dataset, [train_size, val_size])
-    print(f"Train: {train_size} | Val: {val_size}")
-
-    train_loader = DataLoader(train_dataset, batch_size=BATCH_SIZE, shuffle=True)
-    val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE)
-
-    # Optimizer & scheduler
-    optimizer = torch.optim.AdamW(
-        filter(lambda p: p.requires_grad, model.parameters()),
-        lr=LEARNING_RATE,
-        weight_decay=0.01,
+    dataset = dataset.map(
+        format_messages,
+        batched=True,
+        remove_columns=dataset.column_names,
     )
-    total_steps = len(train_loader) * EPOCHS // GRADIENT_ACCUMULATION_STEPS
-    warmup_steps = int(total_steps * WARMUP_RATIO)
-    scheduler = get_linear_schedule_with_warmup(optimizer, warmup_steps, total_steps)
+
+    split = dataset.train_test_split(test_size=0.1, seed=SEED)
+    train_ds, val_ds = split["train"], split["test"]
+    print(f"Train: {len(train_ds)} | Val: {len(val_ds)}")
+
+    # ─── Trainer ───────────────────────────────────
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    checkpoint_dir = OUTPUT_DIR / "checkpoints"
+
+    use_bf16 = torch.cuda.is_bf16_supported()
+
+    trainer = SFTTrainer(
+        model=model,
+        tokenizer=tokenizer,
+        train_dataset=train_ds,
+        eval_dataset=val_ds,
+        dataset_text_field="text",
+        max_seq_length=MAX_SEQ_LENGTH,
+        packing=False,
+        args=SFTConfig(
+            output_dir=str(checkpoint_dir),
+            num_train_epochs=EPOCHS,
+            per_device_train_batch_size=BATCH_SIZE,
+            per_device_eval_batch_size=BATCH_SIZE,
+            gradient_accumulation_steps=GRAD_ACCUM,
+            warmup_ratio=WARMUP_RATIO,
+            learning_rate=LEARNING_RATE,
+            weight_decay=WEIGHT_DECAY,
+            lr_scheduler_type="cosine",
+            optim="adamw_8bit",
+            fp16=not use_bf16,
+            bf16=use_bf16,
+            logging_steps=10,
+            save_strategy="steps",
+            save_steps=SAVE_STEPS,
+            eval_strategy="steps",
+            eval_steps=SAVE_STEPS,
+            save_total_limit=2,
+            report_to="none",
+            seed=SEED,
+        ),
+    )
 
     print(f"\n{'='*50}")
-    print(f"Eğitim başlıyor — Qwen2.5-1.5B + LoRA")
-    print(f"  Epochs: {EPOCHS}")
-    print(f"  Batch size: {BATCH_SIZE} (x{GRADIENT_ACCUMULATION_STEPS} accumulation)")
-    print(f"  Effective batch: {BATCH_SIZE * GRADIENT_ACCUMULATION_STEPS}")
-    print(f"  Learning rate: {LEARNING_RATE}")
-    print(f"  LoRA r={LORA_R}, alpha={LORA_ALPHA}")
-    print(f"  Total steps: {total_steps}")
+    print("Eğitim başlıyor — Qwen2.5-7B QLoRA")
+    print(f"  Output: {OUTPUT_DIR}")
+    print(f"  Epochs: {EPOCHS} | Max seq: {MAX_SEQ_LENGTH}")
+    print(f"  Batch: {BATCH_SIZE} x {GRAD_ACCUM} grad_accum = {BATCH_SIZE * GRAD_ACCUM} eff. batch")
+    print(f"  LR: {LEARNING_RATE} | Precision: {'bf16' if use_bf16 else 'fp16'}")
+    print(f"  Checkpoint: her {SAVE_STEPS} adımda → {checkpoint_dir}")
+    resume_label = "AÇIK (varsa son checkpoint'ten devam)" if RESUME else "KAPALI"
+    print(f"  Resume: {resume_label}")
     print(f"{'='*50}\n")
 
-    best_val_loss = float("inf")
+    resume_arg = True if RESUME and checkpoint_dir.exists() and any(checkpoint_dir.iterdir()) else None
+    trainer.train(resume_from_checkpoint=resume_arg)
 
-    for epoch in range(EPOCHS):
-        # ── Train ──
-        model.train()
-        total_loss = 0
-        optimizer.zero_grad()
-
-        for step, batch in enumerate(train_loader):
-            if torch.cuda.is_available():
-                batch = {k: v.to("cuda") for k, v in batch.items()}
-            else:
-                batch = {k: v.to(device) for k, v in batch.items()}
-
-            outputs = model(**batch)
-            loss = outputs.loss / GRADIENT_ACCUMULATION_STEPS
-            loss.backward()
-
-            if (step + 1) % GRADIENT_ACCUMULATION_STEPS == 0:
-                torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
-                optimizer.step()
-                scheduler.step()
-                optimizer.zero_grad()
-
-            total_loss += outputs.loss.item()
-
-            if (step + 1) % 50 == 0:
-                avg = total_loss / (step + 1)
-                ppl = math.exp(min(avg, 10))
-                print(f"  Epoch {epoch+1} | Step {step+1}/{len(train_loader)} | Loss: {avg:.4f} | PPL: {ppl:.2f}")
-
-        avg_train_loss = total_loss / len(train_loader)
-
-        # ── Validation ──
-        model.eval()
-        val_loss = 0
-        with torch.no_grad():
-            for batch in val_loader:
-                if torch.cuda.is_available():
-                    batch = {k: v.to("cuda") for k, v in batch.items()}
-                else:
-                    batch = {k: v.to(device) for k, v in batch.items()}
-                outputs = model(**batch)
-                val_loss += outputs.loss.item()
-
-        avg_val_loss = val_loss / len(val_loader) if val_loader else 0
-        train_ppl = math.exp(min(avg_train_loss, 10))
-        val_ppl = math.exp(min(avg_val_loss, 10))
-
-        print(f"\nEpoch {epoch+1}/{EPOCHS}")
-        print(f"  Train Loss: {avg_train_loss:.4f} | Train PPL: {train_ppl:.2f}")
-        print(f"  Val Loss:   {avg_val_loss:.4f} | Val PPL:   {val_ppl:.2f}")
-
-        if avg_val_loss < best_val_loss:
-            best_val_loss = avg_val_loss
-            OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-
-            # LoRA adaptörlerini birleştir ve tam model olarak kaydet
-            print(f"  Model birleştiriliyor (merge)...")
-            merged = model.merge_and_unload()
-            merged.save_pretrained(OUTPUT_DIR)
-            tokenizer.save_pretrained(OUTPUT_DIR)
-            print(f"  ✓ En iyi model kaydedildi → {OUTPUT_DIR}")
-
-            # Tekrar LoRA model'e dön (eğitime devam etmek için)
-            if epoch < EPOCHS - 1:
-                model = get_peft_model(merged, lora_config)
-                optimizer = torch.optim.AdamW(
-                    filter(lambda p: p.requires_grad, model.parameters()),
-                    lr=LEARNING_RATE, weight_decay=0.01,
-                )
-        print()
-
-    print(f"{'='*50}")
-    print(f"Eğitim tamamlandı!")
-    print(f"En iyi val loss: {best_val_loss:.4f}")
-    print(f"Model: {OUTPUT_DIR}")
-    print(f"{'='*50}")
+    # ─── Kaydet ────────────────────────────────────
+    print(f"\nLoRA adapter kaydediliyor: {OUTPUT_DIR}")
+    model.save_pretrained(str(OUTPUT_DIR))
+    tokenizer.save_pretrained(str(OUTPUT_DIR))
+    print(f"✓ Tamam.")
+    print(
+        f"\nÇıkarım için: app.py base modeli (Qwen2.5-7B-Instruct) yükler "
+        f"ve {OUTPUT_DIR} altındaki LoRA adapter'ı üzerine bindirir."
+    )
 
 
 if __name__ == "__main__":
-    train()
+    main()

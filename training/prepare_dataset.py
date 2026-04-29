@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Hukuk Q&A veri seti oluşturucu.
-Mevcut kanun JSON'larından instruction fine-tuning için Q&A çiftleri üretir.
+Mevcut kanun JSON'larından Qwen ChatML formatında Q&A çiftleri üretir.
 
 Çıktı: training/data/hukuk_qa.jsonl
-Format: {"prompt": "<|im_start|>user\n...<|im_end|>\n<|im_start|>assistant\n", "completion": "..."}
+Format: {"messages": [{"role": "system|user|assistant", "content": "..."}]}
 """
 
 import json
@@ -15,6 +15,13 @@ from pathlib import Path
 JSON_DIR = Path(__file__).parent.parent / "scraper" / "data" / "json"
 YARGITAY_DIR = Path(__file__).parent.parent / "scraper" / "data" / "yargitay" / "json"
 OUTPUT_DIR = Path(__file__).parent / "data"
+
+SYSTEM_PROMPT = (
+    "Sen Türk hukuku konusunda uzman bir hukuk araştırma asistanısın. "
+    "Soruları verilen mevzuat metinlerine dayanarak yanıtla, "
+    "ilgili kanun maddesini ve referansını mutlaka göster, "
+    "context'te olmayan bilgiyi uydurma."
+)
 
 # Soru şablonları
 SORU_SABLONLARI = [
@@ -71,18 +78,21 @@ def generate_answer(madde: dict) -> str:
     return f"{ref} hükmüne göre: {clean_text}"
 
 
-def make_prompt(question: str, mevzuat: str = "") -> str:
-    """Qwen ChatML formatında prompt oluştur."""
-    prompt = f"<|im_start|>system\nSen Türk hukuku konusunda uzman bir hukuk asistanısın. Soruları ilgili mevzuat maddelerine dayanarak yanıtla.<|im_end|>\n"
+def make_example(question: str, answer: str, mevzuat: str = "") -> dict:
+    """ChatML mesaj formatında bir eğitim örneği üret."""
+    user_content = question
     if mevzuat:
-        prompt += f"<|im_start|>user\n{question}\n\nİlgili Mevzuat:\n{mevzuat}<|im_end|>\n"
-    else:
-        prompt += f"<|im_start|>user\n{question}<|im_end|>\n"
-    prompt += "<|im_start|>assistant\n"
-    return prompt
+        user_content += f"\n\n[İlgili Mevzuat]\n{mevzuat}"
+    return {
+        "messages": [
+            {"role": "system", "content": SYSTEM_PROMPT},
+            {"role": "user", "content": user_content},
+            {"role": "assistant", "content": answer},
+        ]
+    }
 
 
-def create_qa_from_madde(madde: dict, kanun_ad: str) -> list[dict]:
+def create_qa_from_madde(madde: dict, kanun_ad: str) -> list:
     """Bir kanun maddesinden Q&A çiftleri oluştur."""
     pairs = []
     text = madde["text"]
@@ -102,26 +112,20 @@ def create_qa_from_madde(madde: dict, kanun_ad: str) -> list[dict]:
             madde_no=madde_no,
             ref=ref,
         )
-        pairs.append({
-            "prompt": make_prompt(question, text[:1500]),
-            "completion": answer,
-        })
+        pairs.append(make_example(question, answer, text[:1500]))
 
     # Konu bazlı sorular
     text_lower = text.lower()
     for keyword, questions in KONU_SORULARI.items():
         if keyword in text_lower:
             q = random.choice(questions)
-            pairs.append({
-                "prompt": make_prompt(q, text[:1500]),
-                "completion": answer,
-            })
+            pairs.append(make_example(q, answer, text[:1500]))
             break
 
     return pairs
 
 
-def create_qa_from_yargitay(karar: dict) -> list[dict]:
+def create_qa_from_yargitay(karar: dict) -> list:
     """Yargıtay kararından Q&A çifti oluştur."""
     tam_metin = karar.get("tam_metin", "")
     if len(tam_metin) < 100:
@@ -134,10 +138,7 @@ def create_qa_from_yargitay(karar: dict) -> list[dict]:
     question = f"Yargıtay {daire} {esas_no} E. {karar_no} K. sayılı karar ne hakkında?"
     answer = f"Yargıtay {daire}, {esas_no} E., {karar_no} K. sayılı kararında: {tam_metin[:500].strip()}"
 
-    return [{
-        "prompt": make_prompt(question, tam_metin[:1500]),
-        "completion": answer,
-    }]
+    return [make_example(question, answer, tam_metin[:1500])]
 
 
 def main():
